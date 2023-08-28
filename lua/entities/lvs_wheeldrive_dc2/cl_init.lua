@@ -9,6 +9,7 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	self:SetPoseParameter( "brake_pedal", brake )
 	self:SetPoseParameter( "handbrake_pedal", handbrake )
 	self:SetPoseParameter( "clutch_pedal", clutch )
+	self:SetPoseParameter( "fuel_gauge", fuel )
 
 	local GearIDtoPose = {
 		[-1] = 0,

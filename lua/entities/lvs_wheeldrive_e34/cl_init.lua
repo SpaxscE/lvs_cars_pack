@@ -21,4 +21,6 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	}
 
 	self:SetPoseParameter( "gear",  self:QuickLerp( "gear", (GearIDtoPose[ gear ] or 1) ) )
+
+	self:SetPoseParameter( "sunroof", self:QuickLerp( "sunroof", self:GetSunRoof(), 5 ) )
 end

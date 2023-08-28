@@ -206,10 +206,21 @@ function ENT:InitWeapons()
 	weapon.UseableByAI = false
 	weapon.Attack = function( ent ) end
 	weapon.StartAttack = function( ent )
-		ent:SetSunRoof( ent:GetSunRoof() + 1 )
-		if ent:GetSunRoof() > 2 then
-			ent:SetSunRoof( 0 )
+		if self._sunRoofReverse then
+			ent:SetSunRoof( math.max( ent:GetSunRoof() - 1, -1 ) )
+
+			if ent:GetSunRoof() <= -1 then
+				self._sunRoofReverse = nil
+			end
+		else
+			ent:SetSunRoof( math.min( ent:GetSunRoof() + 1, 1 ) )
+	
+			if ent:GetSunRoof() >= 1 then
+				self._sunRoofReverse = true
+			end
 		end
+
+		ent:EmitSound("buttons/lever8.wav",75,195,0.5)
 	end
 	weapon.FinishAttack = function( ent ) end
 	self:AddWeapon( weapon )

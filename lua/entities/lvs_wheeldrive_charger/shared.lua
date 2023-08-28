@@ -30,6 +30,8 @@ ENT.RandomColor = {
 	Color(95,127,63),
 	Color(255,223,127),
 	Color(255,255,255),
+	Color(32,85,154),
+	Color(154,154,154),
 }
 
 ENT.EngineSounds = {

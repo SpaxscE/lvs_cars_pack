@@ -156,3 +156,12 @@ ENT.Lights = {
 	},
 }
 
+
+ENT.RandomColor = {
+Color(120,120,120),
+Color(161,151,122),
+Color(200,200,200),
+Color(180,0,0),
+Color(7,10,27),
+Color(11,30,41),
+}

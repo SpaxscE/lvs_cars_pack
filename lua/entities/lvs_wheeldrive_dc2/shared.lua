@@ -20,6 +20,29 @@ ENT.EngineMaxRPM = 8500
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {
+	{
+		Skin = 1,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 2,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 3,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 4,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 5,
+		Color = Color(255,255,255),
+	},
+}
+
 ENT.ExhaustPositions = {
 	{
 		pos = Vector(-87.35,-16.18,12.93),

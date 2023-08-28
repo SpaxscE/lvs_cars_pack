@@ -18,8 +18,6 @@ ENT.EngineTorque = 100
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
-
-
 ENT.RandomColor = {
 	{
 		Skin = 0,

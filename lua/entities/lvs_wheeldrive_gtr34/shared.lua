@@ -24,13 +24,6 @@ ENT.TransGearsReverse = 1
 ENT.WheelPhysicsMass = 120
 
 ENT.RandomColor = {
-
-	Color(49,22,109),
-	Color(200,180,0),
-	Color(200,0,0),
-}
-
-ENT.RandomColor = {
 	{
 		Skin = 0,
 		Color = Color(230,230,230),

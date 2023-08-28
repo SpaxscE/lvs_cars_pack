@@ -18,6 +18,8 @@ ENT.EngineTorque = 100
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {Color(182,182,182)}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/mercedes_w123/eng_idle_loop.wav",

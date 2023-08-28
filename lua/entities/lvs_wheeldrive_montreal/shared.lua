@@ -20,6 +20,8 @@ ENT.EngineMaxRPM = 7000
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {Color(255,93,0)}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/montreal/eng_idle_loop.wav",

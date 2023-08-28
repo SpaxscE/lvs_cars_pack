@@ -20,6 +20,8 @@ ENT.EngineMaxRPM = 7150
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {Color(188,0,12)}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/ferrari_365/eng_idle_loop.wav",

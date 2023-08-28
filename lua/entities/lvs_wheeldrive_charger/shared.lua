@@ -22,6 +22,8 @@ ENT.TransGearsReverse = 1
 
 ENT.SuperChargerVisible = false
 
+ENT.RandomColor = LVS.RandomVehiclePaint
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/dodge_charger/eng_idle_loop.wav",

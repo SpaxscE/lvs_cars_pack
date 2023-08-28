@@ -20,6 +20,8 @@ ENT.EngineMaxRPM = 6750
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = LVS.RandomVehiclePaint
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/bmw_m5e34/eng_idle_loop.wav",

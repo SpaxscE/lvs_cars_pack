@@ -11,7 +11,6 @@ function ENT:OnSpawn( PObj )
 	self:AddPassengerSeat( Vector(-28,12,15), Angle(0,-90,20) )
 
 	self:AddEngine( Vector(48,0,30) )
-	self:AddFuelTank( Vector(-50,0,20), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(3,28,29), Angle(0,0,0), Vector(-20,-6,-16), Vector(28,6,8), Vector(-20,-20,-16), Vector(28,42,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
@@ -31,10 +30,12 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
-	local DoorHandler = self:AddDoorHandler( "fuel_cap", Vector(-68,-30,29), Angle(0,0,0), Vector(-5,0,-3), Vector(5,5,3), Vector(-5,-5,-3), Vector(5,5,3) )
-	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
-	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
+	local FuelCap = self:AddDoorHandler( "fuel_cap", Vector(-68,-30,29), Angle(0,0,0), Vector(-5,0,-3), Vector(5,5,3), Vector(-5,-5,-3), Vector(5,5,3) )
+	FuelCap:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
+	FuelCap:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 
+	local FuelTank = self:AddFuelTank( Vector(-50,0,20), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	FuelTank:SetDoorHandler( FuelCap )
 
 	local WheelModel = "models/DiggerCars/VAZ 2108 Sport/wheel2.mdl"
 

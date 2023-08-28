@@ -20,7 +20,7 @@ ENT.EngineMaxRPM = 7000
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
-ENT.RandomColor = {Color(255,93,0)}
+ENT.RandomColor = {Color(255,93,0),Color(32,85,154),Color(0,127,31),Color(127,111,63),Color(127,0,0),Color(255,255,255)}
 
 ENT.EngineSounds = {
 	{

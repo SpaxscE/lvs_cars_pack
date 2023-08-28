@@ -18,7 +18,25 @@ ENT.EngineTorque = 80
 ENT.TransGears = 4
 ENT.TransGearsReverse = 1
 
-ENT.RandomColor = LVS.RandomVehiclePaint
+ENT.RandomColor = {
+	Color(208,155,98),
+	Color(132,209,132),
+	Color(78,180,131),
+	Color(0,90,66),
+	Color(51,80,132),
+	Color(68,110,130),
+	Color(166,85,50),
+	Color(166,25,25),
+	Color(83,14,14),
+	Color(200,200,200),
+	Color(120,120,120),
+	Color(204,191,177),
+	Color(200,189,119),
+	Color(130,116,100),
+	Color(50,29,25),
+	Color(20,20,20),
+	Color(28,29,37),
+}
 
 ENT.EngineSounds = {
 	{

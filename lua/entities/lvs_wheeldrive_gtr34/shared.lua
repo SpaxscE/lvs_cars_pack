@@ -23,6 +23,80 @@ ENT.TransGearsReverse = 1
 
 ENT.WheelPhysicsMass = 120
 
+ENT.RandomColor = {
+
+	Color(49,22,109),
+	Color(200,180,0),
+	Color(200,0,0),
+}
+
+ENT.RandomColor = {
+	{
+		Skin = 0,
+		Color = Color(230,230,230),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(130,130,130),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(30,30,30),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(18,14,24),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(27,36,90),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(106,111,106),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(200,180,0),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(200,180,0),
+		Wheels = {
+			Skin = 1,
+			Color = Color(61,53,39),
+		}
+	},
+}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/skyline/eng_idle_loop.wav",

@@ -21,6 +21,21 @@ ENT.EngineMaxRPM = 7000
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {
+	{
+		Skin = 0,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 0,
+		Color = Color(131,131,131),
+	},
+	{
+		Skin = 1,
+		Color = Color(36,41,80),
+	},
+}
+
 ENT.TurboVolume = 0.35
 
 ENT.ExhaustPositions = {

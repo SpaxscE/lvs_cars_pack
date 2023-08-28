@@ -21,6 +21,17 @@ ENT.EngineMaxRPM = 7000
 ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {
+	Color(230,230,230),
+	Color(130,130,130),
+	Color(30,30,30),
+	Color(98,16,16),
+	Color(106,111,106),
+	Color(49,22,109),
+	Color(200,180,0),
+	Color(200,0,0),
+}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/supra/eng_idle_loop.wav",

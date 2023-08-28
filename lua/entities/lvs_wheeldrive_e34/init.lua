@@ -10,6 +10,10 @@ function ENT:OnSpawn( PObj )
 
 	self:AddEngine( Vector(52,0,22) )
 
+	self.HornSND = self:AddSoundEmitter( Vector(45,0,20), "lvs/horn1.wav", "lvs/horn1.wav" )
+	self.HornSND:SetSoundLevel( 75 )
+	self.HornSND:SetDoppler( true )
+
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(10,32,17), Angle(2,0,0), Vector(-20,-6,-12), Vector(20,6,12), Vector(-20,-25,-12), Vector(20,40,12) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )

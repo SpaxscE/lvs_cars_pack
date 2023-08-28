@@ -138,3 +138,45 @@ ENT.Lights = {
 		},
 	},
 }
+
+function ENT:OnSetupDataTables()
+	self:AddDT( "Int", "SunRoof" )
+end
+
+function ENT:InitWeapons()
+	local weapon = {}
+	weapon.Icon = Material("lvs/weapons/horn.png")
+	weapon.Ammo = -1
+	weapon.Delay = 0.5
+	weapon.HeatRateUp = 0
+	weapon.HeatRateDown = 0
+	weapon.UseableByAI = false
+	weapon.Attack = function( ent ) end
+	weapon.StartAttack = function( ent )
+		if not IsValid( ent.HornSND ) then return end
+		ent.HornSND:Play()
+	end
+	weapon.FinishAttack = function( ent )
+		if not IsValid( ent.HornSND ) then return end
+		ent.HornSND:Stop()
+	end
+	self:AddWeapon( weapon )
+
+	local weapon = {}
+	weapon.Icon = Material("lvs/weapons/horn.png")
+	weapon.Ammo = -1
+	weapon.Delay = 0.5
+	weapon.HeatRateUp = 0
+	weapon.HeatRateDown = 0
+	weapon.UseableByAI = false
+	weapon.Attack = function( ent ) end
+	weapon.StartAttack = function( ent )
+		ent:SetSunRoof( ent:GetSunRoof() + 1 )
+		if ent:GetSunRoof() > 2 then
+			ent:SetSunRoof( 0 )
+		end
+	end
+	weapon.FinishAttack = function( ent ) end
+	self:AddWeapon( weapon )
+end
+

@@ -20,6 +20,17 @@ ENT.EngineMaxRPM = 7000
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.RandomColor = {
+Color(110,0,0),
+Color(215,215,215),
+Color(150,150,150),
+Color(0,100,160),
+Color(209,162,21),
+Color(0,75,53),
+Color(20,20,20),
+Color(12,28,32),
+}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/miata/eng_idle_loop.wav",

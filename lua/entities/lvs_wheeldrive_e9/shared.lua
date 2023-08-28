@@ -207,18 +207,43 @@ ENT.Lights = {
 }
 
 ENT.RandomColor = {
-Color(228,120,32),
-Color(147,106,50),
-Color(161,51,33),
-Color(214,58,9),
-Color(198,11,18),
-Color(143,33,41),
-Color(136,142,164),
-Color(71,69,91),
-Color(141,141,143),
-Color(57,163,158),
-Color(203,222,9),
-Color(110,141,71),
-Color(242,244,223),
-Color(0,0,0),
+	Color(228,120,32),
+	Color(147,106,50),
+	Color(161,51,33),
+	Color(214,58,9),
+	Color(198,11,18),
+	Color(143,33,41),
+	Color(136,142,164),
+	Color(71,69,91),
+	Color(141,141,143),
+	Color(57,163,158),
+	Color(203,222,9),
+	Color(110,141,71),
+	Color(242,244,223),
+	Color(0,0,0),
 }
+
+function ENT:InitWeapons()
+	local weapon = {}
+	weapon.Icon = Material("lvs/weapons/horn.png")
+	weapon.Ammo = -1
+	weapon.Delay = 0.5
+	weapon.HeatRateUp = 0
+	weapon.HeatRateDown = 0
+	weapon.UseableByAI = false
+	weapon.Attack = function( ent ) end
+	weapon.StartAttack = function( ent )
+		if not IsValid( ent.HornSND ) then
+			self.HornSND = self:AddSoundEmitter( Vector(45,0,20), "lvs/horn1.wav", "lvs/horn1.wav" )
+			self.HornSND:SetSoundLevel( 75 )
+			self.HornSND:SetDoppler( true )
+		end
+
+		ent.HornSND:Play()
+	end
+	weapon.FinishAttack = function( ent )
+		if not IsValid( ent.HornSND ) then return end
+		ent.HornSND:Stop()
+	end
+	self:AddWeapon( weapon )
+end

@@ -202,4 +202,3 @@ function ENT:InitWeapons()
 	end
 	self:AddWeapon( weapon )
 end
-

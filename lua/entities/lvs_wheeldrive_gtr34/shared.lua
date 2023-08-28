@@ -66,7 +66,7 @@ ENT.RandomColor = {
 	},
 	{
 		Skin = 0,
-		Color = Color(106,111,106),
+		Color = Color(106,116,102),
 		Wheels = {
 			Skin = 1,
 			Color = Color(61,53,39),
@@ -82,7 +82,7 @@ ENT.RandomColor = {
 	},
 	{
 		Skin = 0,
-		Color = Color(200,180,0),
+		Color = Color(200,00,0),
 		Wheels = {
 			Skin = 1,
 			Color = Color(61,53,39),

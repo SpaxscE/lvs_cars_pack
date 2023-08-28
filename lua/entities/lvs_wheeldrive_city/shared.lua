@@ -4,7 +4,7 @@ ENT.Base = "lvs_base_wheeldrive"
 ENT.PrintName = "Honda City Turbo"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS] - Cars - Pack"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false

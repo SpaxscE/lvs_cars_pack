@@ -4,7 +4,7 @@ ENT.Base = "lvs_base_wheeldrive"
 ENT.PrintName = "Nissan Bluebird 910"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS] - Cars - Pack"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false

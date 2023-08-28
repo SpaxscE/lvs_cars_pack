@@ -4,7 +4,7 @@ ENT.Base = "lvs_base_wheeldrive"
 ENT.PrintName = "Alfa Romeo Montreal"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS] - Cars - Pack"
 
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false

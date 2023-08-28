@@ -4,7 +4,7 @@ ENT.Base = "lvs_base_wheeldrive"
 ENT.PrintName = "Lego Car"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
-ENT.Category = "[LVS]"
+ENT.Category = "[LVS] - Cars - Pack"
 
 ENT.Spawnable			= false
 ENT.AdminSpawnable		= false

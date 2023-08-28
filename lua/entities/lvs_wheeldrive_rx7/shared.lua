@@ -21,11 +21,11 @@ ENT.TransGears = 4
 ENT.TransGearsReverse = 1
 
 ENT.RandomColor = {
-Color(209,207,196),
-Color(135,135,135),
-Color(20,20,20),
-Color(150,0,0),
-Color(217,207,15),
+	Color(209,207,196),
+	Color(135,135,135),
+	Color(20,20,20),
+	Color(150,0,0),
+	Color(217,207,15),
 }
 
 ENT.EngineSounds = {

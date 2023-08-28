@@ -24,6 +24,33 @@ ENT.PhysicsInertia = Vector(1050,1050,525)
 ENT.WheelPhysicsMass = 150
 ENT.WheelPhysicsInertia = Vector(15,12,15)
 
+ENT.RandomColor = {
+	{
+		Skin = 1,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 2,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 3,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 4,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 5,
+		Color = Color(255,255,255),
+	},
+	{
+		Skin = 6,
+		Color = Color(255,255,255),
+	},
+}
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/boxer6/eng_idle_loop.wav",

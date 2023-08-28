@@ -3,13 +3,7 @@
 [h1][b]YOU NEED [url=https://steamcommunity.com/sharedfiles/filedetails/?id=   XXXXX      ][LVS] - Cars[/url] FOR THIS ADDON TO WORK[/b][/h1]
 [/quote]
 
-This Vehicle system is optimized for small passenger cars. It uses real props with spherical collisions that are attached to the body using a traditional rigid rope suspension with adv ballsockets.
-It uses the collective knowledge of the entire sandbox vehicle building community from the past ~15 years and is tweaked for maximum performance and smoothness.
-To my knowledge, this is the peak of what you can sequeeze out of a legitimate prop based chassis with proper rotating wheels without falling back to fake physics as simfphys does (non-rotating sliding wheels/hoverwheels).
-
-This system should give you the best offroading experience aswell assuming the suspension is adjusted for it. No more sideways slide on hills ect. It is also tweaked to handle drifting. Tuning is done ingame using the SuperCharger and Turbocharger attachment.
-
-Also includes a Armorsystem, Fuelsystem and a Lightingsystem. Everything else you gonna figure out yourself. Everything is still WIP and could be subject for change. Tools for ingame editing will follow soon.
+Expansion pack for [LVS] - Cars, includes a wide range of civilian vehicles.
 
 [img]https://i.imgur.com/rTv7Qel.png[/img]
 

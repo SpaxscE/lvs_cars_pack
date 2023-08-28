@@ -23,6 +23,8 @@ ENT.TransGearsReverse = 1
 
 ENT.WheelPhysicsMass = 120
 
+ENT.TurboVolume = 0.40
+
 ENT.RandomColor = {
 	{
 		Skin = 0,

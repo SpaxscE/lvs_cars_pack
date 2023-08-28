@@ -32,6 +32,8 @@ ENT.RandomColor = {
 	Color(200,0,0),
 }
 
+ENT.TurboVolume = 0.40
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/supra/eng_idle_loop.wav",

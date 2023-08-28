@@ -36,7 +36,7 @@ ENT.RandomColor = {
 	},
 }
 
-ENT.TurboVolume = 0.35
+ENT.TurboVolume = 0.30
 
 ENT.ExhaustPositions = {
 	{

@@ -18,7 +18,155 @@ ENT.EngineTorque = 100
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
-ENT.RandomColor = {Color(182,182,182)}
+
+
+ENT.RandomColor = {
+	{
+		Skin = 0,
+		Color = Color(20,20,20),
+		Wheels = {
+			Skin = 0,
+			Color = Color(20,20,20),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(93,54,40),
+		Wheels = {
+			Skin = 0,
+			Color = Color(93,54,40),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(172,138,133),
+		Wheels = {
+			Skin = 0,
+			Color = Color(172,138,133),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(229,178,146),
+		Wheels = {
+			Skin = 0,
+			Color = Color(229,178,146),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(243,67,32),
+		Wheels = {
+			Skin = 0,
+			Color = Color(243,67,32),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(145,17,17),
+		Wheels = {
+			Skin = 0,
+			Color = Color(145,17,17),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(169,55,33),
+		Wheels = {
+			Skin = 0,
+			Color = Color(169,55,33),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(255,225,145),
+		Wheels = {
+			Skin = 0,
+			Color = Color(255,225,145),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(255,195,30),
+		Wheels = {
+			Skin = 0,
+			Color = Color(255,195,30),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(255,215,190),
+		Wheels = {
+			Skin = 0,
+			Color = Color(255,215,190),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(100,100,100),
+		Wheels = {
+			Skin = 0,
+			Color = Color(100,100,100),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(220,220,220),
+		Wheels = {
+			Skin = 0,
+			Color = Color(220,220,220),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(162,167,155),
+		Wheels = {
+			Skin = 0,
+			Color = Color(162,167,155),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(88,109,77),
+		Wheels = {
+			Skin = 0,
+			Color = Color(88,109,77),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(23,38,82),
+		Wheels = {
+			Skin = 0,
+			Color = Color(23,38,82),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(72,98,132),
+		Wheels = {
+			Skin = 0,
+			Color = Color(72,98,132),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(175,202,238),
+		Wheels = {
+			Skin = 0,
+			Color = Color(175,202,238),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(64,111,140),
+		Wheels = {
+			Skin = 0,
+			Color = Color(64,111,140),
+		}
+	},
+}
+
 
 ENT.EngineSounds = {
 	{

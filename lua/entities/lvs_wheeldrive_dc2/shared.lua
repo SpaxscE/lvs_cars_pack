@@ -79,6 +79,106 @@ ENT.EngineSounds = {
 	},
 }
 
+
+ENT.Lights = {
+	{
+		Trigger = "main",
+		SubMaterialID = 8,
+		Sprites = {
+			{ pos = Vector(85.09,20.02,23.71), colorB = 200, colorA = 150 },
+			{ pos = Vector(85.09,-20.02,23.71), colorB = 200, colorA = 150 },
+			{ pos = Vector(-86.85,-16.39,32.31), colorG = 0, colorB = 0, colorA = 150 },
+			{ pos = Vector(-86.85,16.39,32.31), colorG = 0, colorB = 0, colorA = 150 },
+		},
+		ProjectedTextures = {
+			{ pos = Vector(85.09,20.02,23.71), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(85.09,-20.02,23.71), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+		},
+	},
+	{
+		Trigger = "main",
+		SubMaterialID = 23,
+	},
+	{
+		Trigger = "main",
+		SubMaterialID = 29,
+	},
+	{
+		Trigger = "main",
+		SubMaterialID = 26,
+	},
+	{
+		Trigger = "high",
+		SubMaterialID = 30,
+		Sprites = {
+			{ pos = Vector(88.67,14,23.77), colorB = 200, colorA = 150 },
+			{ pos = Vector(88.67,-14,23.77), colorB = 200, colorA = 150 },
+		},
+		ProjectedTextures = {
+			{ pos = Vector(88.67,14,23.77), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(88.67,-14,23.77), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+		},
+	},
+	{
+		Trigger = "high",
+		SubMaterialID = 25,
+	},
+	{
+		Trigger = "fog",
+		SubMaterialID = 27,
+	},
+	{
+		Trigger = "fog",
+		SubMaterialID = 28,
+		Sprites = {
+			{ pos = Vector(81.4,25.49,23.48), colorB = 200, colorA = 150 },
+			{ pos = Vector(81.4,-25.49,23.48), colorB = 200, colorA = 150 },
+		},
+	},
+	{
+		Trigger = "brake",
+		SubMaterialID = 24,
+		Sprites = {
+			{ pos = Vector(-87.34,-21.74,32.68), colorG = 0, colorB = 0, colorA = 150 },
+			{ pos = Vector(-87.34,21.74,32.68), colorG = 0, colorB = 0, colorA = 150 },
+		}
+	},
+	{
+		Trigger = "reverse",
+		SubMaterialID = 21,
+		Sprites = {
+			{ pos = Vector(-87.32,-10.13,32.34), height = 25, width = 25, colorA = 150 },
+			{ pos = Vector(-87.32,10.13,32.34), height = 25, width = 25, colorA = 150 },
+		}
+	},
+	{
+		Trigger = "turnright",
+		SubMaterialID = 22,
+		Sprites = {
+			{ width = 45, height = 45, pos = Vector(76.62,-30.07,23.57), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 45, height = 45, pos = Vector(-85.72,-26.9,32.71), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 25, height = 25, pos = Vector(38.01,-36.04,27.15), colorG = 100, colorB = 0, colorA = 50 },
+		},
+	},
+	{
+		Trigger = "turnleft",
+		SubMaterialID = 20,
+		Sprites = {
+			{ width = 45, height = 45, pos = Vector(76.62,30.07,23.57), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 45, height = 45, pos = Vector(-85.72,26.9,32.71), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 25, height = 25, pos = Vector(38.01,36.04,27.15), colorG = 100, colorB = 0, colorA = 50 },
+		},
+	},
+	{
+		Trigger = "turnright",
+		SubMaterialID = 2,
+	},
+	{
+		Trigger = "turnleft",
+		SubMaterialID = 1,
+	},
+}
+
 function ENT:InitWeapons()
 	local weapon = {}
 	weapon.Icon = Material("lvs/weapons/horn.png")

@@ -20,7 +20,53 @@ ENT.EngineMaxRPM = 7150
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
-ENT.RandomColor = {Color(188,0,12)}
+ENT.RandomColor = {
+	{
+		Skin = 2,
+		Color = Color(155,0,0),
+	},
+	{
+		Skin = 3,
+		Color = Color(27,27,27),
+	},
+	{
+		Skin = 5,
+		Color = Color(17,17,27),
+	},
+	{
+		Skin = 0,
+		Color = Color(117,117,117),
+	},
+	{
+		Skin = 1,
+		Color = Color(217,217,217),
+	},
+	{
+		Skin = 4,
+		Color = Color(255,191,0),
+	},
+	{
+		Skin = 4,
+		Color = Color(164,135,103),
+	},
+	{
+		Skin = 2,
+		Color = Color(8,74,161),
+	},
+	{
+		Skin = 2,
+		Color = Color(47,68,114),
+	},
+	{
+		Skin = 0,
+		Color = Color(201,195,176),
+	},
+	{
+		Skin = 4,
+		Color = Color(43,0,0),
+	},
+}
+
 
 ENT.EngineSounds = {
 	{

@@ -1,4 +1,27 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/diggercars/honda_integra_dc2/Vehicle_Interior_mm_mat03"
+	"$basetexture" "models/DiggerCars/honda_integra_dc2/Vehicle_Interior_mm_mat03"
+	"$bumpmap" "models/DiggerCars/shared/skin_nm"
+	"$phong" "1" 
+	"$phongboost" "0.08" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
 }
+
+
+
+
+
+
+
+
+

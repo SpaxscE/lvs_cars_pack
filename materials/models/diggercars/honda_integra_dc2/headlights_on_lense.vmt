@@ -7,7 +7,7 @@
 	"$halflambert" 1
 
 	"$detail" "models/diggercars/honda_integra_dc2/headlights_on_lense"
-	"$detailscale" "1"
+	"$detailscale" "0"
 	"$detailblendfactor" "5"
 	"$detailblendmode" "5"
 

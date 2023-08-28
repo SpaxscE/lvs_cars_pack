@@ -4,11 +4,10 @@
 	"$bumpmap" "models/DiggerCars/shared/skin_nm"
 	"$alphatest" "1"
 	"$allowalphatocoverage" "1"
-	"$nodecal" "1"
 	"$halflambert" 1
 
 	"$detail" "models/diggercars/honda_integra_dc2/headlights_on"
-	"$detailscale" "1"
+	"$detailscale" "0"
 	"$detailblendfactor" "5"
 	"$detailblendmode" "5"
 

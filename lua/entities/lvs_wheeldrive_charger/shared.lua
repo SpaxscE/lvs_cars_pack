@@ -22,7 +22,15 @@ ENT.TransGearsReverse = 1
 
 ENT.SuperChargerVisible = false
 
-ENT.RandomColor = LVS.RandomVehiclePaint
+ENT.RandomColor = {
+	Color(0,114,221),
+	Color(127,0,0),
+	Color(255,93,0),
+	Color(232,251,90),
+	Color(95,127,63),
+	Color(255,223,127),
+	Color(255,255,255),
+}
 
 ENT.EngineSounds = {
 	{

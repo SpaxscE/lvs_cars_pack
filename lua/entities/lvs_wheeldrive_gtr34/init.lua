@@ -6,10 +6,10 @@ function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-12,-15,3), Angle(0,-90,8) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(0,15,15), Angle(0,-90,28) )
 
-	self:AddEngine( Vector(62,0,35) )
+	self:AddEngine( Vector(55,0,30) )
 	self:AddTurboCharger()
 
-	self:AddFuelTank( Vector(-70,0,25), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 600, LVS.FUELTYPE_PETROL )
 
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-15,29,29), Angle(0,0,0), Vector(-8,-6,-16), Vector(46,6,8), Vector(0,-20,-16), Vector(46,52,8) )

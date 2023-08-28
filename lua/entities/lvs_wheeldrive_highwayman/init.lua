@@ -22,8 +22,8 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
-
 	self:AddEngine( Vector(65,0,25) )
+	self:AddFuelTank(Vector(-95.32,0,9.35), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/highwayman/wheel.mdl"
 

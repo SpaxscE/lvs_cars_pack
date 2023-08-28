@@ -1,19 +1,21 @@
 
 ENT.Base = "lvs_base_wheeldrive"
 
-ENT.PrintName = "kek"
+ENT.PrintName = "Lego Car"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
-ENT.Category = "[LVS] - Cars"
+ENT.Category = "[LVS]"
 
-ENT.Spawnable			= true
+ENT.Spawnable			= false
 ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/shared/1.mdl"
 
-ENT.MaxVelocity = 2600
+ENT.MaxVelocity = 450
+ENT.MaxVelocityReverse = 200
 
-ENT.EngineTorque = 50
+ENT.EngineCurve = 0
+ENT.EngineTorque = 150
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1

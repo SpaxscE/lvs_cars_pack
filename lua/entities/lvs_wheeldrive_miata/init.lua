@@ -6,8 +6,8 @@ function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-20,14,-1), Angle(0,-90,8) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(-8,-14,11), Angle(0,-90,28) )
 
-	self:AddEngine( Vector(50,0,23) )
-	self:AddFuelTank( Vector(-63,-0,25), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	self:AddEngine( Vector(45,0,28) )
+	self:AddFuelTank( Vector(-50,0,15), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-15,29,25), Angle(0,0,0), Vector(-8,-6,-16), Vector(38,6,8), Vector(0,-20,-16), Vector(38,52,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/skyline/door_open.wav" )

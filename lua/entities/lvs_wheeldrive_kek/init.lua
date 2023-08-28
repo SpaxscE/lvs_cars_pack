@@ -3,9 +3,10 @@ AddCSLuaFile( "cl_init.lua" )
 include("shared.lua")
 
 function ENT:OnSpawn( PObj )
-	local DriverSeat = self:AddDriverSeat( Vector(-6,0,0), Angle(0,-90,8) )
+	local DriverSeat = self:AddDriverSeat( Vector(-6,0,6), Angle(0,-90,8) )
 
-	self:AddEngine( Vector(45,0,30) )
+	self:AddEngine( Vector(38,0,36) )
+	self:AddFuelTank( Vector(-55,0,3), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-6,20,24), Angle(0,0,0), Vector(-7,-6,-12), Vector(20,6,12), Vector(-7,-12,-12), Vector(20,20,12) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
@@ -28,7 +29,7 @@ function ENT:OnSpawn( PObj )
 		Axle = {
 			ForwardAngle = Angle(0,0,0),
 			SteerType = LVS.WHEEL_STEER_FRONT,
-			SteerAngle = 30,
+			SteerAngle = 8,
 			TorqueFactor = 0,
 			BrakeFactor = 1,
 		},
@@ -48,7 +49,7 @@ function ENT:OnSpawn( PObj )
 		Suspension = {
 			Height = 10,
 			MaxTravel = 7,
-			ControlArmLength = 25,
+			ControlArmLength = 50,
 			SpringConstant = 30000,
 			SpringDamping = 3000,
 			SpringRelativeDamping = 3000,
@@ -79,7 +80,7 @@ function ENT:OnSpawn( PObj )
 		Suspension = {
 			Height = 10,
 			MaxTravel = 7,
-			ControlArmLength = 25,
+			ControlArmLength = 50,
 			SpringConstant = 30000,
 			SpringDamping = 3000,
 			SpringRelativeDamping = 3000,

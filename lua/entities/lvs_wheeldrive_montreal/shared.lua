@@ -21,7 +21,7 @@ ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
 ENT.RandomColor = {
-	Color(255,93,0),
+	Color(255,120,53),
 	Color(32,85,154),
 	Color(0,127,31),
 	Color(127,111,63),

@@ -74,14 +74,7 @@ ENT.Lights = {
 		},
 	},
 	{
-		Trigger = "high",
-		ProjectedTextures = {
-			{ pos = Vector(80.98,24.6,15.34), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-			{ pos = Vector(80.98,-24.6,15.34), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-		},
-	},
-	{
-	Trigger = "main+high",
+		Trigger = "main",
 		SubMaterialID = 23,
 		Sprites = {
 			{ pos = Vector(80.98,24.6,15.34), colorB = 200, colorA = 150 },
@@ -89,17 +82,18 @@ ENT.Lights = {
 		},
 	},
 	{
-	Trigger = "main",
+		Trigger = "main",
 		SubMaterialID = 30,
 	},
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 25,
+		SubMaterialID = 26,
 		Sprites = {
 			{ pos = Vector(-85.02,28.51,17.52), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-85.02,-28.51,17.52), colorG = 0, colorB = 0, colorA = 150 },
 		}
 	},
+	--[[ -- those are reflectors required by german law, not brakelights
 	{
 		Trigger = "brake",
 		SubMaterialID = 21,
@@ -108,6 +102,7 @@ ENT.Lights = {
 			{ pos = Vector(-88.23,-28.24,11.09), colorG = 0, colorB = 0, colorA = 150 },
 		}
 	},
+	]]
 	{
 		Trigger = "reverse",
 		SubMaterialID = 27,
@@ -127,7 +122,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 26,
+		SubMaterialID = 25,
 	},
 	{
 		Trigger = "turnright",
@@ -146,15 +141,21 @@ ENT.Lights = {
 		Trigger = "fog",
 		SubMaterialID = 18,
 		Sprites = {
-			{ pos = Vector(82.71,17.83,15.9), colorB = 200, colorA = 150 },
-			{ pos = Vector(82.71,-17.83,15.9), colorB = 200, colorA = 150 },
 			{ pos = Vector(87.39,23.18,8.88), colorB = 200, colorA = 150 },
 			{ pos = Vector(87.39,-23.18,8.88), colorB = 200, colorA = 150 },
 		},
 	},
 	{
-		Trigger = "fog",
+		Trigger = "high",
 		SubMaterialID = 24,
+		Sprites = {
+			{ pos = Vector(82.71,17.83,15.9), colorB = 200, colorA = 150 },
+			{ pos = Vector(82.71,-17.83,15.9), colorB = 200, colorA = 150 },
+		},
+		ProjectedTextures = {
+			{ pos = Vector(82.71,17.83,15.9), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(82.71,-17.83,15.9), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+		},
 	},
 }
 

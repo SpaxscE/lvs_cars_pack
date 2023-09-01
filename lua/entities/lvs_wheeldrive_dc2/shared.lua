@@ -50,6 +50,9 @@ ENT.ExhaustPositions = {
 	}
 }
 
+ENT.HornSound = "lvs/horn2.wav"
+ENT.HornPos = Vector(40,0,35)
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/miata/eng_idle_loop.wav",
@@ -186,29 +189,3 @@ ENT.Lights = {
 		SubMaterialID = 1,
 	},
 }
-
-function ENT:InitWeapons()
-	local weapon = {}
-	weapon.Icon = Material("lvs/weapons/horn.png")
-	weapon.Ammo = -1
-	weapon.Delay = 0.5
-	weapon.HeatRateUp = 0
-	weapon.HeatRateDown = 0
-	weapon.UseableByAI = false
-	weapon.Attack = function( ent ) end
-	weapon.StartAttack = function( ent )
-		if not IsValid( ent.HornSND ) then
-			self.HornSND = self:AddSoundEmitter( Vector(45,0,20), "lvs/horn2.wav", "lvs/horn2.wav" )
-			self.HornSND:SetSoundLevel( 75 )
-			self.HornSND:SetDoppler( true )
-		end
-
-		ent.HornSND:Play()
-	end
-	weapon.FinishAttack = function( ent )
-		if not IsValid( ent.HornSND ) then return end
-		ent.HornSND:Stop()
-	end
-	self:AddWeapon( weapon )
-end
-

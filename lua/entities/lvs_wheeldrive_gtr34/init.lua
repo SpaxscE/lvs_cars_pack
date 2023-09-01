@@ -35,7 +35,6 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/classiccar_door_close.wav" )
 
 
-
 	local WheelModel = "models/diggercars/nissan_skyline_gtr34/gtr_wheel.mdl"
 
 	local FrontAxle = self:DefineAxle( {

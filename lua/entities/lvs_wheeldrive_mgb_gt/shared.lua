@@ -47,6 +47,9 @@ ENT.EngineSounds = {
 	},
 }
 
+ENT.HornSound = "lvs/horn4.wav"
+ENT.HornPos = Vector(40,0,35)
+
 ENT.ExhaustPositions = {
 	{
 		pos = Vector(-75.13,13.86,4.25),
@@ -183,28 +186,3 @@ ENT.RandomColor = {
 	Color(109,108,104),
 	Color(240,240,240),
 }
-
-function ENT:InitWeapons()
-	local weapon = {}
-	weapon.Icon = Material("lvs/weapons/horn.png")
-	weapon.Ammo = -1
-	weapon.Delay = 0.5
-	weapon.HeatRateUp = 0
-	weapon.HeatRateDown = 0
-	weapon.UseableByAI = false
-	weapon.Attack = function( ent ) end
-	weapon.StartAttack = function( ent )
-		if not IsValid( ent.HornSND ) then
-			self.HornSND = self:AddSoundEmitter( Vector(45,0,20), "lvs/horn4.wav", "lvs/horn4.wav" )
-			self.HornSND:SetSoundLevel( 75 )
-			self.HornSND:SetDoppler( true )
-		end
-
-		ent.HornSND:Play()
-	end
-	weapon.FinishAttack = function( ent )
-		if not IsValid( ent.HornSND ) then return end
-		ent.HornSND:Stop()
-	end
-	self:AddWeapon( weapon )
-end

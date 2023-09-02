@@ -14,7 +14,7 @@ ENT.MDL = "models/diggercars/highwayman/highwayman.mdl"
 ENT.MaxVelocity = 1200
 
 ENT.EngineCurve = 0
-ENT.EngineTorque = 350
+ENT.EngineTorque = 225
 
 ENT.TransGears = 4
 ENT.TransGearsReverse = 1

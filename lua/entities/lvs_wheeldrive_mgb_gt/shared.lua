@@ -13,7 +13,7 @@ ENT.MDL = "models/diggercars/mg_mgb/mgbgt.mdl"
 
 ENT.MaxVelocity = 1800
 
-ENT.EngineTorque = 100
+ENT.EngineTorque = 65
 
 ENT.TransGears = 4
 ENT.TransGearsReverse = 1

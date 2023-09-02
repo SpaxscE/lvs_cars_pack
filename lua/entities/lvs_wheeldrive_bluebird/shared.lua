@@ -11,9 +11,9 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/nissan_bluebird910/bluebird.mdl"
 
-ENT.MaxVelocity = 2100
+ENT.MaxVelocity = 2000
 
-ENT.EngineTorque = 100
+ENT.EngineTorque = 70
 
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1

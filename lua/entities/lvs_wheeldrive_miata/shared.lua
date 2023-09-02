@@ -11,9 +11,9 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/mazda_miata/miata.mdl"
 
-ENT.MaxVelocity = 2300
+ENT.MaxVelocity = 2100
 
-ENT.EngineTorque = 93
+ENT.EngineTorque = 75
 ENT.EngineIdleRPM = 800
 ENT.EngineMaxRPM = 7000
 

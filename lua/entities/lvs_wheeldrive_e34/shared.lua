@@ -13,7 +13,7 @@ ENT.MDL = "models/diggercars/bmw_m5e34/e34_2.mdl"
 
 ENT.MaxVelocity = 2500
 
-ENT.EngineTorque = 100
+ENT.EngineTorque = 92
 ENT.EngineIdleRPM = 660
 ENT.EngineMaxRPM = 6750
 

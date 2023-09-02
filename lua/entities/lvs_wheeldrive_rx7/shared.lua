@@ -11,13 +11,13 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/mazda_rx7gsl/rx7.mdl"
 
-ENT.MaxVelocity = 2600
+ENT.MaxVelocity = 2200
 
-ENT.EngineTorque = 100
+ENT.EngineTorque = 85
 ENT.EngineIdleRPM = 800
 ENT.EngineMaxRPM = 7000
 
-ENT.TransGears = 4
+ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
 ENT.RandomColor = {

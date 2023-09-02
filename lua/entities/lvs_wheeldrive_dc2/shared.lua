@@ -13,7 +13,7 @@ ENT.MDL = "models/diggercars/honda_integra_dc2/dc2.mdl"
 
 ENT.MaxVelocity = 2400
 
-ENT.EngineTorque = 110
+ENT.EngineTorque = 105
 ENT.EngineIdleRPM = 1000
 ENT.EngineMaxRPM = 8500
 

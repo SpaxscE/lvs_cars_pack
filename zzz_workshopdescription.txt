@@ -12,18 +12,19 @@ For Base-Controls see [url=https://steamcommunity.com/sharedfiles/filedetails/?i
 
 [h1]INSIDE VEHICLE:[/h1]
 [list]
-[*] W [+forward] = 50% Throttle
-[*] W + Shift [+forward ; +speed] = 100 % Throttle
-[*] S [+back] = Brake
-[*] Space [+jump] = Handbrake
-[*] A or D [+moveleft ; +moveright] = Turn Left / Turn Right
-[*] R [+reload] = Toggle Engine
-[*] <not bound> [phys_swap] (Hold) = Turn Off Lights / Turn On FogLights
-[*] <not bound> [phys_swap] (Quick Press) = Turn On Lights / Toggle Highbeams if available
-[*] B [+zoom] = Open Turn Signal Menu
+[*] W = 50% Throttle
+[*] W + Shift = 100 % Throttle
+[*] S = Brake
+[*] Space = Handbrake
+[*] A or D = Turn Left / Turn Right
+[*] R = Toggle Engine
+[*] [phys_swap] (Hold) = Turn Off Lights / Turn On FogLights
+[*] [phys_swap] (Quick Press) = Turn On Lights / Toggle Highbeams if available
+[*] B = Open Turn Signal Menu
+[*] V = Toggle Reverse
 [/list]
 
-You can switch between direct-input and mouse-aim using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2912826012]control panel[/url]
+You can switch between direct-input and mouse-aim using the [url=https://steamuserimages-a.akamaihd.net/ugc/5077278535594422537/E45346B4CE6E9E3900BE666BE926B1B45DB2B4BA/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false]control panel[/url]
 
 [img]https://i.imgur.com/rTv7Qel.png[/img]
 

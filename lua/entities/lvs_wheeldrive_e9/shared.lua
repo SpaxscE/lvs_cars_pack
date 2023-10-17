@@ -55,7 +55,7 @@ ENT.HornPos = Vector(40,0,35)
 ENT.ExhaustPositions = {
 	{
 		pos = Vector(-91.56,23.47,4.98),
-		ang = Angle(45,180,0),
+		ang = Angle(0,180,0),
 	}
 }
 

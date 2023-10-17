@@ -6,6 +6,9 @@ function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-12,14.5,-3), Angle(0,-90,8) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(0,-14.5,8), Angle(0,-90,28) )
 
+	self:AddPassengerSeat( Vector(-32,-14.5,3), Angle(0,-90,0) )
+	self:AddPassengerSeat( Vector(-32,14.5,3), Angle(0,-90,0) )
+
 	self:AddEngine( Vector(52,0,23) )
 
 	local DoorHandler = self:AddDoorHandler( "trunk", Vector(-70,0,25), Angle(-5,0,0), Vector(-20,-28,-3), Vector(10,28,3), Vector(-10,-28,-3), Vector(10,28,30) )

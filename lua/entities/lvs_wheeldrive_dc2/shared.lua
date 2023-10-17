@@ -189,3 +189,24 @@ ENT.Lights = {
 		SubMaterialID = 1,
 	},
 }
+
+function ENT:CalcMainActivityPassenger( ply )
+	local pod = ply:GetVehicle()
+
+	if not IsValid( pod ) or pod:GetNWInt( "pPodIndex", 0 ) <= 2 then return end
+
+	if ply.m_bWasNoclipping then 
+		ply.m_bWasNoclipping = nil 
+		ply:AnimResetGestureSlot( GESTURE_SLOT_CUSTOM ) 
+		
+		if CLIENT then 
+			ply:SetIK( true )
+		end 
+	end 
+
+	ply.CalcIdeal = ACT_STAND
+	ply.CalcSeqOverride = ply:LookupSequence( "sit_zen" )
+
+	return ply.CalcIdeal, ply.CalcSeqOverride
+end
+

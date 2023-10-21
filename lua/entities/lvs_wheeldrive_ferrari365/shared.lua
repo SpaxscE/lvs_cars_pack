@@ -132,13 +132,14 @@ ENT.Lights = {
 
 			{ pos = Vector(77.94,22.15,24.26), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
 			{ pos = Vector(77.94,-22.15,24.26), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
-			[3] = {
+
+			{
 				pos = Vector(-88.03,21.44,27.81),
 				colorG = 0,
 				colorB = 0,
 				colorA = 150,
 			},
-			[4] = {
+			{
 				pos = Vector(-88.03,-21.44,27.81),
 				colorG = 0,
 				colorB = 0,
@@ -146,14 +147,14 @@ ENT.Lights = {
 			},
 		},
 		ProjectedTextures = {
-			[1] = {
+			{
 				pos = Vector(84.95,-21.9,25.42),
 				ang = Angle(0,0,0),
 				colorB = 200,
 				colorA = 150,
 				shadows = true,
 			},
-			[2] = {
+			{
 				pos = Vector(84.95,21.9,25.42),
 				ang = Angle(0,0,0),
 				colorB = 200,
@@ -176,14 +177,14 @@ ENT.Lights = {
 			{ pos = Vector(80.1,-15.7,24.3), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
 		},
 		ProjectedTextures = {
-			[1] = {
+			{
 				pos = Vector(86.34,-15.93,25.76),
 				ang = Angle(0,0,0),
 				colorB = 200,
 				colorA = 150,
 				shadows = true,
 			},
-			[2] = {
+			{
 				pos = Vector(86.34,15.93,25.76),
 				ang = Angle(0,0,0),
 				colorB = 200,
@@ -196,13 +197,13 @@ ENT.Lights = {
 		Trigger = "brake",
 		SubMaterialID = 20,
 		Sprites = {
-			[1] = {
+			{
 				pos = Vector(-88.25,24.19,24.23),
 				colorG = 0,
 				colorB = 0,
 				colorA = 150,
 			},
-			[2] = {
+			{
 				pos = Vector(-88.25,-24.19,24.23),
 				colorG = 0,
 				colorB = 0,
@@ -214,7 +215,7 @@ ENT.Lights = {
 		Trigger = "reverse",
 		SubMaterialID = 15,
 		Sprites = {
-			[1] = {
+			{
 				pos = Vector(-89.84,0,19.94),
 				height = 25,
 				width = 25,
@@ -226,7 +227,7 @@ ENT.Lights = {
 		Trigger = "turnright",
 		SubMaterialID = 13,
 		Sprites = {
-			[1] = {
+			{
 				width = 35,
 				height = 35,
 				pos = Vector(74.22,-31.15,24.05),
@@ -234,7 +235,7 @@ ENT.Lights = {
 				colorB = 0,
 				colorA = 150,
 			},
-			[2] = {
+			{
 				width = 40,
 				height = 40,
 				pos = Vector(-87.04,-26.58,28.13),
@@ -242,7 +243,7 @@ ENT.Lights = {
 				colorB = 0,
 				colorA = 150,
 			},
-			[3] = {
+			{
 				width = 15,
 				height = 15,
 				pos = Vector(-80.73,-31.11,27.34),
@@ -256,7 +257,7 @@ ENT.Lights = {
 		Trigger = "turnleft",
 		SubMaterialID = 14,
 		Sprites = {
-			[1] = {
+			{
 				width = 35,
 				height = 35,
 				pos = Vector(74.22,31.15,24.05),
@@ -264,7 +265,7 @@ ENT.Lights = {
 				colorB = 0,
 				colorA = 50,
 			},
-			[2] = {
+			{
 				width = 40,
 				height = 40,
 				pos = Vector(-87.04,26.58,28.13),
@@ -272,7 +273,7 @@ ENT.Lights = {
 				colorB = 0,
 				colorA = 150,
 			},
-			[3] = {
+			{
 				width = 15,
 				height = 15,
 				pos = Vector(-80.73,31.11,27.34),

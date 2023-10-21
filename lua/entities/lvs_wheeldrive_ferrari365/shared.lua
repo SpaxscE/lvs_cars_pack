@@ -124,16 +124,14 @@ ENT.Lights = {
 		Trigger = "main",
 		SubMaterialID = 16,
 		Sprites = {
-			[1] = {
-				pos = Vector(84.95,21.9,25.42),
-				colorB = 200,
-				colorA = 150,
-			},
-			[2] = {
-				pos = Vector(84.95,-21.9,25.42),
-				colorB = 200,
-				colorA = 150,
-			},
+			{ pos = Vector(84.95,21.9,25.42), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 0 } }, },
+			{ pos = Vector(84.95,-21.9,25.42), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 0 } }, },
+
+			{ pos = Vector(78.33,22.03,24.81), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 1 } }, },
+			{ pos = Vector(78.33,-22.03,24.81), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 1 } }, },
+
+			{ pos = Vector(77.94,22.15,24.26), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
+			{ pos = Vector(77.94,-22.15,24.26), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
 			[3] = {
 				pos = Vector(-88.03,21.44,27.81),
 				colorG = 0,
@@ -168,16 +166,14 @@ ENT.Lights = {
 		Trigger = "high",
 		SubMaterialID = 21,
 		Sprites = {
-			[1] = {
-				pos = Vector(86.34,-15.93,25.76),
-				colorB = 200,
-				colorA = 150,
-			},
-			[2] = {
-				pos = Vector(86.34,15.93,25.76),
-				colorB = 200,
-				colorA = 150,
-			},
+			{ pos = Vector(86.31,15.79,25.54), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 0 } }, },
+			{ pos = Vector(86.31,-15.79,25.54), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 0 } }, },
+
+			{ pos = Vector(79.25,15.91,24.74), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 1 } }, },
+			{ pos = Vector(79.25,-15.91,24.74), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 1 } }, },
+
+			{ pos = Vector(80.1,15.7,24.3), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
+			{ pos = Vector(80.1,-15.7,24.3), colorB = 200, colorA = 150, bodygroup = { name = "Headlights", active = { 2 } }, },
 		},
 		ProjectedTextures = {
 			[1] = {

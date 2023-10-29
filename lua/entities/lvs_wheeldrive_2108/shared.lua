@@ -95,8 +95,7 @@ ENT.Lights = {
 	},
 	{
 	Trigger = "main+high",
-		SubMaterialBrightness = 1,
-		SubMaterialID = 20,
+		SubMaterialID = 21,
 		Sprites = {
 			{ pos = Vector(72.03,19,26.82), colorB = 200, colorA = 150 },
 			{ pos = Vector(72.03,-19,26.82), colorB = 200, colorA = 150 },
@@ -108,7 +107,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 21,
+		SubMaterialID = 22,
 		Sprites = {
 			{ pos = Vector(-75.08,22.73,28.98), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-75.08,-22.73,28.98), colorG = 0, colorB = 0, colorA = 150 },

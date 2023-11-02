@@ -94,7 +94,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 21,
+		SubMaterialID = 18,
 	},
 	{
 		Trigger = "high",
@@ -126,14 +126,14 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 23,
+		SubMaterialID = 20,
 		Sprites = {
 			{ width = 40, height = 40, pos = Vector(99.23,-24.9,5.96), colorG = 100, colorB = 0, colorA = 150 },
 		},
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 24,
+		SubMaterialID = 21,
 		Sprites = {
 			{ width = 40, height = 40, pos = Vector(99.23,24.9,5.96), colorG = 100, colorB = 0, colorA = 150 },
 		},

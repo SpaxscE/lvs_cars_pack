@@ -56,6 +56,6 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 
 	self._rpm = self._rpm and self._rpm + engine_rpm * FrameTime() or 0
 
-	self:SetSubMaterial( 20, self:ScrollTexture( "belt", "models/diggercars/dodge_charger/belt", Vector(0,self._rpm * 0.0025,0) ) )
+	self:SetSubMaterial( 24, self:ScrollTexture( "belt", "models/diggercars/dodge_charger/belt", Vector(0,self._rpm * 0.0025,0) ) )
 	self:SetPoseParameter( "engine_spin", -self._rpm )
 end

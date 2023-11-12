@@ -17,11 +17,7 @@
 	"$phongexponent" 20
 
 	"$envmap" "env_cubemap"
-<<<<<<< HEAD
-	"$envmaptint" "[0.2 0.2 0.2]"
-=======
 	"$envmaptint" "[0.25 0.25 0.25]"
->>>>>>> 9e169f0b702fbcee457960db3ea2a46b69fef1cf
 	"$colorfix" "{255 255 255}"
 	"Proxies"
 	{
@@ -32,9 +28,6 @@
 		}
 	}
 }
-
-
-
 
 
 

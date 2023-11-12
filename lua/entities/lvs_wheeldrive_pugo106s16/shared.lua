@@ -1,7 +1,7 @@
 
 ENT.Base = "lvs_base_wheeldrive"
 
-ENT.PrintName = "Peugeot 106 Rallye"
+ENT.PrintName = "Peugeot 106 S16"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS] - Cars - Pack"
@@ -9,18 +9,19 @@ ENT.Category = "[LVS] - Cars - Pack"
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
 
-ENT.MDL = "models/diggercars/peugeot_106/106.mdl"
+ENT.MDL = "models/diggercars/peugeot_106/106s16.mdl"
 
 ENT.MaxVelocity = 2000
 
-ENT.EngineTorque = 78
+ENT.EngineTorque = 85
 ENT.EngineIdleRPM = 1000
 ENT.EngineMaxRPM = 8000
 
+ENT.PhysicsMass = 1100
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
-ENT.RandomColor = {Color(240,240,240),Color(20,20,20),Color(100,100,100),Color(230,169,0),Color(100,31,31),Color(33,49,98)}
+ENT.RandomColor = {Color(240,240,240),Color(20,20,20),Color(100,100,100),Color(230,169,0),Color(100,31,31),Color(33,49,98),Color(200,185,50),Color(145,175,152),Color(13,20,40)}
 
 ENT.ExhaustPositions = {
 	{
@@ -84,7 +85,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 28,
+		SubMaterialID = 30,
 		Sprites = {
 			{ pos = Vector(-67.19,25.3,26.36), colorG = 0, colorB = 0, colorA = 150, width = 30, height = 30 },
 			{ pos = Vector(-67.19,-25.3,26.36), colorG = 0, colorB = 0, colorA = 150, width = 30, height = 30 },
@@ -100,7 +101,7 @@ ENT.Lights = {
 
 	{
 		Trigger = "reverse",
-		SubMaterialID = 29,
+		SubMaterialID = 31,
 		SubMaterialBrightness = 25,
 		Sprites = {
 			{ pos = Vector(-68.14,22.63,28.63), height = 25, width = 25, colorA = 150 },
@@ -125,6 +126,14 @@ ENT.Lights = {
 			{ width = 45, height = 45, pos = Vector(-65.25,27.63,29.02), colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 65, height = 65, pos = Vector(61.88,26.59,23.97), colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 25, height = 25, pos = Vector(32.01,31.41,25.57), colorG = 100, colorB = 0, colorA = 50 },
+		},
+	},
+	{
+		Trigger = "fog",
+		SubMaterialID = 23,
+		Sprites = {
+			{ pos = Vector(66.29,22.07,12.48), colorB = 200, colorA = 150 },
+			{ pos = Vector(66.29,-22.07,12.48), colorB = 200, colorA = 150 },
 		},
 	},
 }

@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/DiggerCars/shared/white"
+	"$basetexture" "models/DiggerCars/peugeot_106/lights"
 	"$bumpmap" "models/DiggerCars/shared/skin_nm"
 
 	"$detail" "models/DiggerCars/peugeot_106/lights_e"
@@ -17,7 +17,7 @@
 	"$phongexponent" 20
 
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[1 1 1]"
+	"$envmaptint" "[0.2 0.2 0.2]"
 	"$colorfix" "{255 255 255}"
 	"Proxies"
 	{
@@ -28,6 +28,8 @@
 		}
 	}
 }
+
+
 
 
 

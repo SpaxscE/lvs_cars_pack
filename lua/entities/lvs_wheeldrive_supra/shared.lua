@@ -74,7 +74,7 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 29,
+		SubMaterialID = 27,
 		Sprites = {
 			{ pos = Vector(78.06,-21.57,24.23), colorB = 200, colorA = 150 },
 			{ pos = Vector(78.06,21.57,24.23), colorB = 200, colorA = 150 },
@@ -88,11 +88,11 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 27,
+		SubMaterialID = 25,
 	},
 	{
 		Trigger = "high",
-		SubMaterialID = 14,
+		SubMaterialID = 12,
 		Sprites = {
 			{ pos = Vector(77.73,-16.83,24.28), colorB = 200, colorA = 150 },
 			{ pos = Vector(77.73,16.83,24.28), colorB = 200, colorA = 150 },
@@ -106,14 +106,14 @@ ENT.Lights = {
 
 	{
 		Trigger = "brake",
-		SubMaterialID = 11,
+		SubMaterialID = 9,
 		Sprites = {
 			{ width = 55, height = 15, pos = Vector(-84.91,0,37.5), colorG = 0, colorB = 0, colorA = 150 },
 		}
 	},
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 10,
+		SubMaterialID = 8,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(-83.37,-18.7,31.54), colorG = 0, colorB = 0, colorA = 150 },
 			{ width = 35, height = 35, pos = Vector(-83.37,18.7,31.54), colorG = 0, colorB = 0, colorA = 150 },
@@ -123,7 +123,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "reverse",
-		SubMaterialID = 7,
+		SubMaterialID = 5,
 		Sprites = {
 			{ pos = Vector(-85.6,-10.12,31.61), height = 25, width = 25, colorA = 150 },
 			{ pos = Vector(-85.6,10.12,31.61), height = 25, width = 25, colorA = 150 },
@@ -131,7 +131,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 9,
+		SubMaterialID = 7,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(82.08,-23.6,17.52), colorG = 100, colorB = 0, colorA = 150 },
 			{ width = 20, height = 20, pos = Vector(68.3,-33.94,18.76), colorG = 100, colorB = 0, colorA = 150 },
@@ -141,7 +141,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 8,
+		SubMaterialID = 6,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(82.08,23.6,17.52), colorG = 100, colorB = 0, colorA = 150 },
 			{ width = 20, height = 20, pos = Vector(68.3,33.94,18.76), colorG = 100, colorB = 0, colorA = 150 },
@@ -151,7 +151,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "fog",
-		SubMaterialID = 30,
+		SubMaterialID = 28,
 		Sprites = {
 			{ pos = Vector(74.9,-25.48,23.86), colorB = 200, colorA = 150 },
 			{ pos = Vector(74.9,25.48,23.86), colorB = 200, colorA = 150 },

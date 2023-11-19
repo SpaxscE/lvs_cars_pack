@@ -23,6 +23,8 @@ ENT.TransGearsReverse = 1
 
 ENT.RandomColor = {Color(240,240,240),Color(20,20,20),Color(100,100,100),Color(230,169,0),Color(100,31,31),Color(33,49,98),Color(200,185,50),Color(145,175,152),Color(13,20,40)}
 
+ENT.SuperChargerVisible = false
+
 ENT.ExhaustPositions = {
 	{
 		pos = Vector(-68.12,19.68,8.25),

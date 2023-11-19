@@ -20,6 +20,8 @@ ENT.EngineMaxRPM = 8000
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
 
+ENT.SuperChargerVisible = false
+
 ENT.RandomColor = {Color(240,240,240),Color(20,20,20),Color(100,100,100),Color(230,169,0),Color(100,31,31),Color(33,49,98)}
 
 ENT.ExhaustPositions = {

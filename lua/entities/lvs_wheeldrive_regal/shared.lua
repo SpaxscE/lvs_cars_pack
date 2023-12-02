@@ -6,6 +6,9 @@ ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS] - Cars - Pack"
 
+ENT.VehicleCategory = "Cars"
+ENT.VehicleSubCategory = "Civilian"
+
 ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
 

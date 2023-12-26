@@ -104,6 +104,13 @@ function ENT:OnSpawn( PObj )
 			SpringRelativeDamping = 2000,
 		},
 	} )
+
+	-- manually fix diggers fuckup
+	for _, wheel in pairs( self:GetWheels() ) do
+		if not IsValid( wheel ) then continue end
+
+		wheel:SetModelScale( 0.95 )
+	end
 end
 
 function ENT:OnSuperCharged( enable )

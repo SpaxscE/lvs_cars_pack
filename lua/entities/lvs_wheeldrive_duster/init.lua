@@ -10,7 +10,7 @@ function ENT:OnSpawn( PObj )
 	self:AddPassengerSeat( Vector(-24,-15,5), Angle(0,-90,15) )
 	self:AddPassengerSeat( Vector(-24,15,5), Angle(0,-90,15) )
 
-	self:AddEngine( Vector(64.5,0,20.24) )
+	self:AddEngine( Vector(61,0,28.24) )
 	--self:AddSuperCharger()
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-5,33,30), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-20,-16), Vector(38,42,8) )
@@ -105,16 +105,6 @@ function ENT:OnSpawn( PObj )
 		if not IsValid( wheel ) then continue end
 
 		wheel:SetModelScale( 0.95 )
-	end
-end
-
-function ENT:OnSuperCharged( enable )
-	if enable then
-		self:SetBodygroup(10,1)
-		self:SetBodygroup(2,2)
-	else
-		self:SetBodygroup(10,0)
-		self:SetBodygroup(2,0)
 	end
 end
 

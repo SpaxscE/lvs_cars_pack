@@ -88,11 +88,11 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 21,
+		SubMaterialID = 23,
 	},
 	{
 		Trigger = "main+high",
-		SubMaterialID = 13,
+		SubMaterialID = 11,
 		SubMaterialBrightness = 10,
 		Sprites = {
 			{ pos = Vector(90.75,26.94,26.96), colorB = 200, colorA = 150, width = 30, height = 30 },
@@ -108,7 +108,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake+turnleft",
-		SubMaterialID = 20,
+		SubMaterialID = 22,
 		Sprites = {
 			{ pos = Vector(-102.41,21.31,26.19), width = 80, height = 20, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
 			{ pos = Vector(-101.83,21.31,29.62), width = 80, height = 20, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
@@ -116,7 +116,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake+turnright",
-		SubMaterialID = 18,
+		SubMaterialID = 20,
 		Sprites = {
 			{ pos = Vector(-102.41,-21.31,26.19), width = 80, height = 20, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
 			{ pos = Vector(-101.83,-21.31,29.62), width = 80, height = 20, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
@@ -124,21 +124,21 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 12,
+		SubMaterialID = 13,
 		Sprites = {
 			{ width = 40, height = 40, pos = Vector(89.71,-16.72,27.12), colorG = 100, colorB = 0, colorA = 150 },
 		},
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 11,
+		SubMaterialID = 12,
 		Sprites = {
 			{ width = 40, height = 40, pos = Vector(89.71,16.72,27.12), colorG = 100, colorB = 0, colorA = 150 },
 		},
 	},
 	{
 		Trigger = "reverse",
-		SubMaterialID = 19,
+		SubMaterialID = 21,
 		Sprites = {
 			{ pos = Vector(-101.83,15.64,29.62), height = 25, width = 25, colorA = 150 },
 			{ pos = Vector(-101.83,-15.64,29.62), height = 25, width = 25, colorA = 150 },

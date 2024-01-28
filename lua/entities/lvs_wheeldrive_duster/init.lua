@@ -33,7 +33,7 @@ function ENT:OnSpawn( PObj )
 
 	self:AddFuelTank( Vector(-86,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
-	local WheelModel = "models/diggercars/dodge_charger/wh.mdl"
+	local WheelModel = "models/diggercars/plymouth_duster/wh.mdl"
 
 	local FrontAxle = self:DefineAxle( {
 		Axle = {
@@ -45,13 +45,13 @@ function ENT:OnSpawn( PObj )
 		},
 		Wheels = {
 			self:AddWheel( {
-				pos = Vector(62.8,28,12),
+				pos = Vector(62.8,27,12),
 				mdl = WheelModel,
 				mdl_ang = Angle(0,0,0),
 			} ),
 
 			self:AddWheel( {
-				pos = Vector(62.8,-28,12),
+				pos = Vector(62.8,-27,12),
 				mdl = WheelModel,
 				mdl_ang = Angle(0,180,0),
 			} ),
@@ -76,13 +76,13 @@ function ENT:OnSpawn( PObj )
 		},
 		Wheels = {
 			self:AddWheel( {
-				pos = Vector(-55,28,12),
+				pos = Vector(-55,27,12),
 				mdl = WheelModel,
 				mdl_ang = Angle(0,0,0),
 			} ),
 
 			self:AddWheel( {
-				pos = Vector(-55,-28,12),
+				pos = Vector(-55,-27,12),
 				mdl = WheelModel,
 				mdl_ang = Angle(0,180,0),
 			} ),
@@ -104,7 +104,7 @@ function ENT:OnSpawn( PObj )
 	for _, wheel in pairs( self:GetWheels() ) do
 		if not IsValid( wheel ) then continue end
 
-		wheel:SetModelScale( 0.95 )
+		wheel:SetModelScale( 1.0 )
 	end
 end
 

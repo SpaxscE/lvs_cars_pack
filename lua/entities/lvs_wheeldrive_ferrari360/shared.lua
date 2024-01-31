@@ -24,10 +24,9 @@ ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 
 ENT.PhysicsMass = 1000
-ENT.PhysicsInertia = Vector(1050,1050,525)
 
 ENT.WheelPhysicsMass = 100
-ENT.WheelPhysicsInertia = Vector(15,12,15)
+
 
 ENT.ForceLinearMultiplier = 1.5 -- multiply all linear forces (such as downforce, wheel side force, ect)
 ENT.ForceAngleMultiplier = 0.75 -- multiply all angular forces such turn stability / inertia. Exception: Wheel/Engine torque. Those remain unchanged.

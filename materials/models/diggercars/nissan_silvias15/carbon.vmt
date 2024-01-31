@@ -4,12 +4,6 @@
 	"$basetexture" "models/diggercars/toyota_supra/carbonfiber"
 	"$bumpmap" "models/DiggerCars/shared/skin_nm"
 
-
-        "$detail"  "models/DiggerCars/toyota_supra/supra_carbon"
-        "$detailblendfactor" "1"
-        "$detailtint" "{255 255 255}"
-        "$detailscale" 1
-
 	"$phong" "1" 
 	"$phongboost" "0.1" 
 	"$phongexponent" 3

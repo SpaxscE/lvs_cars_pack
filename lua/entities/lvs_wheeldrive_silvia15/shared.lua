@@ -14,33 +14,183 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/nissan_silvias15/s15.mdl"
 
-ENT.MaxVelocity = 2750
+ENT.MaxVelocity = 2400
 
-ENT.EngineCurve = 0.15
-ENT.EngineTorque = 125
+ENT.EngineTorque = 98
 ENT.EngineIdleRPM = 1000
-ENT.EngineMaxRPM = 8500
+ENT.EngineMaxRPM = 9000
 
 ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 
-ENT.WheelPhysicsMass = 120
+ENT.PhysicsMass = 900
+
+ENT.WheelPhysicsMass = 110
 
 ENT.HornSound = "lvs/horn4.wav"
 ENT.HornPos = Vector(40,0,35)
 
 ENT.RandomColor = {
-	Color(100,100,100),
-	Color(213,219,227),
-	Color(12,18,74),
-	Color(20,20,20),
-	Color(120,0,0),
-	Color(204,181,25),
+
+	{
+		Skin = 0,
+		Color = Color(100,100,100),
+		BodyGroups = {
+			[5] = 14,
+			[2] = 4,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(100,100,100),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(100,100,100),
+		BodyGroups = {
+			[2] = 1,
+			[3] = 1,
+			[7] = 1,
+		},
+	},
+
+	{
+		Skin = 0,
+		Color = Color(213,219,227),
+		BodyGroups = {
+			[5] = 14,
+			[2] = 4,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(213,219,227),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(213,219,227),
+		BodyGroups = {
+			[2] = 1,
+			[3] = 1,
+			[7] = 1,
+		},
+	},
+
+
+	{
+		Skin = 0,
+		Color = Color(12,18,74),
+		BodyGroups = {
+			[5] = 14,
+			[2] = 4,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(12,18,74),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(12,18,74),
+		BodyGroups = {
+			[2] = 1,
+			[3] = 1,
+			[7] = 1,
+		},
+	},
+
+
+	{
+		Skin = 0,
+		Color = Color(20,20,20),
+		BodyGroups = {
+			[5] = 14,
+			[2] = 4,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(20,20,20),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(20,20,20),
+		BodyGroups = {
+			[2] = 1,
+			[3] = 1,
+			[7] = 1,
+		},
+	},
+
+
+	{
+		Skin = 0,
+		Color = Color(120,0,0),
+		BodyGroups = {
+			[5] = 14,
+			[2] = 4,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(120,0,0),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(120,0,0),
+		BodyGroups = {
+			[2] = 1,
+			[3] = 1,
+			[7] = 1,
+		},
+	},
+
+
+	{
+		Skin = 0,
+		Color = Color(204,181,25),
+		BodyGroups = {
+			[5] = 14,
+			[2] = 4,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(204,181,25),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(204,181,25),
+		BodyGroups = {
+			[2] = 1,
+			[3] = 1,
+			[7] = 1,
+		},
+	},
+
 }
 
 ENT.EngineSounds = {
 	{
-		sound = "lvs/vehicles/skyline/eng_idle_loop.wav",
+		sound = "lvs/vehicles/silvia/eng_idle_loop.wav",
 		Volume = 1,
 		Pitch = 85,
 		PitchMul = 25,
@@ -48,7 +198,7 @@ ENT.EngineSounds = {
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/skyline/eng_loop.wav",
+		sound = "lvs/vehicles/silvia/eng_loop.wav",
 		Volume = 1,
 		Pitch = 50,
 		PitchMul = 75,
@@ -57,7 +207,7 @@ ENT.EngineSounds = {
 		UseDoppler = true,
 	},
 	{
-		sound = "lvs/vehicles/skyline/eng_revdown_loop.wav",
+		sound = "lvs/vehicles/silvia/eng_revdown_loop.wav",
 		Volume = 1,
 		Pitch = 50,
 		PitchMul = 75,
@@ -82,7 +232,7 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 18,
+		SubMaterialID = 17,
 		SubMaterialBrightness = 1,
 		Sprites = {
 			{ pos = Vector(75.81,-23.53,17.61), colorB = 200, colorA = 150, width = 60, height = 60 },
@@ -95,13 +245,13 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 5,
+		SubMaterialID = 4,
 	},
 
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 16,
-		SubMaterialBrightness = 10,
+		SubMaterialID = 15,
+		SubMaterialBrightness = 20,
 		Sprites = {
 			{ width = 35, height = 15, pos = Vector(-83.03,-26.9,24.1), colorG = 0, colorB = 0, colorA = 150 },
 			{ width = 35, height = 15, pos = Vector(-83.03,26.9,24.1), colorG = 0, colorB = 0, colorA = 150 },
@@ -117,7 +267,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "high",
-		SubMaterialID = 15,
+		SubMaterialID = 14,
 		Sprites = {
 			{ pos = Vector(76.36,-15.38,17.08), colorB = 200, colorA = 150 },
 			{ pos = Vector(76.36,15.38,17.08), colorB = 200, colorA = 150 },
@@ -138,7 +288,7 @@ ENT.Lights = {
 
 	{
 		Trigger = "reverse",
-		SubMaterialID = 10,
+		SubMaterialID = 9,
 		SubMaterialBrightness = 25,
 		Sprites = {
 
@@ -149,7 +299,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 13,
+		SubMaterialID = 12,
 		SubMaterialBrightness = 10,
 		Sprites = {
 			{ width = 45, height = 25,  pos = Vector(-83.21,-25.8,26.93), colorG = 100, colorB = 0, colorA = 50 },
@@ -159,7 +309,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 14,
+		SubMaterialID = 13,
 		SubMaterialBrightness = 10,
 		Sprites = {
 			{ width = 45, height = 25, pos = Vector(-83.21,25.8,26.93), colorG = 100, colorB = 0, colorA = 50 },

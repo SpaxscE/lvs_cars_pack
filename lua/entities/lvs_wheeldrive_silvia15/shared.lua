@@ -232,7 +232,7 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 17,
+		SubMaterialID = 16,
 		SubMaterialBrightness = 1,
 		Sprites = {
 			{ pos = Vector(75.81,-23.53,17.61), colorB = 200, colorA = 150, width = 60, height = 60 },

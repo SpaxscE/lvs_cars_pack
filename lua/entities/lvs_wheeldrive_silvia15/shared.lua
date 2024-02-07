@@ -232,7 +232,7 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 16,
+		SubMaterialID = 15,
 		SubMaterialBrightness = 1,
 		Sprites = {
 			{ pos = Vector(75.81,-23.53,17.61), colorB = 200, colorA = 150, width = 60, height = 60 },
@@ -245,12 +245,12 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 4,
+		SubMaterialID = 3,
 	},
 
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 15,
+		SubMaterialID = 14,
 		SubMaterialBrightness = 20,
 		Sprites = {
 			{ width = 35, height = 15, pos = Vector(-83.03,-26.9,24.1), colorG = 0, colorB = 0, colorA = 150 },
@@ -262,12 +262,12 @@ ENT.Lights = {
 
 	{
 		Trigger = "brake",
-		SubMaterialID = 28,
+		SubMaterialID = 29,
 		SubMaterialBrightness = 25,
 	},
 	{
 		Trigger = "high",
-		SubMaterialID = 14,
+		SubMaterialID = 13,
 		Sprites = {
 			{ pos = Vector(76.36,-15.38,17.08), colorB = 200, colorA = 150 },
 			{ pos = Vector(76.36,15.38,17.08), colorB = 200, colorA = 150 },
@@ -279,7 +279,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "fog",
-		SubMaterialID = 27,
+		SubMaterialID = 28,
 		Sprites = {
 			{ pos = Vector(81.64,21.6,7.63), height = 25, width = 25, colorB = 200, colorA = 150, bodygroup = { name = "Front_bumper", active = { 0 } }, },
 			{ pos = Vector(81.64,-21.6,7.63), height = 25, width = 25, colorB = 200, colorA = 150, bodygroup = { name = "Front_bumper", active = { 0 } }, },
@@ -288,7 +288,7 @@ ENT.Lights = {
 
 	{
 		Trigger = "reverse",
-		SubMaterialID = 9,
+		SubMaterialID = 8,
 		SubMaterialBrightness = 25,
 		Sprites = {
 
@@ -299,7 +299,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 12,
+		SubMaterialID = 11,
 		SubMaterialBrightness = 10,
 		Sprites = {
 			{ width = 45, height = 25,  pos = Vector(-83.21,-25.8,26.93), colorG = 100, colorB = 0, colorA = 50 },
@@ -309,7 +309,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 13,
+		SubMaterialID = 12,
 		SubMaterialBrightness = 10,
 		Sprites = {
 			{ width = 45, height = 25, pos = Vector(-83.21,25.8,26.93), colorG = 100, colorB = 0, colorA = 50 },

@@ -128,7 +128,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "brake",
-		SubMaterialID = 25,
+		SubMaterialID = 26,
 		Sprites = {
 			{ pos = Vector(-78.67,-14.75,18.92), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-78.67,14.75,18.92), colorG = 0, colorB = 0, colorA = 150 },
@@ -136,7 +136,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "reverse",
-		SubMaterialID = 26,
+		SubMaterialID = 27,
 		Sprites = {
 			{ pos = Vector(-77.8,-21.08,19.08), height = 25, width = 25, colorA = 150 },
 			{ pos = Vector(-77.8,21.08,19.08), height = 25, width = 25, colorA = 150 },

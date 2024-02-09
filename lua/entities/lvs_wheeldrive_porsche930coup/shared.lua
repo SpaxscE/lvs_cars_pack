@@ -97,7 +97,7 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 23,
+		SubMaterialID = 22,
 		Sprites = {
 			{ pos = Vector(-79.87,18.54,19.11), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-79.87,-18.54,19.11), colorG = 0, colorB = 0, colorA = 150 },
@@ -120,7 +120,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+high",
-		--SubMaterialID = 23,
+		--SubMaterialID = 22,
 		Sprites = {
 			{ pos = Vector(70.35,24.27,25.07), colorB = 200, colorA = 150 },
 			{ pos = Vector(70.35,-24.27,25.07), colorB = 200, colorA = 150 },

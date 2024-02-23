@@ -115,10 +115,10 @@ end
 
 function ENT:OnSuperCharged( enable )
 	if enable then
-		self:SetBodygroup(10,1)
-		self:SetBodygroup(2,2)
+		self:SetBodygroup(8,1)
+		self:SetBodygroup(2,1)
 	else
-		self:SetBodygroup(10,0)
+		self:SetBodygroup(8,0)
 		self:SetBodygroup(2,0)
 	end
 end

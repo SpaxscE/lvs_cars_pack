@@ -147,7 +147,7 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 26,
+		SubMaterialID = 27,
 		Sprites = {
 			{ pos = Vector(98.77,27.7,16.51), colorB = 200, colorA = 150 },
 			{ pos = Vector(98.77,-27.7,16.51), colorB = 200, colorA = 150 },
@@ -161,11 +161,11 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 20,
+		SubMaterialID = 16,
 	},
 	{
 		Trigger = "high",
-		SubMaterialID = 29,
+		SubMaterialID = 30,
 		Sprites = {
 			{ pos = Vector(97.66,20.39,16.58), colorB = 200, colorA = 150 },
 			{ pos = Vector(97.66,-20.39,16.58), colorB = 200, colorA = 150 },
@@ -177,7 +177,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake+turnleft",
-		SubMaterialID = 27,
+		SubMaterialID = 28,
 		Sprites = {
 			{ pos = Vector(-102,18,20), width = 80, height = 50, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
 			{ pos = Vector(-102,26,20), width = 60, height = 50, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
@@ -185,7 +185,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake+turnright",
-		SubMaterialID = 28,
+		SubMaterialID = 29,
 		Sprites = {
 			{ pos = Vector(-102,-18,20), width = 80, height = 50, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
 			{ pos = Vector(-102,-26,20), width = 60, height = 50, colorG = 0, colorB = 0, colorA = 150, mat = "sprites/lvs/glow_smooth" },
@@ -207,7 +207,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "reverse",
-		SubMaterialID = 25,
+		SubMaterialID = 26,
 		Sprites = {
 			{ pos = Vector(-102.14,-15.04,8.9), height = 25, width = 25, colorA = 150 },
 			{ pos = Vector(-102.14,15.04,8.9), height = 25, width = 25, colorA = 150 },

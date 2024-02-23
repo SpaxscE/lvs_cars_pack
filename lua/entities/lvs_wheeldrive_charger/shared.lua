@@ -26,16 +26,80 @@ ENT.TransGearsReverse = 1
 ENT.SuperChargerVisible = false
 
 ENT.RandomColor = {
-	Color(0,114,221),
-	Color(127,0,0),
-	Color(255,93,0),
-	Color(232,251,90),
-	Color(95,127,63),
-	Color(255,223,127),
-	Color(255,255,255),
-	Color(32,85,154),
-	Color(154,154,154),
+	{
+		Skin = 0,
+		Color = Color(0,114,221),
+		Wheels = {
+			Skin = 1,
+			Color = Color(21,84,140),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(127,0,0),
+		Wheels = {
+			Skin = 1,
+			Color = Color(100,0,0),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(255,93,0),
+		Wheels = {
+			Skin = 1,
+			Color = Color(154,64,0),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(232,251,90),
+		Wheels = {
+			Skin = 1,
+			Color = Color(152,164,63),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(95,127,63),
+		Wheels = {
+			Skin = 1,
+			Color = Color(71,90,53),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(255,223,127),
+		Wheels = {
+			Skin = 1,
+			Color = Color(169,148,82),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(255,255,255),
+		Wheels = {
+			Skin = 1,
+			Color = Color(185,185,185),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(32,85,154),
+		Wheels = {
+			Skin = 1,
+			Color = Color(10,10,10),
+		}
+	},
+	{
+		Skin = 0,
+		Color = Color(154,154,154),
+		Wheels = {
+			Skin = 1,
+			Color = Color(84,84,84),
+		}
+	},
 }
+
 
 ENT.HornSound = "lvs/horn2.wav"
 ENT.HornPos = Vector(40,0,35)
@@ -97,7 +161,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 18,
+		SubMaterialID = 20,
 	},
 	{
 		Trigger = "high",
@@ -129,14 +193,14 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 20,
+		SubMaterialID = 1,
 		Sprites = {
 			{ width = 40, height = 40, pos = Vector(99.23,-24.9,5.96), colorG = 100, colorB = 0, colorA = 150 },
 		},
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 21,
+		SubMaterialID = 2,
 		Sprites = {
 			{ width = 40, height = 40, pos = Vector(99.23,24.9,5.96), colorG = 100, colorB = 0, colorA = 150 },
 		},

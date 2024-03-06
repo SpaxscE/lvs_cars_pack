@@ -104,16 +104,16 @@ ENT.ExhaustPositions = {
 ENT.Lights = {
 	{
 		Trigger = "main",
-		SubMaterialID = 13,
+		SubMaterialID = 15,
 		Sprites = {
-			{ pos = Vector(82.02,23.46,16.95), colorB = 200, colorA = 150 },
-			{ pos = Vector(82.02,-23.46,16.95), colorB = 200, colorA = 150 },
+			{ pos = Vector(82.02,23.46,16.95), colorB = 150, colorA = 150 },
+			{ pos = Vector(82.02,-23.46,16.95), colorB = 150, colorA = 150 },
 			{ pos = Vector(-96.56,26.17,23.24), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-96.56,-26.17,23.24), colorG = 0, colorB = 0, colorA = 150 },
 		},
 		ProjectedTextures = {
-			{ pos = Vector(82.02,23.46,16.95), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-			{ pos = Vector(82.02,-23.46,16.95), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(82.02,23.46,16.95), ang = Angle(0,0,0), colorB = 150, colorA = 150, shadows = true },
+			{ pos = Vector(82.02,-23.46,16.95), ang = Angle(0,0,0), colorB = 150, colorA = 150, shadows = true },
 		},
 	},
 	{
@@ -128,17 +128,17 @@ ENT.Lights = {
 		Trigger = "high",
 		SubMaterialID = 19,
 		Sprites = {
-			{ pos = Vector(83.73,16.51,16.91), colorB = 200, colorA = 150 },
-			{ pos = Vector(83.73,-16.51,16.91), colorB = 200, colorA = 150 },
+			{ pos = Vector(83.73,16.51,16.91), colorB = 150, colorA = 150 },
+			{ pos = Vector(83.73,-16.51,16.91), colorB = 150, colorA = 150 },
 		},
 		ProjectedTextures = {
-			{ pos = Vector(83.73,16.51,16.91), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-			{ pos = Vector(83.73,-16.51,16.91), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(83.73,16.51,16.91), ang = Angle(0,0,0), colorB = 100, colorA = 150, shadows = true },
+			{ pos = Vector(83.73,-16.51,16.91), ang = Angle(0,0,0), colorB = 100, colorA = 150, shadows = true },
 		},
 	},
 	{
 		Trigger = "brake",
-		SubMaterialID = 0,
+		SubMaterialID = 1,
 		Sprites = {
 			{ pos = Vector(-96.3,30.3,23.24), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-96.3,-30.3,23.24), colorG = 0, colorB = 0, colorA = 150 },
@@ -154,7 +154,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 12,
+		SubMaterialID = 14,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(81.05,-28.33,16.98), colorG = 100, colorB = 0, colorA = 150 },
 			{ width = 40, height = 40, pos = Vector(37.58,-34.58,14.43), colorG = 100, colorB = 0, colorA = 150 },
@@ -163,7 +163,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 14,
+		SubMaterialID = 16,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(81.05,28.33,16.98), colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 40, height = 40, pos = Vector(37.58,34.58,14.43), colorG = 100, colorB = 0, colorA = 150 },
@@ -174,8 +174,8 @@ ENT.Lights = {
 		Trigger = "fog",
 		SubMaterialID = 18,
 		Sprites = {
-			{ pos = Vector(80.75,23.63,4.51), colorB = 200, colorA = 150 },
-			{ pos = Vector(80.75,-23.63,4.51), colorB = 200, colorA = 150 },
+			{ pos = Vector(80.75,23.63,4.51), colorB = 150, colorA = 150 },
+			{ pos = Vector(80.75,-23.63,4.51), colorB = 150, colorA = 150 },
 			{ pos = Vector(-96.32,-19.41,21.61), colorG = 0, colorB = 0, colorA = 150 },
 			{ pos = Vector(-96.32,19.41,21.61), colorG = 0, colorB = 0, colorA = 150 },
 		},

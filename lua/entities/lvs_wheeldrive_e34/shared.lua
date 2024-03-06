@@ -1,7 +1,7 @@
 
 ENT.Base = "lvs_base_wheeldrive"
 
-ENT.PrintName = "BMW E34"
+ENT.PrintName = "BMW 525ix (E34)"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS] - Cars - Pack"
@@ -118,15 +118,15 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main",
-		SubMaterialID = 25,
-	},
-	{
-		Trigger = "main",
 		SubMaterialID = 26,
 	},
 	{
+		Trigger = "main",
+		SubMaterialID = 27,
+	},
+	{
 		Trigger = "high",
-		SubMaterialID = 18,
+		SubMaterialID = 19,
 		Sprites = {
 			{ pos = Vector(83.73,16.51,16.91), colorB = 200, colorA = 150 },
 			{ pos = Vector(83.73,-16.51,16.91), colorB = 200, colorA = 150 },
@@ -146,7 +146,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "reverse",
-		SubMaterialID = 23,
+		SubMaterialID = 24,
 		Sprites = {
 			{ pos = Vector(-96.41,19.49,24.45), height = 25, width = 25, colorA = 150 },
 			{ pos = Vector(-96.41,-19.49,24.45), height = 25, width = 25, colorA = 150 },
@@ -172,7 +172,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "fog",
-		SubMaterialID = 17,
+		SubMaterialID = 18,
 		Sprites = {
 			{ pos = Vector(80.75,23.63,4.51), colorB = 200, colorA = 150 },
 			{ pos = Vector(80.75,-23.63,4.51), colorB = 200, colorA = 150 },

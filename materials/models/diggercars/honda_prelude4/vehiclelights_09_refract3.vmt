@@ -1,0 +1,14 @@
+Refract
+{
+	$model "1"
+ 	"$refractamount" ".05"
+	$normalmap "models/kg22/az1/rlight_amb_n"
+	$refractamount ".1"
+	$refracttinttexture "models/kg22/az1/rlight_amb"
+	$envmap "env_cubemap"
+	$bluramount 1
+	$envmaptint "[.25 .25 .25]"
+}
+
+
+

@@ -1,0 +1,53 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/DiggerCars/honda_prelude4/vehiclelights"
+	"$bumpmap" "models/DiggerCars/honda_prelude4/vehiclelights_nm"
+
+	"$detail" "models/DiggerCars/honda_prelude4/vehiclelights_e"
+	"$detailscale" "1"
+	"$detailblendfactor" "0"
+	"$detailblendmode" "5"
+
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 20
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.15 0.15 0.15]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Refract
+{
+	$model "1"
+	$normalmap "models/DiggerCars/toyota_ae86/lights_nm"
+	$refractamount ".1"
+	$refracttinttexture "models/DiggerCars/toyota_ae86/lights"
+	$envmap "env_cubemap"
+	$bluramount 1
+	$envmaptint "[.05 .05 .05]"
+}

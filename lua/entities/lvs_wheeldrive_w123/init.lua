@@ -1,6 +1,7 @@
 AddCSLuaFile( "shared.lua" )
 AddCSLuaFile( "cl_init.lua" )
 include("shared.lua")
+include("sv_pds.lua")
 
 function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(8,14.5,0), Angle(0,-90,10) )
@@ -108,6 +109,8 @@ function ENT:OnSpawn( PObj )
 			SpringRelativeDamping = 2000,
 		},
 	} )
+
+	self:CreatePDS()
 end
 
 function ENT:OnEngineActiveChanged( Active )

@@ -212,81 +212,80 @@ ENT.Lights = {
 		Trigger = "main",
 		SubMaterialID = 24,
 		Sprites = {
-			{ pos = Vector(95.99,24.72,21.01), colorB = 200, colorA = 150 },
-			{ pos = Vector(95.99,-24.72,21.01), colorB = 200, colorA = 150 },
-			{ pos = Vector(-86.2,21.51,21.1), colorG = 0, colorB = 0, colorA = 150 },
-			{ pos = Vector(-86.2,-21.51,21.1), colorG = 0, colorB = 0, colorA = 150 },
+			{ pos = Vector(95.99,24.72,21.01), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
+			{ pos = Vector(95.99,-24.72,21.01), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
+			{ pos = Vector(-86.2,21.51,21.1), colorG = 0, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
+			{ pos = Vector(-86.2,-21.51,21.1), colorG = 0, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 		},
 		ProjectedTextures = {
-			{ pos = Vector(95.99,24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-			{ pos = Vector(95.99,-24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(95.99,24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true, bodygroup = { name = "Body_front", active = { 0 } }, },
+			{ pos = Vector(95.99,-24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "high",
 		Sprites = {
-			{ pos = Vector(95.99,24.72,21.01), colorB = 200, colorA = 150 },
-			{ pos = Vector(95.99,-24.72,21.01), colorB = 200, colorA = 150 },
+			{ pos = Vector(95.99,24.72,21.01), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
+			{ pos = Vector(95.99,-24.72,21.01), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 		ProjectedTextures = {
-			{ pos = Vector(95.99,24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-			{ pos = Vector(95.99,-24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(95.99,24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true, bodygroup = { name = "Body_front", active = { 0 } }, },
+			{ pos = Vector(95.99,-24.72,21.01), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "brake",
 		SubMaterialID = 28,
 		Sprites = {
-			{ pos = Vector(-86.03,26.09,21.32), colorG = 0, colorB = 0, colorA = 150 },
-			{ pos = Vector(-86.03,-26.09,21.32), colorG = 0, colorB = 0, colorA = 150 },
+			{ pos = Vector(-86.03,26.09,21.32), colorG = 0, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
+			{ pos = Vector(-86.03,-26.09,21.32), colorG = 0, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 		}
 	},
 	{
 		Trigger = "reverse",
 		SubMaterialID = 29,
 		Sprites = {
-			{ pos = Vector(-86,17.49,21.19), height = 25, width = 25, colorA = 150 },
-			{ pos = Vector(-86,-17.49,21.19), height = 25, width = 25, colorA = 150 },
+			{ pos = Vector(-86,17.49,21.19), height = 25, width = 25, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
+			{ pos = Vector(-86,-17.49,21.19), height = 25, width = 25, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 		}
 	},
 	{
 		Trigger = "fog",
 		SubMaterialID = 25,
 		Sprites = {
-			{ pos = Vector(96.88,17.33,20.92), colorB = 200, colorA = 150 },
-			{ pos = Vector(96.88,-17.33,20.92), colorB = 200, colorA = 150 },
+			{ pos = Vector(96.88,17.33,20.92), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
+			{ pos = Vector(96.88,-17.33,20.92), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "turnright",
 		SubMaterialID = 21,
 		Sprites = {
-			{ width = 35, height = 35, pos = Vector(-83.76,-30.27,21.27), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 35, height = 35, pos = Vector(-83.76,-30.27,21.27), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 		},
 	},
 	{
 		Trigger = "turnleft",
 		SubMaterialID = 22,
 		Sprites = {
-			{ width = 35, height = 35, pos = Vector(-83.76,30.27,21.27), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 35, height = 35, pos = Vector(-83.76,30.27,21.27), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "turnright",
 		SubMaterialID = 31,
 		Sprites = {
-			{ width = 35, height = 35, pos = Vector(95.17,-31.15,20.42), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 35, height = 35, pos = Vector(95.17,-31.15,20.42), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "turnleft",
 		SubMaterialID = 30,
 		Sprites = {
-			{ width = 35, height = 35, pos = Vector(95.17,31.15,20.42), colorG = 100, colorB = 0, colorA = 150 },
+			{ width = 35, height = 35, pos = Vector(95.17,31.15,20.42), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 	},
 }
-
 function ENT:InitWeapons()
 	local weapon = {}
 	weapon.Icon = Material("lvs/weapons/horn.png")

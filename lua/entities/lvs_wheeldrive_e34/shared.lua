@@ -148,8 +148,8 @@ ENT.Lights = {
 		Trigger = "reverse",
 		SubMaterialID = 24,
 		Sprites = {
-			{ pos = Vector(-96.41,19.49,24.45), height = 25, width = 25, colorA = 150 },
-			{ pos = Vector(-96.41,-19.49,24.45), height = 25, width = 25, colorA = 150 },
+			{ pos = "reverse1", height = 25, width = 25, colorA = 150 },
+			{ pos = "reverse2", height = 25, width = 25, colorA = 150 },
 		}
 	},
 	{
@@ -176,8 +176,8 @@ ENT.Lights = {
 		Sprites = {
 			{ pos = Vector(80.75,23.63,4.51), colorB = 150, colorA = 150 },
 			{ pos = Vector(80.75,-23.63,4.51), colorB = 150, colorA = 150 },
-			{ pos = Vector(-96.32,-19.41,21.61), colorG = 0, colorB = 0, colorA = 150 },
-			{ pos = Vector(-96.32,19.41,21.61), colorG = 0, colorB = 0, colorA = 150 },
+			{ pos = "fog1", colorG = 0, colorB = 0, colorA = 150 },
+			{ pos = "fog2", colorG = 0, colorB = 0, colorA = 150 },
 		},
 	},
 }

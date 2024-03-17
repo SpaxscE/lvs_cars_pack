@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/DiggerCars/honda_nsx/engine"
+	"$bumpmap" "models/DiggerCars/honda_nsx/engine_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$phong" "1" 
+	"$alphatest" "0"
+	"$phongboost" "0.02" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{145 145 145}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+

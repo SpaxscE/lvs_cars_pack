@@ -1,0 +1,33 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 80 80 rotate 0 translate 0 0"
+	"$basetexture" "models/diggercars/toyota_supra/carbonfiber"
+	"$bumpmap" "models/DiggerCars/shared/skin_nm"
+
+        "$detail"  "models/diggercars/porsche_993/skin"
+        "$detailblendfactor" "1"
+        "$detailtint" "{255 255 255}"
+        "$detailscale" 1
+
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{155 155 155}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+

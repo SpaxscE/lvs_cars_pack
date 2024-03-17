@@ -1,0 +1,57 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/DiggerCars/nissan_skyline_gtr32/lights"
+	"$bumpmap" "models/DiggerCars/nissan_skyline_gtr32/lights_nm"
+        "$blendtintbybasealpha" 1
+
+	"$detail" "models/diggercars/nissan_skyline_gtr32/lights_e"
+	"$detailscale" "1"
+	"$detailblendfactor" "0"
+	"$detailblendmode" "5"
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 2
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.15 0.15 0.15]"
+
+	"$colorfix" "{50 50 50}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

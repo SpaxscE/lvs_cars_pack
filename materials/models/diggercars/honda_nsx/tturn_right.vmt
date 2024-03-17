@@ -1,0 +1,57 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/DiggerCars/honda_nsx/tlights"
+	"$bumpmap" "models/DiggerCars/honda_nsx/tlights_nm"
+        "$blendtintbybasealpha" 1
+
+	"$detail" "models/diggercars/honda_nsx/te_turn"
+	"$detailscale" "1"
+	"$detailblendfactor" "0"
+	"$detailblendmode" "5"
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 2
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.05 0.05 0.05]"
+
+	"$colorfix" "{0 0 0}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

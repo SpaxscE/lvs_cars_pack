@@ -1,0 +1,18 @@
+Refract
+{
+
+	$model "1"
+	$normalmap "models/DiggerCars/nissan_skyline_gtr32/lights_glass_nm"
+	$refractamount ".01"
+	$refracttinttexture "models/DiggerCars/nissan_skyline_gtr32/lights_glass"
+	$envmap "env_cubemap"
+	$bluramount 1
+	$envmaptint "[.15 .15 .15]"
+}
+
+
+
+
+
+
+

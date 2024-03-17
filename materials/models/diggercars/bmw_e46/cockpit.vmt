@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/DiggerCars/bmw_e46/cockpit"
+	"$bumpmap" "models/DiggerCars/bmw_e46/cockpit_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$detail" "models/DiggerCars/bmw_e46/cockpit_e"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+	"$phong" "1" 
+	"$phongboost" "0.08" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/diggercars/nissan_skyline_gtr32/common_leather02_nero_stitches_orange_double_diffuse"
+	"$bumpmap" "models/DiggerCars/shared/skin_nm"
+	"$phong" "1" 
+	"$alphatest" "0"
+	"$phongboost" "0.08" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+

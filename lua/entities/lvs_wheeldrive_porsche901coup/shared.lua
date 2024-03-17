@@ -1,7 +1,7 @@
 
 ENT.Base = "lvs_base_wheeldrive"
 
-ENT.PrintName = "Porsche 911(F) Coupe"
+ENT.PrintName = "Porsche 911(F)"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS] - Cars - Pack"

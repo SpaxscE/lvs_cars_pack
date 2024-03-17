@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/DiggerCars/bmw_e46/engine"
+	"$bumpmap" "models/DiggerCars/bmw_e46/engine_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+	"$phong" "1" 
+	"$alphatest" "0"
+	"$phongboost" "0.02" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{145 145 145}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+

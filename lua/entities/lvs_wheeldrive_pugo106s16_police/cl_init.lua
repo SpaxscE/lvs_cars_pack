@@ -38,5 +38,5 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	self:SetPoseParameter( "digital_3", mina )
 	self:SetPoseParameter( "digital_4", minb )
 
-	self:SetPoseParameter( "siren_spin", CurTime() * 300 )
+	self:SetPoseParameter( "siren_spin", CurTime() * 1200 )
 end

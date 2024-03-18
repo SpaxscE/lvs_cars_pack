@@ -70,60 +70,17 @@ ENT.EngineSounds = {
 ENT.Lights = {
 	{
 		Siren = true,
-		Trigger = "10000000",
-		DynamicLights = {
-			{ pos = "bulb2a", colorR = 255, colorG = 0, colorB = 0, brightness = 0.5, decay= 5, size = 80, lifetime = 0.05 },
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "00001000",
-		DynamicLights = {
-			{ pos = "bulb3a", colorR = 255, colorG = 0, colorB = 0, brightness = 0.5, decay= 5, size = 80, lifetime = 0.05 },
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "00100000",
-		DynamicLights = {
-			{ pos = "bulb1a", colorR = 0, colorG = 0, colorB = 255, brightness = 0.5, decay= 5, size = 120, lifetime = 0.05 },
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "00000010",
-		DynamicLights = {
-			{ pos = "bulb4a", colorR = 0, colorG = 0, colorB = 255, brightness = 0.5, decay= 5, size = 120, lifetime = 0.05 },
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "00110000",
+		Trigger = "1",
+		SubMaterialID = 24,
+		SubMaterialBrightness = 10,
 		Sprites = {
-			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255, width = 50, height = 50 },
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "11000000",
-		Sprites = {
-			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 50 },
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "00001100",
-		Sprites = {
+			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
+			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 70 },
 			{ pos = "bulb3a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 50 },
+			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
 		},
 	},
-	{
-		Siren = true,
-		Trigger = "00000011",
-		Sprites = {
-			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255, width = 50, height = 50 },
-		},
-	},
+
 	{
 		Trigger = "main",
 		ProjectedTextures = {
@@ -146,7 +103,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 30,
+		SubMaterialID = 25,
 		Sprites = {
 			{ pos = Vector(-67.19,25.3,26.36), colorG = 0, colorB = 0, colorA = 150, width = 30, height = 30 },
 			{ pos = Vector(-67.19,-25.3,26.36), colorG = 0, colorB = 0, colorA = 150, width = 30, height = 30 },
@@ -162,7 +119,7 @@ ENT.Lights = {
 
 	{
 		Trigger = "reverse",
-		SubMaterialID = 31,
+		SubMaterialID = 26,
 		SubMaterialBrightness = 25,
 		Sprites = {
 			{ pos = Vector(-68.14,22.63,28.63), height = 25, width = 25, colorA = 150 },

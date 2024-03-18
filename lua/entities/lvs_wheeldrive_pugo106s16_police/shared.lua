@@ -71,8 +71,7 @@ ENT.Lights = {
 	{
 		Siren = true,
 		Trigger = "1",
-		SubMaterialID = 24,
-		SubMaterialBrightness = 10,
+		SubMaterialID = 25,
 		Sprites = {
 			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
 			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 70 },
@@ -103,7 +102,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "main+brake",
-		SubMaterialID = 25,
+		SubMaterialID = 26,
 		Sprites = {
 			{ pos = Vector(-67.19,25.3,26.36), colorG = 0, colorB = 0, colorA = 150, width = 30, height = 30 },
 			{ pos = Vector(-67.19,-25.3,26.36), colorG = 0, colorB = 0, colorA = 150, width = 30, height = 30 },
@@ -119,7 +118,7 @@ ENT.Lights = {
 
 	{
 		Trigger = "reverse",
-		SubMaterialID = 26,
+		SubMaterialID = 27,
 		SubMaterialBrightness = 25,
 		Sprites = {
 			{ pos = Vector(-68.14,22.63,28.63), height = 25, width = 25, colorA = 150 },

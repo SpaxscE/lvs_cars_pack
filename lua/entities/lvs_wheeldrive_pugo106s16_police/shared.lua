@@ -70,30 +70,58 @@ ENT.EngineSounds = {
 ENT.Lights = {
 	{
 		Siren = true,
-		Trigger = "0101010101010101",
-		Sprites = {
-			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255 },
+		Trigger = "10000000",
+		DynamicLights = {
+			{ pos = "bulb2a", colorR = 255, colorG = 0, colorB = 0, brightness = 0.5, decay= 5, size = 80, lifetime = 0.05 },
 		},
 	},
 	{
 		Siren = true,
-		Trigger = "0000111100001111",
-		Sprites = {
-			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255 },
+		Trigger = "00001000",
+		DynamicLights = {
+			{ pos = "bulb3a", colorR = 255, colorG = 0, colorB = 0, brightness = 0.5, decay= 5, size = 80, lifetime = 0.05 },
 		},
 	},
 	{
 		Siren = true,
-		Trigger = "1111000011110000",
-		Sprites = {
-			{ pos = "bulb3a", colorG = 0, colorB = 0, colorA = 255 },
+		Trigger = "00100000",
+		DynamicLights = {
+			{ pos = "bulb1a", colorR = 0, colorG = 0, colorB = 255, brightness = 0.5, decay= 5, size = 120, lifetime = 0.05 },
 		},
 	},
 	{
 		Siren = true,
-		Trigger = "1010101010101010",
+		Trigger = "00000010",
+		DynamicLights = {
+			{ pos = "bulb4a", colorR = 0, colorG = 0, colorB = 255, brightness = 0.5, decay= 5, size = 120, lifetime = 0.05 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "00110000",
 		Sprites = {
-			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255 },
+			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255, width = 50, height = 50 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "11000000",
+		Sprites = {
+			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 50 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "00001100",
+		Sprites = {
+			{ pos = "bulb3a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 50 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "00000011",
+		Sprites = {
+			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255, width = 50, height = 50 },
 		},
 	},
 	{

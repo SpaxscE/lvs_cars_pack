@@ -69,6 +69,34 @@ ENT.EngineSounds = {
 
 ENT.Lights = {
 	{
+		Siren = true,
+		Trigger = "0101010101010101",
+		Sprites = {
+			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "0000111100001111",
+		Sprites = {
+			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "1111000011110000",
+		Sprites = {
+			{ pos = "bulb3a", colorG = 0, colorB = 0, colorA = 255 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "1010101010101010",
+		Sprites = {
+			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255 },
+		},
+	},
+	{
 		Trigger = "main",
 		ProjectedTextures = {
 			{ pos = Vector(65.89,20.77,23.67), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },

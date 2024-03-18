@@ -1,6 +1,5 @@
 AddCSLuaFile( "shared.lua" )
 AddCSLuaFile( "cl_init.lua" )
-AddCSLuaFile( "cl_tankview.lua" )
 include("shared.lua")
 include("sv_pds.lua")
 
@@ -23,10 +22,10 @@ function ENT:OnSpawn( PObj )
 
 	local WheelModelR = "models/diggercars/caterham_620r/rw.mdl"
 
-	local FLWheel = self:AddWheel( { pos = Vector(44.48,27,15), mdl = WheelModel, mdl_ang = Angle(0,0,0), width = 2, radius = 12 } )
-	local FRWheel = self:AddWheel( { pos = Vector(44.48,-27,15), mdl = WheelModel, mdl_ang = Angle(0,180,0), width = 2, radius = 12} )
-	local RLWheel = self:AddWheel( { pos = Vector(-44.74,28,15), mdl = WheelModelR, mdl_ang = Angle(0,0,0), width = 2, radius = 12 } )
-	local RRWheel = self:AddWheel( { pos = Vector(-44.74,-28,15), mdl = WheelModelR, mdl_ang = Angle(0,180,0), width = 2, radius = 12} )
+	local FLWheel = self:AddWheel( { pos = Vector(44.48,27,15), mdl = WheelModel, mdl_ang = Angle(0,0,0), radius = 12 } )
+	local FRWheel = self:AddWheel( { pos = Vector(44.48,-27,15), mdl = WheelModel, mdl_ang = Angle(0,180,0), radius = 12} )
+	local RLWheel = self:AddWheel( { pos = Vector(-44.74,28,15), mdl = WheelModelR, mdl_ang = Angle(0,0,0), radius = 12 } )
+	local RRWheel = self:AddWheel( { pos = Vector(-44.74,-28,15), mdl = WheelModelR, mdl_ang = Angle(0,180,0), radius = 12} )
 
 	self:CreateRigControler( "fl", FLWheel, 7.6, 15.6 )
 	self:CreateRigControler( "fr", FRWheel, 7.6, 15.6 )

@@ -1,6 +1,5 @@
 AddCSLuaFile( "shared.lua" )
 AddCSLuaFile( "cl_init.lua" )
-AddCSLuaFile( "cl_tankview.lua" )
 include("shared.lua")
 
 function ENT:OnSpawn( PObj )
@@ -42,10 +41,10 @@ function ENT:OnSpawn( PObj )
 
 	local WheelModel = "models/diggercars/bmw_e46/wheel_csl.mdl"
 
-	local FLWheel = self:AddWheel( { pos = Vector(58.7,31,12), mdl = WheelModel, mdl_ang = Angle(0,0,0), width = 2, radius = 13 } )
-	local FRWheel = self:AddWheel( { pos = Vector(58.7,-31,12), mdl = WheelModel, mdl_ang = Angle(0,180,0), width = 2, radius = 13} )
-	local RLWheel = self:AddWheel( { pos = Vector(-50.5,31,12), mdl = WheelModel, mdl_ang = Angle(0,0,0), width = 2, radius = 13 } )
-	local RRWheel = self:AddWheel( { pos = Vector(-50.5,-31,12), mdl = WheelModel, mdl_ang = Angle(0,180,0), width = 2, radius = 13} )
+	local FLWheel = self:AddWheel( { pos = Vector(58.7,31,12), mdl = WheelModel, mdl_ang = Angle(0,0,0), radius = 13 } )
+	local FRWheel = self:AddWheel( { pos = Vector(58.7,-31,12), mdl = WheelModel, mdl_ang = Angle(0,180,0), radius = 13} )
+	local RLWheel = self:AddWheel( { pos = Vector(-50.5,31,12), mdl = WheelModel, mdl_ang = Angle(0,0,0), radius = 13 } )
+	local RRWheel = self:AddWheel( { pos = Vector(-50.5,-31,12), mdl = WheelModel, mdl_ang = Angle(0,180,0), radius = 13} )
 
 	local FrontAxle = self:DefineAxle( {
 		Axle = {

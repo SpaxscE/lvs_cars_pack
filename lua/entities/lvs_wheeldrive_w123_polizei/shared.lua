@@ -61,9 +61,21 @@ ENT.ExhaustPositions = {
 }
 
 ENT.Lights = {
+
+	{
+		Siren = true,
+		Trigger = "1",
+		SubMaterialID = 5,
+		Sprites = {
+			{ pos = "bulb1", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
+			{ pos = "bulb2", colorG = 0, colorB = 0, colorA = 255, width = 40, height = 40 },
+
+		},
+	},
+
 	{
 		Trigger = "main",
-		SubMaterialID = 24,
+		SubMaterialID = 21,
 		Sprites = {
 			{ pos = Vector(95.99,24.72,21.01), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 			{ pos = Vector(95.99,-24.72,21.01), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
@@ -88,7 +100,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "brake",
-		SubMaterialID = 28,
+		SubMaterialID = 25,
 		Sprites = {
 			{ pos = Vector(-86.03,26.09,21.32), colorG = 0, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 			{ pos = Vector(-86.03,-26.09,21.32), colorG = 0, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
@@ -96,7 +108,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "reverse",
-		SubMaterialID = 29,
+		SubMaterialID = 26,
 		Sprites = {
 			{ pos = Vector(-86,17.49,21.19), height = 25, width = 25, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 			{ pos = Vector(-86,-17.49,21.19), height = 25, width = 25, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
@@ -104,7 +116,7 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "fog",
-		SubMaterialID = 25,
+		SubMaterialID = 22,
 		Sprites = {
 			{ pos = Vector(96.88,17.33,20.92), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 			{ pos = Vector(96.88,-17.33,20.92), colorB = 200, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
@@ -112,28 +124,28 @@ ENT.Lights = {
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 21,
+		SubMaterialID = 28,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(-83.76,-30.27,21.27), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } },},
 		},
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 22,
+		SubMaterialID = 27,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(-83.76,30.27,21.27), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_rear", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "turnright",
-		SubMaterialID = 31,
+		SubMaterialID = 18,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(95.17,-31.15,20.42), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},
 	},
 	{
 		Trigger = "turnleft",
-		SubMaterialID = 30,
+		SubMaterialID = 19,
 		Sprites = {
 			{ width = 35, height = 35, pos = Vector(95.17,31.15,20.42), colorG = 100, colorB = 0, colorA = 150, bodygroup = { name = "Body_front", active = { 0 } }, },
 		},

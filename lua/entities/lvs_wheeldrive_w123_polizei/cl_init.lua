@@ -30,4 +30,9 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	self:SetPoseParameter( "second", sec )
 
 	self:SetPoseParameter( "gear",  self:QuickLerp( "gear", (GearIDtoPose[ gear ] or 1) ) )
+
+	if self:GetSirenMode() <= 0 then return end
+
+	self:SetPoseParameter( "siren_spin", CurTime() * 1200 + self:EntIndex() * 1337 )
+
 end

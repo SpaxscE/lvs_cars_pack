@@ -14,6 +14,10 @@ function ENT:OnSpawn( PObj )
 	local RearRadius = 25
 
 	local FL, FR, RL, RR, ForwardAngle = self:AddWheelsUsingRig( FrontRadius, RearRadius, data ) -- passing data will make the wheels visible
+	FL:SetWidth( 10 )
+	FR:SetWidth( 10 )
+	RL:SetWidth( 10 )
+	RR:SetWidth( 10 )
 
 	local FrontAxle = self:DefineAxle( {
 		Axle = {
@@ -21,16 +25,17 @@ function ENT:OnSpawn( PObj )
 			SteerType = LVS.WHEEL_STEER_FRONT,
 			SteerAngle = 25,
 			TorqueFactor = 0.5,
-			BrakeFactor = 1,
+			BrakeFactor = 1.5,
+			UseHandbrake = true,
 		},
 		Wheels = {FL,FR},
 		Suspension = {
-			Height = -25,
-			MaxTravel = 8,
-			ControlArmLength = 25,
-			SpringConstant = 25000,
-			SpringDamping = 5000,
-			SpringRelativeDamping = 5000,
+			Height = -5,
+			MaxTravel = 30,
+			ControlArmLength = 150,
+			SpringConstant = 50000,
+			SpringDamping = 15000,
+			SpringRelativeDamping = 15000,
 		},
 	} )
 
@@ -40,17 +45,17 @@ function ENT:OnSpawn( PObj )
 			SteerType = LVS.WHEEL_STEER_REAR,
 			SteerAngle = 25,
 			TorqueFactor = 0.5,
-			BrakeFactor = 1,
+			BrakeFactor = 1.5,
 			UseHandbrake = true,
 		},
 		Wheels = {RL,RR},
 		Suspension = {
-			Height = -25,
-			MaxTravel = 8,
-			ControlArmLength = 25,
-			SpringConstant = 25000,
-			SpringDamping = 5000,
-			SpringRelativeDamping = 5000,
+			Height = -5,
+			MaxTravel = 30,
+			ControlArmLength = 150,
+			SpringConstant = 50000,
+			SpringDamping = 15000,
+			SpringRelativeDamping = 15000,
 		},
 	} )
 end

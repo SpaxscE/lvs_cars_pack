@@ -20,6 +20,9 @@ ENT.HornPos = Vector(0,40,35)
 
 ENT.MaxVelocity = 1200
 
+ENT.MouseSteerAngle = 7
+ENT.MouseSteerExponent = 3
+
 ENT.FastSteerDeactivationDriftAngle = 15
 
 ENT.PhysicsMass = 1500
@@ -35,7 +38,7 @@ ENT.WheelBrakeForce = 500
 
 ENT.WheelPhysicsMass = 100
 
-ENT.EngineTorque = 400
+ENT.EngineTorque = 300
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1

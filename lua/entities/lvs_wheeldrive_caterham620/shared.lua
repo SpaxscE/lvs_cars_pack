@@ -28,6 +28,8 @@ ENT.HornPos = Vector(40,0,35)
 
 ENT.PhysicsWeightScale = 0.5
 
+ENT.WheelDownForce = 800
+
 ENT.SuperChargerVisible = false
 
 ENT.RandomColor = {

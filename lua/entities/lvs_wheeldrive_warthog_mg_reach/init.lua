@@ -25,7 +25,7 @@ function ENT:OnSpawn( PObj )
 			SteerType = LVS.WHEEL_STEER_FRONT,
 			SteerAngle = 25,
 			TorqueFactor = 0.4,
-			BrakeFactor = 1.5,
+			BrakeFactor = 1,
 		},
 		Wheels = {FL,FR},
 		Suspension = {
@@ -44,7 +44,7 @@ function ENT:OnSpawn( PObj )
 			SteerType = LVS.WHEEL_STEER_REAR,
 			SteerAngle = 25,
 			TorqueFactor = 0.6,
-			BrakeFactor = 1.5,
+			BrakeFactor = 1,
 			UseHandbrake = true,
 		},
 		Wheels = {RL,RR},

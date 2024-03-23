@@ -31,14 +31,10 @@ ENT.PhysicsWeightScale = 1.5
 ENT.PhysicsDampingSpeed = 1000
 ENT.PhysicsInertia = Vector(6000,6000,500)
 
-ENT.WheelSideForce = 500
-ENT.WheelDownForce = 500
-
-ENT.WheelBrakeForce = 500
-
 ENT.WheelPhysicsMass = 100
+ENT.WheelPhysicsInertia = Vector(60,48,60)
 
-ENT.EngineTorque = 300
+ENT.EngineTorque = 80
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1

@@ -36,6 +36,23 @@ ENT.ExhaustPositions = {
 ENT.HornSound = "lvs/horn2.wav"
 ENT.HornPos = Vector(40,0,35)
 
+ENT.SirenPos = Vector(40,0,35)
+ENT.SirenSound = {
+	[1] = {
+		siren = "common/null.wav",
+		horn = "lvs/siren1.wav",
+	},
+	[2] = {
+		siren = "lvs/siren1.wav",
+		horn = "lvs/siren2.wav",
+	},
+	[3] = {
+		siren = "lvs/siren2.wav",
+		horn = "lvs/siren3.wav",
+	},
+}
+
+
 ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/miata/eng_idle_loop.wav",
@@ -77,7 +94,24 @@ ENT.Lights = {
 			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
 		},
 	},
-
+	{
+		Siren = true,
+		Trigger = "1100",
+		SubMaterialID = 26,
+		Sprites = {
+			{ pos = Vector(70.82,10.16,22.89), colorR = 0, colorG = 0, colorB = 255, colorA = 255, width = 20, height = 20 },
+			{ pos = Vector(-72.17,9.76,21.71), colorR = 0, colorG = 0, colorB = 255, colorA = 255, width = 20, height = 20 },
+		},
+	},
+	{
+		Siren = true,
+		Trigger = "0011",
+		SubMaterialID = 27,
+		Sprites = {
+			{ pos = Vector(70.82,-10.16,22.89), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 20, height = 20 },
+			{ pos = Vector(-72.17,-9.76,21.71), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 20, height = 20 },
+		},
+	},
 	{
 		Trigger = "main",
 		ProjectedTextures = {

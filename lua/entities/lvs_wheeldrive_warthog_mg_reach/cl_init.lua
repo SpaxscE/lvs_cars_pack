@@ -19,3 +19,11 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	self:SetPoseParameter( "gears",  self:QuickLerp( "gear", (GearIDtoPose[ gear ] or 1) ) )
 
 end
+
+function ENT:OnEngineActiveChanged( Active )
+	if Active then
+		self:EmitSound( "lvs/vehicles/warthog/in.wav", 75, 100,  LVS.EngineVolume )
+	else
+		self:EmitSound( "lvs/vehicles/warthog/out.wav", 75, 100,  LVS.EngineVolume )
+	end
+end

@@ -14,7 +14,7 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL =  "models/diggercars/warthog/warthog_mg_reach.mdl"
 
-ENT.HornSound = "lvs/vehicles/satsuma/car_horn.wav"
+ENT.HornSound = "lvs/vehicles/warthog/horn_loop.wav"
 ENT.HornPos = Vector(0,40,35)
 
 
@@ -38,10 +38,11 @@ ENT.EngineTorque = 80
 
 ENT.TransGears = 3
 ENT.TransGearsReverse = 1
+--ENT.TransShiftSound = "lvs/vehicles/warthog/warthog_shift2.wav"
 
 ENT.EngineSounds = {
 	{
-		sound = "lvs/vehicles/dodge_charger/eng_idle_loop.wav",
+		sound = "lvs/vehicles/warthog/eng_idle.wav",
 		Volume = 1,
 		Pitch = 85,
 		PitchMul = 25,
@@ -49,7 +50,7 @@ ENT.EngineSounds = {
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/dodge_charger/eng_loop.wav",
+		sound = "lvs/vehicles/warthog/eng_high.wav",
 		Volume = 1,
 		Pitch = 60,
 		PitchMul = 110,
@@ -58,9 +59,9 @@ ENT.EngineSounds = {
 		UseDoppler = true,
 	},
 	{
-		sound = "lvs/vehicles/dodge_charger/eng_revdown_loop.wav",
+		sound = "lvs/vehicles/warthog/eng_high.wav",
 		Volume = 1,
-		Pitch = 60,
+		Pitch = 40,
 		PitchMul = 110,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_DOWN,

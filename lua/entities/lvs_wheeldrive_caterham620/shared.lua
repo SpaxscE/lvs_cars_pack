@@ -16,7 +16,7 @@ ENT.MDL = "models/diggercars/caterham_620r/caterham.mdl"
 
 ENT.MaxVelocity = 2700
 
-ENT.EngineTorque = 40
+ENT.EngineTorque = 110
 ENT.EngineIdleRPM = 1000
 ENT.EngineMaxRPM = 9000
 
@@ -26,19 +26,9 @@ ENT.TransGearsReverse = 1
 ENT.HornSound = "lvs/horn4.wav"
 ENT.HornPos = Vector(40,0,35)
 
-ENT.PhysicsMass = 300
-ENT.PhysicsInertia = Vector(1550,1550,525)
-
-ENT.WheelPhysicsMass = 100
-ENT.WheelPhysicsInertia = Vector(15,12,15)
+ENT.PhysicsWeightScale = 0.5
 
 ENT.SuperChargerVisible = false
-
-ENT.ForceLinearMultiplier = 1.5 -- multiply all linear forces (such as downforce, wheel side force, ect)
-ENT.ForceAngleMultiplier = 0.7 -- multiply all angular forces such turn stability / inertia. Exception: Wheel/Engine torque. Those remain unchanged.
-
-ENT.WheelSideForce = 800 -- basically a sideways cheatforce that gives you better stability in turns. You shouldn't have to edit this.
-ENT.WheelDownForce = 600 -- wheels use jeeptire as physprop. To this a downward force is applied to increase traction. You shouldn't have to edit this.
 
 ENT.RandomColor = {
 	{

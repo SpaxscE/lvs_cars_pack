@@ -45,9 +45,9 @@ function ENT:OnSpawn( PObj )
 			Height = 10,
 			MaxTravel = 7,
 			ControlArmLength = 25,
-			SpringConstant = 6000,
-			SpringDamping = 600,
-			SpringRelativeDamping = 600,
+			SpringConstant = 30000,
+			SpringDamping = 2000,
+			SpringRelativeDamping = 2000,
 		},
 	} )
 
@@ -65,12 +65,18 @@ function ENT:OnSpawn( PObj )
 			Height = 10,
 			MaxTravel = 7,
 			ControlArmLength = 25,
-			SpringConstant = 6000,
-			SpringDamping = 600,
-			SpringRelativeDamping = 600,
+			SpringConstant = 30000,
+			SpringDamping = 2000,
+			SpringRelativeDamping = 2000,
 		},
 	} )
 
 	self:CreatePDS()
 
+end
+
+function ENT:OnCollision( data, physobj )
+	if self:WorldToLocal( data.HitPos ).z < 15 then return true end
+
+	return false
 end

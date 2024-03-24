@@ -2,6 +2,7 @@
 {
 	"$basetexture" "models/diggercars/warthog/warthog_tire"
 	"$bumpmap" "models/DiggerCars/warthog/warthog_tire_nm"
+
 	"$phong" "1" 
 	"$phongboost" "0.08" 
 	"$phongexponent" 3

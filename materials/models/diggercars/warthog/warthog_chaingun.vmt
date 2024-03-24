@@ -2,6 +2,12 @@
 {
 	"$basetexture" "models/diggercars/warthog/warthog_chaingun"
 	"$bumpmap" "models/DiggerCars/warthog/warthog_chaingun_nm"
+
+	"$detail" "models/diggercars/warthog/detail_truckpaint"
+	"$detailscale" "10"
+	"$detailblendfactor" "10"
+	"$detailblendmode" "0"
+
 	"$phong" "1" 
 	"$phongboost" "0.08" 
 	"$phongexponent" 3

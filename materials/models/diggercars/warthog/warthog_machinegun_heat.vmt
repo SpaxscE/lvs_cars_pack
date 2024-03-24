@@ -3,6 +3,13 @@
 	"$basetexture" "models/DiggerCars/warthog/warthog_machinegun_heat"
 	"$alphatest" "1"
 	"$allowalphatocoverage" "1"
+
+	"$detail" "models/DiggerCars/warthog/warthog_machinegun_heat"
+	"$detailscale" "1"
+	"$detailblendfactor" "2"
+	"$detailblendmode" "5"
+
+
 	"$phong" "1" 
 	"$phongboost" "0.08" 
 	"$phongexponent" 3

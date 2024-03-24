@@ -98,8 +98,8 @@ ENT.Lights = {
 	{
 		Trigger = "high",
 		ProjectedTextures = {
-			{ pos = Vector(65.89,-20.77,23.67), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
-			{ pos = Vector(65.89,20.77,23.67), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(68,-20.77,23.67), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
+			{ pos = Vector(68,20.77,23.67), ang = Angle(0,0,0), colorB = 200, colorA = 150, shadows = true },
 		},
 	},
 

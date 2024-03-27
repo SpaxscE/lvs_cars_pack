@@ -60,15 +60,33 @@ ENT.ExhaustPositions = {
 	}
 }
 
+ENT.HornSound = "lvs/horn2.wav"
+ENT.HornPos = Vector(40,0,35)
+
+ENT.SirenPos = Vector(40,0,35)
+ENT.SirenSound = {
+	[1] = {
+		siren = "lvs/siren1.wav",
+		horn = "lvs/siren2.wav",
+	},
+	[2] = {
+		siren = "lvs/siren2.wav",
+		horn = "lvs/siren3.wav",
+	},
+}
+
 ENT.Lights = {
 
 	{
 		Siren = true,
 		Trigger = "1",
 		SubMaterialID = 5,
+		SubMaterialBrightness = 30,
 		Sprites = {
-			{ pos = "bulb1", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
-			{ pos = "bulb2", colorG = 0, colorB = 0, colorA = 255, width = 40, height = 40 },
+			{ pos = "bulb1", colorR = 0, colorG = 0, colorA = 255, width = 80, height = 80 },
+			{ pos = "bulb2", colorR = 0, colorG = 0, colorA = 255, width = 80, height = 80 },
+			{ pos = "bulb1", colorR = 255, colorG = 255, colorA = 255, width = 20, height = 20 },
+			{ pos = "bulb2", colorR = 255, colorG = 255, colorA = 255, width = 20, height = 20 },
 
 		},
 	},
@@ -152,27 +170,3 @@ ENT.Lights = {
 	},
 }
 
-function ENT:InitWeapons()
-	local weapon = {}
-	weapon.Icon = Material("lvs/weapons/horn.png")
-	weapon.Ammo = -1
-	weapon.Delay = 0.5
-	weapon.HeatRateUp = 0
-	weapon.HeatRateDown = 0
-	weapon.UseableByAI = false
-	weapon.Attack = function( ent ) end
-	weapon.StartAttack = function( ent )
-		if not IsValid( ent.HornSND ) then
-			self.HornSND = self:AddSoundEmitter( Vector(45,0,20), "lvs/horn1.wav", "lvs/horn1.wav" )
-			self.HornSND:SetSoundLevel( 75 )
-			self.HornSND:SetDoppler( true )
-		end
-
-		ent.HornSND:Play()
-	end
-	weapon.FinishAttack = function( ent )
-		if not IsValid( ent.HornSND ) then return end
-		ent.HornSND:Stop()
-	end
-	self:AddWeapon( weapon )
-end

@@ -83,29 +83,43 @@ ENT.Lights = {
 		Siren = true,
 		Trigger = "1",
 		SubMaterialID = 21,
+		SubMaterialBrightness = 10,
 		Sprites = {
-			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
-			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 70 },
-			{ pos = "bulb3a", colorG = 0, colorB = 0, colorA = 255, width = 50, height = 50 },
-			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255, width = 40, height = 40 },
+			{ pos = "bulb1a", colorR = 0, colorG = 0, colorA = 255, width = 80, height = 80 },
+			{ pos = "bulb2a", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
+			{ pos = "bulb3a", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
+			{ pos = "bulb4a", colorR = 0, colorG = 0, colorA = 255, width = 80, height = 80 },
+
+			{ pos = "bulb1a", colorR = 255, colorG = 255, colorA = 255, width = 20, height = 20 },
+			{ pos = "bulb2a", colorR = 255, colorG = 255, colorA = 255, width = 20, height = 20 },
+			{ pos = "bulb3a", colorR = 255, colorG = 255, colorA = 255, width = 20, height = 20 },
+			{ pos = "bulb4a", colorR = 255, colorG = 255, colorA = 255, width = 20, height = 20 },
 		},
 	},
 	{
 		Siren = true,
 		Trigger = "1100",
 		SubMaterialID = 26,
+		SubMaterialBrightness = 30,
 		Sprites = {
-			{ pos = Vector(70.82,10.16,22.89), colorR = 0, colorG = 0, colorB = 255, colorA = 255, width = 20, height = 20, bodygroup = { name = "front", active = { 0 } }, },
-			{ pos = Vector(-72.17,9.76,21.71), colorR = 0, colorG = 0, colorB = 255, colorA = 255, width = 20, height = 20, bodygroup = { name = "rear", active = { 0 } }, },
+			{ pos = Vector(70.82,10.16,22.89), colorR = 0, colorG = 0, colorB = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "front", active = { 0 } }, },
+			{ pos = Vector(-72.17,9.76,21.71), colorR = 0, colorG = 0, colorB = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "rear", active = { 0 } }, },
+
+			{ pos = Vector(70.82,10.16,22.89), colorR = 255, colorG = 255, colorB = 255, colorA = 255, width = 10, height = 10, bodygroup = { name = "front", active = { 0 } }, },
+			{ pos = Vector(-72.17,9.76,21.71), colorR = 255, colorG = 255, colorB = 255, colorA = 255, width = 10, height = 10, bodygroup = { name = "rear", active = { 0 } }, },
 		},
 	},
 	{
 		Siren = true,
 		Trigger = "0011",
 		SubMaterialID = 27,
+		SubMaterialBrightness = 30,
 		Sprites = {
-			{ pos = Vector(70.82,-10.16,22.89), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 20, height = 20, bodygroup = { name = "front", active = { 0 } }, },
-			{ pos = Vector(-72.17,-9.76,21.71), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 20, height = 20, bodygroup = { name = "rear", active = { 0 } }, },
+			{ pos = Vector(70.82,-10.16,22.89), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 30, height = 30, bodygroup = { name = "front", active = { 0 } }, },
+			{ pos = Vector(-72.17,-9.76,21.71), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 30, height = 30, bodygroup = { name = "rear", active = { 0 } }, },
+
+			{ pos = Vector(70.82,-10.16,22.89), colorR = 255, colorG = 255, colorB = 255, colorA = 255, width = 10, height = 10, bodygroup = { name = "front", active = { 0 } }, },
+			{ pos = Vector(-72.17,-9.76,21.71), colorR = 255, colorG = 255, colorB = 255, colorA = 255, width = 10, height = 10, bodygroup = { name = "rear", active = { 0 } }, },
 		},
 	},
 	{

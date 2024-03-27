@@ -32,15 +32,15 @@ ENT.HornPos = Vector(40,0,35)
 
 ENT.EngineSounds = {
 	{
-		sound = "lvs/vehicles/bmw_m5e34/eng_idle_loop.wav",
+		sound = "lvs/vehicles/audi_s3/idle.wav",
 		Volume = 1,
-		Pitch = 80,
+		Pitch = 70,
 		PitchMul = 70,
-		SoundLevel = 75,
+		SoundLevel = 55,
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/bmw_m5e34/eng_loop.wav",
+		sound = "lvs/vehicles/audi_s3/revdown.wav",
 		Volume = 1,
 		Pitch = 80,
 		PitchMul = 110,
@@ -49,7 +49,7 @@ ENT.EngineSounds = {
 		UseDoppler = true,
 	},
 	{
-		sound = "lvs/vehicles/bmw_m5e34/eng_revdown_loop.wav",
+		sound = "lvs/vehicles/audi_s3/high.wav",
 		Volume = 1,
 		Pitch = 80,
 		PitchMul = 110,

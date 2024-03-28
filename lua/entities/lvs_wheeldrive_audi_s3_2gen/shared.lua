@@ -145,6 +145,7 @@ ENT.Lights = {
 		SubMaterialID = 14,
 		SubMaterialBrightness = 1,
 		Sprites = {
+			{ width = 45, height = 25,  pos = "tlr", colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 45, height = 25,  pos = Vector(73.14,-22.19,18.84), colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 25, height = 25, pos = Vector(-76.99,-28.06,25.63), colorG = 100, colorB = 0, colorA = 50 },
 		},
@@ -154,6 +155,7 @@ ENT.Lights = {
 		SubMaterialID = 12,
 		SubMaterialBrightness = 1,
 		Sprites = {
+			{ width = 45, height = 25,  pos = "tll", colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 45, height = 25, pos = Vector(73.14,22.19,18.84), colorG = 100, colorB = 0, colorA = 50 },
 			{ width = 25, height = 25, pos = Vector(-76.99,28.06,25.63), colorG = 100, colorB = 0, colorA = 50 },
 

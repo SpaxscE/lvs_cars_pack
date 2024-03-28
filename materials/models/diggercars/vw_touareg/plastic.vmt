@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/diggercars/vw_touareg/plastic"
+	"$bumpmap" "models/DiggerCars/vw_touareg/plastic_nm"
+	"$phong" "1" 
+	"$phongboost" "0.01" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{105 105 105}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

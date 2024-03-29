@@ -73,7 +73,7 @@ ENT.EngineSounds = {
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/audi_r8/revdown.wav",
+		sound = "lvs/vehicles/audi_r8/high.wav",
 		Volume = 1,
 		Pitch = 80,
 		PitchMul = 110,
@@ -82,7 +82,7 @@ ENT.EngineSounds = {
 		UseDoppler = true,
 	},
 	{
-		sound = "lvs/vehicles/audi_r8/high.wav",
+		sound = "lvs/vehicles/audi_r8/revdown.wav",
 		Volume = 1,
 		Pitch = 80,
 		PitchMul = 110,

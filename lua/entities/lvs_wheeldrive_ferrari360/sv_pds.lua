@@ -1,6 +1,4 @@
 
-ENT.PDSDamageMultiplier = 0.075 -- default value 0.05
-
 function ENT:CreatePDS()
 	-- front bumper
 	local pos, ang, mins, maxs = self:GetBoneInfo( "fb_jiggle" )

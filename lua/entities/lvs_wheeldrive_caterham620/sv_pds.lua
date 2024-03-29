@@ -1,6 +1,4 @@
 
-ENT.PDSDamageMultiplier = 0.075 -- default value 0.05
-
 function ENT:CreatePDS()
 	-- front bumper
 	local pos, ang, mins, maxs = self:GetBoneInfo( "fb" )
@@ -125,17 +123,12 @@ function ENT:CreatePDS()
 		ang = ang,
 		mins = mins,
 		maxs = maxs,
-		allow_damage = true,
 		stages = {
 			{
 				bodygroup = { [6] = 1 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [6] = 2 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 				gib = {
 					mdl = "models/diggercars/caterham_620r/light_fl_dam.mdl",
 					pos = Vector(0,0,0),
@@ -151,17 +144,12 @@ function ENT:CreatePDS()
 		ang = ang,
 		mins = mins,
 		maxs = maxs,
-		allow_damage = true,
 		stages = {
 			{
 				bodygroup = { [7] = 1 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [7] = 2 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 				gib = {
 					mdl = "models/diggercars/caterham_620r/light_fr_dam.mdl",
 					pos = Vector(0,0,0),
@@ -178,17 +166,12 @@ function ENT:CreatePDS()
 		ang = ang,
 		mins = mins,
 		maxs = maxs,
-		allow_damage = true,
 		stages = {
 			{
 				bodygroup = { [8] = 1 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [8] = 2 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 				gib = {
 					mdl = "models/diggercars/caterham_620r/light_rl_dam.mdl",
 					pos = Vector(0,0,0),
@@ -204,17 +187,12 @@ function ENT:CreatePDS()
 		ang = ang,
 		mins = mins,
 		maxs = maxs,
-		allow_damage = true,
 		stages = {
 			{
 				bodygroup = { [9] = 1 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [9] = 2 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 				gib = {
 					mdl = "models/diggercars/caterham_620r/light_rr_dam.mdl",
 					pos = Vector(0,0,0),

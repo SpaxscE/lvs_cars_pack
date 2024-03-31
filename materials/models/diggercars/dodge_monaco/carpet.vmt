@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/diggercars/dodge_monaco/carpet"
+	"$bumpmap" "models/DiggerCars/dodge_monaco/carpet_nm"
+	"$phong" "1" 
+	"$phongboost" "0.02" 
+	"$phongexponent" 3
+	"$phongfresnelranges" "[1 1 1]" 
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/honda_nsx/na1.mdl"
 
-ENT.MaxVelocity = 2700
+ENT.MaxVelocity = 2800
 
 ENT.EngineCurve = 0.15
 ENT.EngineTorque = 140

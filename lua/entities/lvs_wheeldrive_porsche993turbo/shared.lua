@@ -14,7 +14,7 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/porsche_993/carrera.mdl"
 
-ENT.MaxVelocity = 2400
+ENT.MaxVelocity = 3000
 
 ENT.EngineCurve = 0.8
 ENT.EngineTorque = 60

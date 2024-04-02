@@ -7,6 +7,7 @@ function ENT:OnSpawn( PObj )
 	local PassengerSeat = self:AddPassengerSeat( Vector(0,-17,13), Angle(0,-90,20) )
 	local PassengerSeat1 = self:AddPassengerSeat( Vector(-35,16,13), Angle(0,-90,20) )
 	local PassengerSeat2 = self:AddPassengerSeat( Vector(-35,-16,13), Angle(0,-90,20) )
+	local PassengerSeat = self:AddPassengerSeat( Vector(-35,0,13), Angle(0,-90,20) )
 	self:AddEngine( Vector(58,0,0) )
 	self:AddTurboCharger()
 

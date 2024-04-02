@@ -26,18 +26,109 @@ ENT.TransGearsReverse = 1
 ENT.HornSound = "lvs/horn2.wav"
 ENT.HornPos = Vector(40,0,35)
 
-ENT.RandomColor = {
-	Color(0,114,221),
-	Color(127,0,0),
-	Color(255,93,0),
-	Color(232,251,90),
-	Color(95,127,63),
-	Color(255,223,127),
-	Color(255,255,255),
-	Color(32,85,154),
-	Color(154,154,154),
-}
 
+ENT.RandomColor = {
+	{
+		Skin = 0,
+		Color = Color(0,114,221),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(127,0,0),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(255,93,0),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(232,251,90),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(95,127,63),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(255,223,127),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(32,85,154),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(140,140,140),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(240,240,240),
+		BodyGroups = {
+			[1] = 3,
+			[2] = 2,
+			[6] = 1,
+			[11] = 5,
+			[18] = 1,
+		},
+	},
+
+}
 
 
 ENT.EngineSounds = {

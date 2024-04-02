@@ -8,16 +8,7 @@ function ENT:CreatePDS()
 		mins = mins,
 		maxs = maxs,
 		stages = {
-			{ bodygroup = { [11] = 1 } },
-			{ bodygroup = { [11] = 2 } },
-			{
-				bodygroup = { [11] = 3 },
-				gib = {
-					mdl = "models/diggercars/dodge_monaco/gib_bar2.mdl",
-					pos = Vector(0,0,0),
-					ang = Angle(0,-90,0),
-				},
-			},
+			{ bodygroup = { [11] = 3 } },
 			{
 				bodygroup = { [11] = 4 },
 				gib = {

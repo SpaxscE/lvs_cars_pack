@@ -2,13 +2,21 @@
 {
 	"$basetexture" "models/DiggerCars/pontiac_transam3/rim2"
 	"$bumpmap" "models/DiggerCars/pontiac_transam3/rim2_nm"
+        "$blendtintbybasealpha" 1
+
+	"$normalmapalphaenvmapmask" 1
 	"$nodecal" "1"
-	"$nocull" "1"
+	"$halflambert" 1
+
 	"$phong" "1" 
-	"$phongboost" "0.08" 
-	"$phongexponent" 3
-	"$phongfresnelranges" "[1 1 1]" 
-	"$colorfix" "{255 255 255}"
+	"$phongboost" "10" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 20
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+
+	"$colorfix" "{120 120 120}"
 	"Proxies"
 	{
 		"Equals"
@@ -18,6 +26,23 @@
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

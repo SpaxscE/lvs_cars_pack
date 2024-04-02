@@ -20,7 +20,7 @@ ENT.EngineTorque = 120
 ENT.EngineIdleRPM = 750
 ENT.EngineMaxRPM = 5000
 
-ENT.TransGears = 3
+ENT.TransGears = 4
 ENT.TransGearsReverse = 1
 ENT.TransShiftSpeed = 0
 ENT.TransWobbleTime = 0

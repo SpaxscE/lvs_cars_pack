@@ -9,29 +9,29 @@ function ENT:OnSpawn( PObj )
 	self:AddPassengerSeat( Vector(-24,-15,5), Angle(0,-90,15) )
 	self:AddPassengerSeat( Vector(-24,15,5), Angle(0,-90,15) )
 
-	self:AddEngine( Vector(64.5,0,20.24) )
+	self:AddEngine( Vector(44.5,0,20.24) )
 	--self:AddSuperCharger()
 
-	local DoorHandler = self:AddDoorHandler( "left_door", Vector(0,33,20), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-20,-16), Vector(38,42,8) )
+	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-14,33,20), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-20,-16), Vector(38,42,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 	DoorHandler:LinkToSeat( DriverSeat )
 
-	local DoorHandler = self:AddDoorHandler( "right_door", Vector(0,-33,20), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-42,-16), Vector(38,20,8) )
+	local DoorHandler = self:AddDoorHandler( "right_door", Vector(-14,-33,20), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-42,-16), Vector(38,20,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 	DoorHandler:LinkToSeat( PassengerSeat )
 
 	local LightsHandler = self:GetLightsHandler()
 	if IsValid( LightsHandler ) then
-		local DoorHandler = self:AddDoorHandler( "lights", Vector(72,0,20), Angle(0,0,0), Vector(-5,-25,-5), Vector(5,25,5) )
+		local DoorHandler = self:AddDoorHandler( "lights", Vector(82,0,20), Angle(0,0,0), Vector(-5,-25,-5), Vector(5,25,5) )
 		DoorHandler:SetRate( 4 )
 		DoorHandler:SetRateExponent( 1 )
 
 		LightsHandler:SetDoorHandler( DoorHandler )
 	end
 
-	self:AddFuelTank( Vector(-86,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	self:AddFuelTank( Vector(-60,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/pontiac_transam3/wheel.mdl"
 

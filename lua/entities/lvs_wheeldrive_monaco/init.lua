@@ -5,13 +5,12 @@ include("sv_pds.lua")
 
 function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-7,17,10), Angle(0,-90,8) )
-	local PassengerSeat = self:AddPassengerSeat( Vector(4,-14,16), Angle(0,-90,28) )
-	local PassengerSeat1 = self:AddPassengerSeat( Vector(4,-14,16), Angle(0,-90,28) )
-	local PassengerSeat2 = self:AddPassengerSeat( Vector(4,-14,16), Angle(0,-90,28) )
+	local PassengerSeat = self:AddPassengerSeat( Vector(10,-17,20), Angle(0,-90,28) )
+	local PassengerSeat2 = self:AddPassengerSeat( Vector(-28,-20,20), Angle(0,-90,28) )
+	local PassengerSeat1 = self:AddPassengerSeat( Vector(-28,20,20), Angle(0,-90,28) )
 
-	self:AddPassengerSeat( Vector(-27,-17,15), Angle(0,-90,15) )
-	self:AddPassengerSeat( Vector(-27,0,15), Angle(0,-90,15) )
-	self:AddPassengerSeat( Vector(-27,17,15), Angle(0,-90,15) )
+	local PassengerSeat1 = self:AddPassengerSeat( Vector(-28,8,20), Angle(0,-90,28) )
+	local PassengerSeat2 = self:AddPassengerSeat( Vector(-28,-8,20), Angle(0,-90,28) )
 
 	self:AddEngine( Vector(61,0,28.24) )
 	--self:AddSuperCharger()

@@ -16,7 +16,7 @@ ENT.MDL = "models/diggercars/vw_touareg/touareg.mdl"
 
 ENT.MaxVelocity = 2000
 
-ENT.EngineTorque = 150
+ENT.EngineTorque = 100
 ENT.EngineIdleRPM = 660
 ENT.EngineMaxRPM = 6000
 

@@ -42,13 +42,13 @@ function ENT:OnSpawn( PObj )
 		},
 		Wheels = {
 			self:AddWheel( {
-				pos = Vector(45.4,26.5,10),
+				pos = Vector(45.4,26.5,11),
 				mdl = WheelModel,
 				mdl_ang = Angle(0,180,0),
 			} ),
 
 			self:AddWheel( {
-				pos = Vector(45.4,-26.5,10),
+				pos = Vector(45.4,-26.5,11),
 				mdl = WheelModel,
 				mdl_ang = Angle(0,0,0),
 			} ),
@@ -57,9 +57,9 @@ function ENT:OnSpawn( PObj )
 			Height = 5,
 			MaxTravel = 10,
 			ControlArmLength = 25,
-			SpringConstant = 20000,
-			SpringDamping = 2000,
-			SpringRelativeDamping = 2000,
+			SpringConstant = 25000,
+			SpringDamping = 2500,
+			SpringRelativeDamping = 2500,
 		},
 	} )
 
@@ -73,13 +73,13 @@ function ENT:OnSpawn( PObj )
 		},
 		Wheels = {
 			self:AddWheel( {
-				pos = Vector(-45.5,28.5,10),
+				pos = Vector(-45.5,28.5,11),
 				mdl = WheelModelR,
 				mdl_ang = Angle(0,180,0),
 			} ),
 
 			self:AddWheel( {
-				pos = Vector(-45.5,-28.5,10),
+				pos = Vector(-45.5,-28.5,11),
 				mdl = WheelModelR,
 				mdl_ang = Angle(0,0,0),
 			} ),
@@ -88,9 +88,9 @@ function ENT:OnSpawn( PObj )
 			Height = 10,
 			MaxTravel = 7,
 			ControlArmLength = 25,
-			SpringConstant = 20000,
-			SpringDamping = 2000,
-			SpringRelativeDamping = 2000,
+			SpringConstant = 25000,
+			SpringDamping = 2500,
+			SpringRelativeDamping = 2500,
 		},
 	} )
 end

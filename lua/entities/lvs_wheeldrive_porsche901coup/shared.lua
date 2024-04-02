@@ -17,7 +17,7 @@ ENT.MDL = "models/diggercars/porsche_901/coupe.mdl"
 ENT.MaxVelocity = 2400
 
 ENT.EngineCurve = 0.8
-ENT.EngineTorque = 80
+ENT.EngineTorque = 70
 
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
@@ -27,6 +27,169 @@ ENT.PhysicsInertia = Vector(1050,1050,525)
 
 ENT.WheelPhysicsMass = 150
 ENT.WheelPhysicsInertia = Vector(15,12,15)
+
+ENT.RandomColor = {
+	{
+		Color = Color(240,240,240),
+		BodyGroups = {
+			[6] = 1,
+		},
+	},
+	{
+		Color = Color(13,55,180),
+		BodyGroups = {
+			[11] = 2,
+		},
+	},
+	{
+		Color = Color(120,0,0),
+		BodyGroups = {
+			[6] = 1,
+			[11] = 1,
+			[12] = 1,
+		},
+	},
+	{
+		Color = Color(41,74,175),
+		BodyGroups = {
+			[12] = 1,
+		},
+	},
+	{
+		Color = Color(28,41,14),
+		BodyGroups = {
+			[6] = 1,
+			[7] = 1,
+			[11] = 2,
+			[12] = 2,
+			[13] = 1,
+		},
+	},
+	{
+		Color = Color(210,74,36),
+		BodyGroups = {
+			[11] = 2,
+		},
+	},
+	{
+		Color = Color(100,100,100),
+		BodyGroups = {
+			[6] = 1,
+			[7] = 1,
+			[11] = 2,
+			[12] = 2,
+			[14] = 1,
+		},
+	},
+	{
+		Color = Color(24,15,34),
+		BodyGroups = {
+			[3] = 1,
+			[6] = 1,
+			[7] = 1,
+			[11] = 2,
+			[12] = 2,
+			[15] = 1,
+			[16] = 1,
+			[19] = 1,
+		},
+	},
+	{
+		Color = Color(255,191,0),
+		BodyGroups = {
+			[6] = 1,
+			[11] = 1,
+			[12] = 1,
+		},
+	},
+	{
+		Color = Color(255,90,0),
+		BodyGroups = {
+			[3] = 1,
+			[6] = 1,
+			[7] = 1,
+			[11] = 2,
+			[12] = 2,
+			[15] = 1,
+			[16] = 1,
+			[19] = 1,
+		},
+	},
+
+	{
+		Color = Color(255,191,0),
+		BodyGroups = {
+			[3] = 1,
+			[5] = 2,
+			[6] = 2,
+			[7] = 1,
+			[8] = 1,
+			[10] = 1,
+			[11] = 2,
+			[12] = 2,
+			[15] = 1,
+			[16] = 1,
+			[17] = 1,
+			[18] = 2,
+			[19] = 2,
+		},
+	},
+	{
+		Color = Color(127,111,63),
+		BodyGroups = {
+			[3] = 1,
+			[5] = 2,
+			[6] = 2,
+			[7] = 1,
+			[8] = 1,
+			[10] = 1,
+			[11] = 2,
+			[12] = 2,
+			[15] = 1,
+			[16] = 1,
+			[17] = 1,
+			[18] = 2,
+			[19] = 2,
+		},
+	},
+	{
+		Color = Color(63,79,127),
+		BodyGroups = {
+			[3] = 1,
+			[5] = 2,
+			[6] = 2,
+			[7] = 1,
+			[8] = 1,
+			[10] = 1,
+			[11] = 2,
+			[12] = 2,
+			[15] = 1,
+			[16] = 1,
+			[17] = 1,
+			[18] = 2,
+			[19] = 2,
+		},
+	},
+	{
+		Color = Color(80,80,80),
+		BodyGroups = {
+			[3] = 1,
+			[5] = 2,
+			[6] = 2,
+			[7] = 1,
+			[8] = 1,
+			[10] = 1,
+			[11] = 2,
+			[12] = 2,
+			[15] = 1,
+			[16] = 1,
+			[17] = 1,
+			[18] = 2,
+			[19] = 2,
+		},
+	},
+}
+
 
 
 ENT.HornSound = "lvs/horn1.wav"

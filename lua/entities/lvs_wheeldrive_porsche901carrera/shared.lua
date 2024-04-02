@@ -28,6 +28,45 @@ ENT.PhysicsInertia = Vector(1050,1050,525)
 ENT.WheelPhysicsMass = 150
 ENT.WheelPhysicsInertia = Vector(15,12,15)
 
+ENT.RandomColor = {
+	{
+		Skin = 0,
+		Wheels = {
+			Skin = 0,
+		}
+	},
+	{
+		Skin = 1,
+		Wheels = {
+			Skin = 2,
+		}
+	},
+	{
+		Skin = 2,
+		Wheels = {
+			Skin = 3,
+		}
+	},
+	{
+		Skin = 3,
+		Wheels = {
+			Skin = 0,
+		}
+	},
+	{
+		Skin = 4,
+		Wheels = {
+			Skin = 1,
+		}
+	},
+	{
+		Skin = 5,
+		Wheels = {
+			Skin = 1,
+		}
+	},
+}
+
 
 ENT.HornSound = "lvs/horn1.wav"
 ENT.HornPos = Vector(40,0,35)

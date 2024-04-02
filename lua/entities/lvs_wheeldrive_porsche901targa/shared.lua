@@ -17,7 +17,7 @@ ENT.MDL = "models/diggercars/porsche_901/targa.mdl"
 ENT.MaxVelocity = 2400
 
 ENT.EngineCurve = 0.8
-ENT.EngineTorque = 80
+ENT.EngineTorque = 70
 
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1
@@ -28,6 +28,96 @@ ENT.PhysicsInertia = Vector(1050,1050,525)
 ENT.WheelPhysicsMass = 150
 ENT.WheelPhysicsInertia = Vector(15,12,15)
 
+ENT.RandomColor = {
+	{
+		Color = Color(240,240,240),
+		BodyGroups = {
+			[7] = 1,
+		},
+	},
+	{
+		Color = Color(13,55,180),
+		BodyGroups = {
+			[12] = 2,
+		},
+	},
+	{
+		Color = Color(120,0,0),
+		BodyGroups = {
+			[7] = 1,
+			[12] = 1,
+			[13] = 1,
+		},
+	},
+	{
+		Color = Color(41,74,175),
+		BodyGroups = {
+			[13] = 1,
+		},
+	},
+	{
+		Color = Color(28,41,14),
+		BodyGroups = {
+			[7] = 1,
+			[8] = 1,
+			[12] = 2,
+			[13] = 2,
+			[14] = 1,
+		},
+	},
+	{
+		Color = Color(210,74,36),
+		BodyGroups = {
+			[12] = 2,
+		},
+	},
+	{
+		Color = Color(255,90,0),
+		BodyGroups = {
+			[7] = 1,
+			[8] = 1,
+			[12] = 2,
+			[13] = 2,
+			[15] = 1,
+		},
+	},
+	{
+		Color = Color(24,15,34),
+		BodyGroups = {
+			[4] = 1,
+			[6] = 1,
+			[7] = 1,
+			[8] = 1,
+			[12] = 2,
+			[13] = 2,
+			[16] = 1,
+			[17] = 1,
+			[20] = 1,
+		},
+	},
+	{
+		Color = Color(255,191,0),
+		BodyGroups = {
+			[7] = 1,
+			[12] = 1,
+			[13] = 1,
+		},
+	},
+	{
+		Color = Color(100,100,100),
+		BodyGroups = {
+			[4] = 1,
+			[7] = 1,
+			[8] = 1,
+			[12] = 2,
+			[13] = 2,
+			[16] = 1,
+			[17] = 1,
+			[20] = 1,
+		},
+	},
+
+}
 
 ENT.HornSound = "lvs/horn1.wav"
 ENT.HornPos = Vector(40,0,35)

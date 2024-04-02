@@ -80,11 +80,11 @@ ENT.EngineSounds = {
 
 ENT.ExhaustPositions = {
 	{
-		pos = Vector(-102.25,-18.6,12.44),
+		pos = Vector(-109.89,23.84,17.4),
 		ang = Angle(0,180,0),
 	},
 	{
-		pos = Vector(-102.25,18.6,12.44),
+		pos = Vector(-109.89,23.84,17.4),
 		ang = Angle(0,180,0),
 	}
 }
@@ -97,25 +97,64 @@ ENT.Lights = {
 		SubMaterialID = 12,
 		SubMaterialBrightness = 10,
 		Sprites = {
-			{ pos = "bar1l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
-			{ pos = "bar1l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
+--lightbar1
+			{ pos = "bar1l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 0 } }, },
 
-			{ pos = "bar1l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
-			{ pos = "bar1l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
+			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 0 } }, },
 
-			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
-			{ pos = "bar1l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
+--lightbar1 white core
 
-			{ pos = "bar1l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
-			{ pos = "bar1l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
+
+
+			{ pos = "bar1l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 0 } }, },
+
+			{ pos = "bar1l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = "bar1l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 0 } }, },
+
+--lightbar2
+			{ pos = "bar2l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 1 } }, },
+
+			{ pos = "bar2l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 1 } }, },
+
+
+
+--lightbar2 white core
+
+			{ pos = "bar2l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 1 } }, },
+
+			{ pos = "bar2l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30, bodygroup = { name = "lightbar", active = { 1 } }, },
+			{ pos = "bar2l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 1 } }, },
+
+--lightbar3
+			{ pos = "bar3a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 2 } }, },
+			{ pos = "bar3a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100, bodygroup = { name = "lightbar", active = { 2 } }, },
+--lightbar3 white core
+
+			{ pos = "bar3a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 2 } }, },
+			{ pos = "bar3a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 2 } }, },
+
 		},
 	},
 
@@ -125,8 +164,8 @@ ENT.Lights = {
 		SubMaterialID = 16,
 		SubMaterialBrightness = 30,
 		Sprites = {
-			{ pos = Vector(-12,13.36,66.4), colorR = 255, colorG = 190, colorB = 0, colorA = 255, width = 150, height = 150},
-			{ pos = Vector(-12,13.36,66.4), colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40},
+			{ pos = Vector(-12,13.36,66.4), colorR = 255, colorG = 190, colorB = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = Vector(-12,13.36,66.4), colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 0 } }, },
 		},
 	},
 	{
@@ -135,8 +174,8 @@ ENT.Lights = {
 		SubMaterialID = 15,
 		SubMaterialBrightness = 30,
 		Sprites = {
-			{ pos = Vector(-2,12.23,66.16), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 150, height = 150},
-			{ pos = Vector(-2,12.23,66.16), colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40},
+			{ pos = Vector(-2,12.23,66.16), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 150, height = 150, bodygroup = { name = "lightbar", active = { 0 } }, },
+			{ pos = Vector(-2,12.23,66.16), colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40, bodygroup = { name = "lightbar", active = { 0 } }, },
 
 		},
 	},

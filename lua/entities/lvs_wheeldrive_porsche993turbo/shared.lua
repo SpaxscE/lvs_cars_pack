@@ -17,9 +17,9 @@ ENT.MDL = "models/diggercars/porsche_993/carrera.mdl"
 ENT.MaxVelocity = 2400
 
 ENT.EngineCurve = 0.8
-ENT.EngineTorque = 80
+ENT.EngineTorque = 60
 
-ENT.TransGears = 5
+ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 
 ENT.PhysicsMass = 700

@@ -16,7 +16,7 @@ ENT.MDL = "models/diggercars/plymouth_duster/duster.mdl"
 
 ENT.MaxVelocity = 2200
 
-ENT.EngineTorque = 120
+ENT.EngineTorque = 110
 ENT.EngineIdleRPM = 750
 ENT.EngineMaxRPM = 6000
 

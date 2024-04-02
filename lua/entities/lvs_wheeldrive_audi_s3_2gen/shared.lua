@@ -16,15 +16,27 @@ ENT.MDL = "models/diggercars/audi_s3/s3.mdl"
 
 ENT.MaxVelocity = 2500
 
-ENT.EngineTorque = 92
+ENT.EngineTorque = 75
 ENT.EngineIdleRPM = 660
-ENT.EngineMaxRPM = 6750
+ENT.EngineMaxRPM = 8000
 
 ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 
 ENT.RandomColor = {
 	Color(237,236,233),
+	Color(200,200,200),
+	Color(80,80,80),
+	Color(20,20,20),
+	Color(226,221,31),
+	Color(182,89,13),
+	Color(228,19,12),
+	Color(170,0,0),
+	Color(125,7,31),
+	Color(66,27,22),
+	Color(18,80,118),
+	Color(27,82,106),
+	Color(116,155,77),
 }
 
 ENT.HornSound = "lvs/horn1.wav"

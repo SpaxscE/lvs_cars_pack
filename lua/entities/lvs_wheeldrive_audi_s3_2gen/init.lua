@@ -4,9 +4,14 @@ include("shared.lua")
 
 function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-10,14,-4), Angle(0,-90,10) )
-	local PassengerSeat = self:AddPassengerSeat( Vector(0,-14,5), Angle(0,-90,20) )
+	local PassengerSeat1 = self:AddPassengerSeat( Vector(0,-14,5), Angle(0,-90,20) )
+
+	local PassengerSeat = self:AddPassengerSeat( Vector(-35,-14,5), Angle(0,-90,20) )
+	local PassengerSeat = self:AddPassengerSeat( Vector(-35,0,5), Angle(0,-90,20) )
+	local PassengerSeat = self:AddPassengerSeat( Vector(-35,14,5), Angle(0,-90,20) )
 
 	self:AddEngine( Vector(52,0,22) )
+	self:AddTurboCharger()
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(10,32,17), Angle(2,0,0), Vector(-30,-6,-12), Vector(20,6,12), Vector(-30,-25,-12), Vector(20,40,12) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
@@ -16,10 +21,10 @@ function ENT:OnSpawn( PObj )
 	local DoorHandler = self:AddDoorHandler( "right_door", Vector(10,-32,17), Angle(2,0,0), Vector(-30,-6,-12), Vector(20,6,12), Vector(-30,-40,-12), Vector(20,25,12) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
-	DoorHandler:LinkToSeat( PassengerSeat )
+	DoorHandler:LinkToSeat( PassengerSeat1 )
 
 
-	local FuelTank = self:AddFuelTank( Vector(-80,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	local FuelTank = self:AddFuelTank( Vector(-50,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/audi_s3/wheel.mdl"
 

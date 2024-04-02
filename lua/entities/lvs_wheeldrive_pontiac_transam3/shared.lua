@@ -16,9 +16,9 @@ ENT.MDL = "models/diggercars/pontiac_transam3/transam.mdl"
 
 ENT.MaxVelocity = 2200
 
-ENT.EngineTorque = 120
+ENT.EngineTorque = 100
 ENT.EngineIdleRPM = 750
-ENT.EngineMaxRPM = 5000
+ENT.EngineMaxRPM = 6000
 
 ENT.TransGears = 4
 ENT.TransGearsReverse = 1
@@ -27,10 +27,22 @@ ENT.TransWobbleTime = 0
 ENT.TransWobbleFrequencyMultiplier = 0
 ENT.TransShiftSound = "common/null.wav"
 
-ENT.SuperChargerVisible = false
-
 ENT.HornSound = "lvs/horn2.wav"
 ENT.HornPos = Vector(40,0,35)
+
+ENT.RandomColor = {
+	Color(145,132,95),
+	Color(190,53,53),
+	Color(87,120,191),
+	Color(20,20,20),
+	Color(240,240,240),
+	Color(34,80,178),
+	Color(123,40,29),
+	Color(200,20,0),
+	Color(50,50,50),
+	Color(100,100,100),
+	Color(255,220,0),
+}
 
 ENT.EngineSounds = {
 	{

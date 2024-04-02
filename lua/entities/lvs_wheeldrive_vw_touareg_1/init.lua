@@ -7,8 +7,8 @@ function ENT:OnSpawn( PObj )
 	local PassengerSeat = self:AddPassengerSeat( Vector(0,-17,13), Angle(0,-90,20) )
 	local PassengerSeat1 = self:AddPassengerSeat( Vector(-35,16,13), Angle(0,-90,20) )
 	local PassengerSeat2 = self:AddPassengerSeat( Vector(-35,-16,13), Angle(0,-90,20) )
-	self:AddEngine( Vector(52,0,22) )
-
+	self:AddEngine( Vector(58,0,0) )
+	self:AddTurboCharger()
 
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(58,0,33), Angle(10,0,0), Vector(-27,-28,-3), Vector(24,28,3), Vector(-27,-28,-3), Vector(10,28,40) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
@@ -35,7 +35,7 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:LinkToSeat( PassengerSeat2 )
 
 
-	local FuelTank = self:AddFuelTank( Vector(-80,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	local FuelTank = self:AddFuelTank( Vector(-60,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/vw_touareg/wheel.mdl"
 

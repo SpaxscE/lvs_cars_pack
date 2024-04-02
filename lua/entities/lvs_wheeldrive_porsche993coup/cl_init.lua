@@ -11,11 +11,12 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 
 	local GearIDtoPose = {
 		[-1] = 0,
-		[1] = 4,
-		[2] = 6,
-		[3] = 9,
-		[4] = 11,
-		[4] = 14,
+		[1] = 3,
+		[2] = 5,
+		[3] = 8,
+		[4] = 10,
+		[5] = 13,
+		[6] = 15,
 	}
 
 	self:SetPoseParameter( "gear",  self:QuickLerp( "gear", (GearIDtoPose[ gear ] or 1) ) )

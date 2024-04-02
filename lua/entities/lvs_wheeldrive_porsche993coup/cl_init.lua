@@ -7,7 +7,7 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	self:SetPoseParameter( "temp_gauge", temperature )
 	self:SetPoseParameter( "fuel_gauge", fuel )
 	self:SetPoseParameter( "oil_gauge", oil )
-	self:SetPoseParameter( "vehicle_gauge", speed_kmh / 220 )
+	self:SetPoseParameter( "vehicle_gauge", speed_kmh / 300 )
 
 	local GearIDtoPose = {
 		[-1] = 0,

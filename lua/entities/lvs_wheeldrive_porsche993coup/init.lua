@@ -27,7 +27,8 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
-	local WheelModel = "models/diggercars/porsche_930/wheel.mdl"
+	local WheelModel = "models/diggercars/porsche_993/fw.mdl"
+	local WheelModelR = "models/diggercars/porsche_993/rw.mdl"
 
 	local FrontAxle = self:DefineAxle( {
 		Axle = {
@@ -71,13 +72,13 @@ function ENT:OnSpawn( PObj )
 		Wheels = {
 			self:AddWheel( {
 				pos = Vector(-45.5,30.5,10),
-				mdl = WheelModel,
+				mdl = WheelModelR,
 				mdl_ang = Angle(0,90,0),
 			} ),
 
 			self:AddWheel( {
 				pos = Vector(-45.5,-30.5,10),
-				mdl = WheelModel,
+				mdl = WheelModelR,
 				mdl_ang = Angle(0,-90,0),
 			} ),
 		},

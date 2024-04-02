@@ -10,7 +10,14 @@ function ENT:CreatePDS()
 		stages = {
 			{ bodygroup = { [11] = 1 } },
 			{ bodygroup = { [11] = 2 } },
-			{ bodygroup = { [11] = 3 } },
+			{
+				bodygroup = { [11] = 3 },
+				gib = {
+					mdl = "models/diggercars/dodge_monaco/gib_bar2.mdl",
+					pos = Vector(0,0,0),
+					ang = Angle(0,-90,0),
+				},
+			},
 			{
 				bodygroup = { [11] = 4 },
 				gib = {
@@ -36,7 +43,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [15] = 3 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/rbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_grille.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},
@@ -58,7 +65,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [12] = 4 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/rbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_rb.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},
@@ -121,12 +128,10 @@ function ENT:CreatePDS()
 		stages = {
 			{ bodygroup = { [4] = 1 } },
 			{ bodygroup = { [4] = 2 } },
-			{ bodygroup = { [4] = 2 } },
-			{ bodygroup = { [4] = 2 } },
 			{
 				bodygroup = { [4] = 3 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/rbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_fenderl.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},
@@ -144,12 +149,10 @@ function ENT:CreatePDS()
 		stages = {
 			{ bodygroup = { [3] = 1 } },
 			{ bodygroup = { [3] = 2 } },
-			{ bodygroup = { [3] = 2 } },
-			{ bodygroup = { [3] = 2 } },
 			{
 				bodygroup = { [3] = 3 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/rbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_fenderr.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},
@@ -167,12 +170,10 @@ function ENT:CreatePDS()
 		stages = {
 			{ bodygroup = { [13] = 1 } },
 			{ bodygroup = { [13] = 2 } },
-			{ bodygroup = { [13] = 2 } },
-			{ bodygroup = { [13] = 2 } },
 			{
 				bodygroup = { [13] = 3 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/rbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_hood.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},
@@ -190,12 +191,10 @@ function ENT:CreatePDS()
 		stages = {
 			{ bodygroup = { [14] = 1 } },
 			{ bodygroup = { [14] = 2 } },
-			{ bodygroup = { [14] = 2 } },
-			{ bodygroup = { [14] = 2 } },
 			{
 				bodygroup = { [14] = 3 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/rbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_trunk.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},
@@ -212,6 +211,14 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [7] = 1 } },
+			{
+				bodygroup = { [7] = 2 },
+				gib = {
+					mdl = "models/diggercars/dodge_monaco/gib_fld.mdl",
+					pos = Vector(0,0,0),
+					ang = Angle(0,-90,0),
+				},
+			},
 		}
 	} )
 	-- door frontright
@@ -223,6 +230,14 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [8] = 1 } },
+			{
+				bodygroup = { [8] = 2 },
+				gib = {
+					mdl = "models/diggercars/dodge_monaco/gib_frd.mdl",
+					pos = Vector(0,0,0),
+					ang = Angle(0,-90,0),
+				},
+			},
 		}
 	} )
 	-- door rearleft
@@ -234,6 +249,14 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [9] = 1 } },
+			{
+				bodygroup = { [9] = 2 },
+				gib = {
+					mdl = "models/diggercars/dodge_monaco/gib_rld.mdl",
+					pos = Vector(0,0,0),
+					ang = Angle(0,-90,0),
+				},
+			},
 		}
 	} )
 	-- door rearright
@@ -245,6 +268,14 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [10] = 1 } },
+			{
+				bodygroup = { [10] = 2 },
+				gib = {
+					mdl = "models/diggercars/dodge_monaco/gib_rrd.mdl",
+					pos = Vector(0,0,0),
+					ang = Angle(0,-90,0),
+				},
+			},
 		}
 	} )
 

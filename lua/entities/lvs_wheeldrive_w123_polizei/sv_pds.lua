@@ -8,11 +8,18 @@ function ENT:CreatePDS()
 		mins = mins,
 		maxs = maxs,
 		stages = {
-			{ bodygroup = { [6] = 1 } },
+			{
+				bodygroup = { [6] = 1 },
+				gib = {
+					mdl = "models/diggercars/mb_w123/gib_grille.mdl",
+					pos = Vector(0,0,0),
+					ang = Angle(0,0,0),
+				},
+			},
 			{
 				bodygroup = { [6] = 2 },
 				gib = {
-					mdl = "models/diggercars/ford_fairlane/bonnet_dam.mdl",
+					mdl = "models/diggercars/mb_w123/gib_hood_cop.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,0,0),
 				},
@@ -32,7 +39,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [5] = 2 },
 				gib = {
-					mdl = "models/diggercars/ford_fairlane/boot_dam.mdl",
+					mdl = "models/diggercars/mb_w123/gib_trunk_cop.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,0,0),
 				},
@@ -54,7 +61,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [3] = 3 },
 				gib = {
-					mdl = "models/diggercars/ford_fairlane/bump_front_dam.mdl",
+					mdl = "models/diggercars/mb_w123/gib_fb.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,0,0),
 				},
@@ -76,7 +83,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [4] = 3 },
 				gib = {
-					mdl = "models/diggercars/ford_fairlane/bump_rear_dam.mdl",
+					mdl = "models/diggercars/mb_w123/gib_rb.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,0,0),
 				},

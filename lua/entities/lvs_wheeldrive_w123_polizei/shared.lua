@@ -67,6 +67,7 @@ ENT.SirenPos = Vector(40,0,35)
 ENT.SirenSound = {
 	[1] = {
 		siren = "lvs/siren_german.wav",
+		horn = "lvs/siren3.wav",
 	},
 }
 

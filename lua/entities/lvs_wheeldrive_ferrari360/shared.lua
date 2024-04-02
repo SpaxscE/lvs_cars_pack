@@ -22,11 +22,15 @@ ENT.EngineMaxRPM = 10000
 
 ENT.TransGears = 6
 ENT.TransGearsReverse = 1
+ENT.TransMinGearHoldTime = 1
+ENT.TransShiftSpeed = 0.2
+ENT.TransWobble = 50
+ENT.TransWobbleTime = 2.5
+ENT.TransWobbleFrequencyMultiplier = 1.5
 
 ENT.PhysicsMass = 1000
 
 ENT.WheelPhysicsMass = 100
-
 
 ENT.ForceLinearMultiplier = 1.5 -- multiply all linear forces (such as downforce, wheel side force, ect)
 ENT.ForceAngleMultiplier = 0.75 -- multiply all angular forces such turn stability / inertia. Exception: Wheel/Engine torque. Those remain unchanged.
@@ -56,10 +60,10 @@ ENT.EngineSounds = {
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/dodge_charger/eng_loop.wav",
+		sound = "lvs/vehicles/ferrari_360/eng_loop.wav",
 		Volume = 1,
-		Pitch = 60,
-		PitchMul = 180,
+		Pitch = 80,
+		PitchMul = 160,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_UP,
 		UseDoppler = true,
@@ -67,8 +71,8 @@ ENT.EngineSounds = {
 	{
 		sound = "lvs/vehicles/dodge_charger/eng_revdown_loop.wav",
 		Volume = 1,
-		Pitch = 60,
-		PitchMul = 180,
+		Pitch = 80,
+		PitchMul = 160,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_DOWN,
 		UseDoppler = true,

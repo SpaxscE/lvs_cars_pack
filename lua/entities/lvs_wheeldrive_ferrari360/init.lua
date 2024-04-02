@@ -95,13 +95,6 @@ function ENT:OnSpawn( PObj )
 
 
 	self:CreatePDS()
-
-	-- manually fix diggers fuckup, nou >:(
-	for _, wheel in pairs( self:GetWheels() ) do
-		if not IsValid( wheel ) then continue end
-
-		wheel:SetModelScale( 1.0 )
-	end
 end
 
 

@@ -1,7 +1,7 @@
 
 ENT.Base = "lvs_base_wheeldrive"
 
-ENT.PrintName = "Dodge Monaco Police"
+ENT.PrintName = "Dodge Monaco"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS] - Cars - Pack"
@@ -27,23 +27,18 @@ ENT.HornSound = "lvs/horn2.wav"
 ENT.HornPos = Vector(40,0,35)
 
 ENT.RandomColor = {
-	{
-		Skin = 1,
-		Color = Color(255,255,255),
-	},
+	Color(0,114,221),
+	Color(127,0,0),
+	Color(255,93,0),
+	Color(232,251,90),
+	Color(95,127,63),
+	Color(255,223,127),
+	Color(255,255,255),
+	Color(32,85,154),
+	Color(154,154,154),
 }
 
-ENT.SirenPos = Vector(40,0,35)
-ENT.SirenSound = {
-	[1] = {
-		siren = "lvs/siren1.wav",
-		horn = "lvs/siren2.wav",
-	},
-	[2] = {
-		siren = "lvs/siren2.wav",
-		horn = "lvs/siren3.wav",
-	},
-}
+
 
 ENT.EngineSounds = {
 	{
@@ -87,56 +82,6 @@ ENT.ExhaustPositions = {
 
 
 ENT.Lights = {
-	{
-		Siren = true,
-		Trigger = "1",
-		SubMaterialID = 12,
-		SubMaterialBrightness = 10,
-		Sprites = {
-			{ pos = "bar1l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
-			{ pos = "bar1l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l2a1", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l1a1", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
-
-			{ pos = "bar1l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
-			{ pos = "bar1l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l2a1", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l1a1", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
-
-			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
-			{ pos = "bar1l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l2a2", colorG = 0, colorB = 0, colorA = 255, width = 100, height = 100 },
-			{ pos = "bar1l1a2", colorR = 0, colorG = 0, colorA = 255, width = 150, height = 150 },
-
-			{ pos = "bar1l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
-			{ pos = "bar1l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l2a2", colorR = 255, colorG = 255, colorA = 255, width = 30, height = 30 },
-			{ pos = "bar1l1a2", colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40 },
-		},
-	},
-
-	{
-		Siren = true,
-		Trigger = "1100",
-		SubMaterialID = 16,
-		SubMaterialBrightness = 30,
-		Sprites = {
-			{ pos = Vector(-12,13.36,66.4), colorR = 255, colorG = 190, colorB = 0, colorA = 255, width = 150, height = 150},
-			{ pos = Vector(-12,13.36,66.4), colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40},
-		},
-	},
-	{
-		Siren = true,
-		Trigger = "0011",
-		SubMaterialID = 15,
-		SubMaterialBrightness = 30,
-		Sprites = {
-			{ pos = Vector(-2,12.23,66.16), colorR = 255, colorG = 0, colorB = 0, colorA = 255, width = 150, height = 150},
-			{ pos = Vector(-2,12.23,66.16), colorR = 255, colorG = 255, colorA = 255, width = 40, height = 40},
-
-		},
-	},
-
 	{
 		Trigger = "main",
 		SubMaterialID = 23,

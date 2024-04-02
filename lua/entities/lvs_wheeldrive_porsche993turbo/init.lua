@@ -6,6 +6,8 @@ function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-16.6,10.8,-5), Angle(0,-90,8) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(-3,-11,7), Angle(0,-90,28) )
 
+	self:AddTurboCharger()
+
 	self:AddEngine( Vector(-65,0,23), Angle(15,180,0) )
 	self:AddFuelTank( Vector(-50,0,15), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
@@ -35,7 +37,7 @@ function ENT:OnSpawn( PObj )
 			ForwardAngle = Angle(0,0,0),
 			SteerType = LVS.WHEEL_STEER_FRONT,
 			SteerAngle = 30,
-			TorqueFactor = 0,
+			TorqueFactor = 0.3,
 			BrakeFactor = 1,
 		},
 		Wheels = {
@@ -65,7 +67,7 @@ function ENT:OnSpawn( PObj )
 		Axle = {
 			ForwardAngle = Angle(0,0,0),
 			SteerType = LVS.WHEEL_STEER_NONE,
-			TorqueFactor = 1,
+			TorqueFactor = 0.7,
 			BrakeFactor = 1,
 			UseHandbrake = true,
 		},

@@ -1,7 +1,7 @@
 
 ENT.Base = "lvs_base_wheeldrive"
 
-ENT.PrintName = "Porsche 911(993) Carrera"
+ENT.PrintName = "Porsche 911(993) Turbo"
 ENT.Author = "Digger"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS] - Cars - Pack"
@@ -29,14 +29,59 @@ ENT.WheelPhysicsMass = 150
 ENT.WheelPhysicsInertia = Vector(15,12,15)
 
 ENT.RandomColor = {
-	Color(240,240,240),
-	Color(140,0,0),
-	Color(255,191,0),
-	Color(54,110,91),
-	Color(100,100,100),
-	Color(181,159,85),
-	Color(28,68,190),
+
+	{
+		Skin = 0,
+		Color = Color(240,240,240),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(140,0,0),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(255,191,0),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(54,110,91),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(100,100,100),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(181,159,85),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
+	{
+		Skin = 0,
+		Color = Color(28,68,190),
+		BodyGroups = {
+			[6] = 3,
+		},
+	},
 }
+
+
 
 ENT.HornSound = "lvs/horn1.wav"
 ENT.HornPos = Vector(40,0,35)

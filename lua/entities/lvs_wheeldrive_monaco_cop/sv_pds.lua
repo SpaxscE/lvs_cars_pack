@@ -14,7 +14,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [11] = 4 },
 				gib = {
-					mdl = "models/diggerCars/plymouth_duster/fbumper.mdl",
+					mdl = "models/diggercars/dodge_monaco/gib_fb.mdl",
 					pos = Vector(0,0,0),
 					ang = Angle(0,-90,0),
 				},

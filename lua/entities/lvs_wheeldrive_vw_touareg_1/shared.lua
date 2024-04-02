@@ -118,8 +118,8 @@ ENT.Lights = {
 			{ width = 15, height = 15, pos = Vector(-87.53,-21.57,31.12), colorR = 255, colorG = 255, colorB = 255, colorA = 105, },
 		},
 		ProjectedTextures = {
-			{ pos = Vector(77.45,30.08,24.04), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
-			{ pos = Vector(77.45,-30.08,24.04), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+			{ pos = Vector(82,30.08,24.04), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+			{ pos = Vector(82,-30.08,24.04), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
 		},
 	},
 	{
@@ -162,8 +162,8 @@ ENT.Lights = {
 	{
 		Trigger = "high",
 		ProjectedTextures = {
-			{ pos = Vector(79.63,27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
-			{ pos = Vector(79.63,-27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+			{ pos = Vector(86,27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+			{ pos = Vector(86,-27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
 		},
 	},
 	{

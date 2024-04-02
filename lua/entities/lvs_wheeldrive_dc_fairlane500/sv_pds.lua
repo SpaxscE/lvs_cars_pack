@@ -1,4 +1,6 @@
 
+ENT.PDSDamageMultiplier = 0.065
+
 function ENT:CreatePDS()
 	-- hood
 	local pos, ang, mins, maxs = self:GetBoneInfo( "Hood_l" )

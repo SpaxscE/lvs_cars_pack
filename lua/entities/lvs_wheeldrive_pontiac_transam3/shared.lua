@@ -22,9 +22,12 @@ ENT.EngineMaxRPM = 5000
 
 ENT.TransGears = 4
 ENT.TransGearsReverse = 1
+ENT.TransShiftSpeed = 0
+ENT.TransWobbleTime = 0
+ENT.TransWobbleFrequencyMultiplier = 0
+ENT.TransShiftSound = "common/null.wav"
 
 ENT.SuperChargerVisible = false
-
 
 ENT.HornSound = "lvs/horn2.wav"
 ENT.HornPos = Vector(40,0,35)

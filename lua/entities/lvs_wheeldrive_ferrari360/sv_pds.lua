@@ -102,7 +102,7 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [11] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
+				sound = "physics/glass/glass_impact_bullet4.wav",
 			},
 			{
 				bodygroup = { [11] = 2 },
@@ -123,12 +123,11 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [7] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
+				sound = "physics/glass/glass_impact_bullet2.wav",
 			},
 			{
 				bodygroup = { [7] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -144,12 +143,11 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [8] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
+				sound = "physics/glass/glass_impact_bullet1.wav",
 			},
 			{
 				bodygroup = { [8] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -166,12 +164,11 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [9] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
+				sound = "physics/glass/glass_impact_bullet3.wav",
 			},
 			{
 				bodygroup = { [9] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -187,12 +184,11 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [10] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
+				sound = "physics/glass/glass_impact_bullet1.wav",
 			},
 			{
 				bodygroup = { [10] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -209,12 +205,10 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [13] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [13] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -231,12 +225,10 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [12] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [12] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -252,12 +244,10 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [15] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [15] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )
@@ -273,12 +263,10 @@ function ENT:CreatePDS()
 			{
 				bodygroup = { [14] = 1 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_cup_break1.wav",
 			},
 			{
 				bodygroup = { [14] = 2 },
 				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
 			},
 		}
 	} )

@@ -2,6 +2,8 @@
 {
 	"$basetexture" "models/DiggerCars/shared/common"
 	"$bumpmap" "models/DiggerCars/shared/common_nm"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
 	"$phong" "1" 
 	"$phongboost" "0.08" 
 	"$phongexponent" 3

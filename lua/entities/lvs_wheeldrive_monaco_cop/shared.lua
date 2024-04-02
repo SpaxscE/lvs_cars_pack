@@ -27,7 +27,7 @@ ENT.TransWobbleTime = 0
 ENT.TransWobbleFrequencyMultiplier = 0
 ENT.TransShiftSound = "common/null.wav"
 
-ENT.HornSound = "lvs/horn2.wav"
+ENT.HornSound = "lvs/horn5.wav"
 ENT.HornPos = Vector(40,0,35)
 
 ENT.RandomColor = {

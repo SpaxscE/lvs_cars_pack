@@ -4,7 +4,7 @@ include("shared.lua")
 
 function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-15,14.5,-8), Angle(0,-90,8) )
-	local PassengerSeat = self:AddPassengerSeat( Vector(4,-14,9), Angle(0,-90,28) )
+	local PassengerSeat = self:AddPassengerSeat( Vector(0,-14,4), Angle(0,-90,28) )
 
 	self:AddPassengerSeat( Vector(-24,-15,5), Angle(0,-90,15) )
 	self:AddPassengerSeat( Vector(-24,15,5), Angle(0,-90,15) )

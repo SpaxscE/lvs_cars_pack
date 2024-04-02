@@ -25,6 +25,7 @@ ENT.TransGearsReverse = 1
 ENT.TransShiftSpeed = 0
 ENT.TransWobbleTime = 0
 ENT.TransWobbleFrequencyMultiplier = 0
+ENT.TransShiftSound = "common/null.wav"
 
 ENT.SuperChargerVisible = false
 

@@ -19,7 +19,6 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	}
 
 	self:SetPoseParameter( "gear",  self:QuickLerp( "gear", (GearIDtoPose[ gear ] or 1) ) )
-	if self:GetSirenMode() < 0 then return end
 
 	local digit_1  =  speed_kmh % 10
 	local digit_2 =  (speed_kmh - digit_1) % 100
@@ -28,6 +27,8 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 	self:SetPoseParameter( "digital_1",  math.Round( digit_1, 0 ) )
 	self:SetPoseParameter( "digital_2",  math.Round( digit_2 / 10, 0 ) )
 	self:SetPoseParameter( "digital_3",  math.Round( digit_3 / 100, 0 ) )
+
+	if self:GetSirenMode() < 0 then return end
 
 	self:SetPoseParameter( "siren_spin", CurTime() * 800 + self:EntIndex() * 1337 )
 end

@@ -16,7 +16,7 @@ ENT.MDL = "models/diggercars/pontiac_transam3/transam.mdl"
 
 ENT.MaxVelocity = 2200
 
-ENT.EngineTorque = 100
+ENT.EngineTorque = 130
 ENT.EngineIdleRPM = 750
 ENT.EngineMaxRPM = 6000
 
@@ -57,16 +57,16 @@ ENT.EngineSounds = {
 		sound = "lvs/vehicles/transam/eng_loop.wav",
 		Volume = 1,
 		Pitch = 60,
-		PitchMul = 110,
+		PitchMul = 100,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_UP,
 		UseDoppler = true,
 	},
 	{
-		sound = "lvs/vehicles/transam/eng_revdown_loop.wav",
+		sound = "lvs/vehicles/dodge_charger/eng_revdown_loop.wav",
 		Volume = 1,
 		Pitch = 60,
-		PitchMul = 110,
+		PitchMul = 100,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_DOWN,
 		UseDoppler = true,

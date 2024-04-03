@@ -34,3 +34,12 @@ function ENT:UpdatePoseParameters( steer, speed_kmh, engine_rpm, throttle, brake
 
 	self:SetPoseParameter( "engine_spin", -self._rpm )
 end
+
+function ENT:CalcViewOverride( ply, pos, angles, fov, pod )
+	pos = pos + pod:GetUp() * -2.5 + pod:GetRight() * 2
+
+	-- pod:GetForward() * 10
+	-- pod:GetRight() * 10
+
+	return pos, angles, fov
+end

@@ -8,16 +8,7 @@ function ENT:CreatePDS()
 		mins = mins,
 		maxs = maxs,
 		stages = {
-			{ bodygroup = { [11] = 1 } },
-			{ bodygroup = { [11] = 2 } },
-			{
-				bodygroup = { [11] = 3 },
-				gib = {
-					mdl = "models/diggercars/dodge_monaco/gib_bar2.mdl",
-					pos = Vector(0,0,0),
-					ang = Angle(0,-90,0),
-				},
-			},
+			{ bodygroup = { [11] = 3 } },
 			{
 				bodygroup = { [11] = 4 },
 				gib = {
@@ -38,10 +29,8 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [15] = 1 } },
-			{ bodygroup = { [15] = 2 } },
-			{ bodygroup = { [15] = 2 } },
 			{
-				bodygroup = { [15] = 3 },
+				bodygroup = { [15] = 2 },
 				gib = {
 					mdl = "models/diggercars/dodge_monaco/gib_grille.mdl",
 					pos = Vector(0,0,0),
@@ -61,9 +50,8 @@ function ENT:CreatePDS()
 		stages = {
 			{ bodygroup = { [12] = 1 } },
 			{ bodygroup = { [12] = 2 } },
-			{ bodygroup = { [12] = 3 } },
 			{
-				bodygroup = { [12] = 4 },
+				bodygroup = { [12] = 3 },
 				gib = {
 					mdl = "models/diggercars/dodge_monaco/gib_rb.mdl",
 					pos = Vector(0,0,0),
@@ -127,9 +115,8 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [4] = 1 } },
-			{ bodygroup = { [4] = 2 } },
 			{
-				bodygroup = { [4] = 3 },
+				bodygroup = { [4] = 2 },
 				gib = {
 					mdl = "models/diggercars/dodge_monaco/gib_fenderl.mdl",
 					pos = Vector(0,0,0),
@@ -148,9 +135,8 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [3] = 1 } },
-			{ bodygroup = { [3] = 2 } },
 			{
-				bodygroup = { [3] = 3 },
+				bodygroup = { [3] = 2 },
 				gib = {
 					mdl = "models/diggercars/dodge_monaco/gib_fenderr.mdl",
 					pos = Vector(0,0,0),
@@ -169,9 +155,8 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [13] = 1 } },
-			{ bodygroup = { [13] = 2 } },
 			{
-				bodygroup = { [13] = 3 },
+				bodygroup = { [13] = 2 },
 				gib = {
 					mdl = "models/diggercars/dodge_monaco/gib_hood.mdl",
 					pos = Vector(0,0,0),
@@ -190,9 +175,8 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [14] = 1 } },
-			{ bodygroup = { [14] = 2 } },
 			{
-				bodygroup = { [14] = 3 },
+				bodygroup = { [14] = 2 },
 				gib = {
 					mdl = "models/diggercars/dodge_monaco/gib_trunk.mdl",
 					pos = Vector(0,0,0),

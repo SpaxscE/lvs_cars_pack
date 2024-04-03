@@ -19,29 +19,35 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 	DoorHandler:LinkToSeat( DriverSeat )
+	DoorHandler:DisableOnBodyGroup( 7, 2 )
 
 	local DoorHandler = self:AddDoorHandler( "right_door", Vector(5,-33,30), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-42,-16), Vector(38,20,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 	DoorHandler:LinkToSeat( PassengerSeat )
+	DoorHandler:DisableOnBodyGroup( 8, 2 )
 
 	local DoorHandler = self:AddDoorHandler( "rear_left_door", Vector(-25,32,17), Angle(2,0,0), Vector(-20,-6,-12), Vector(15,6,22), Vector(-20,-25,-12), Vector(15,40,22) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 	DoorHandler:LinkToSeat( PassengerSeat1 )
+	DoorHandler:DisableOnBodyGroup( 9, 2 )
 
 	local DoorHandler = self:AddDoorHandler( "rear_right_door", Vector(-25,-32,17), Angle(2,0,0), Vector(-20,-6,-12), Vector(15,6,22), Vector(-20,-40,-12), Vector(15,25,22) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
 	DoorHandler:LinkToSeat( PassengerSeat2 )
+	DoorHandler:DisableOnBodyGroup( 10, 2 )
 
 	local DoorHandler = self:AddDoorHandler( "trunk", Vector(-83,0,40), Angle(-8,0,0), Vector(-20,-28,-3), Vector(10,28,3), Vector(-10,-28,-3), Vector(10,28,30) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_trunk_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/classiccar_door_close.wav" )
+	DoorHandler:DisableOnBodyGroup( 14, 2 )
 
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(65,0,36), Angle(5,0,0), Vector(-30,-30,-3), Vector(29,30,3), Vector(-30,-30,-3), Vector(0,30,50) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
+	DoorHandler:DisableOnBodyGroup( 13, 2 )
 
 	self:AddFuelTank( Vector(-86,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
 
@@ -111,13 +117,6 @@ function ENT:OnSpawn( PObj )
 
 
 	self:CreatePDS()
-
-	-- manually fix diggers fuckup, nou >:(
-	for _, wheel in pairs( self:GetWheels() ) do
-		if not IsValid( wheel ) then continue end
-
-		wheel:SetModelScale( 1.0 )
-	end
 end
 
 

@@ -19,7 +19,7 @@ ENT.MaxVelocity = 2800
 ENT.EngineCurve = 0.15
 ENT.EngineTorque = 140
 ENT.EngineIdleRPM = 1000
-ENT.EngineMaxRPM = 1000
+ENT.EngineMaxRPM = 10000
 
 ENT.TransGears = 5
 ENT.TransGearsReverse = 1

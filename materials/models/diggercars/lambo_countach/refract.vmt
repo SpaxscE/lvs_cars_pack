@@ -1,0 +1,19 @@
+Refract
+{
+	$model "1"
+	$normalmap "models/DiggerCars/lambo_countach/lights_nm"
+	$refractamount ".02"
+	$refracttinttexture "models/DiggerCars/lambo_countach/lights"
+	$envmap "env_cubemap"
+	$bluramount 1
+	$envmaptint "[.05 .05 .05]"
+}
+
+
+
+
+
+
+
+
+

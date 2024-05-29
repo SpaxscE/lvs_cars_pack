@@ -35,8 +35,8 @@ function ENT:OnSpawn( PObj )
 
 	local FLWheel = self:AddWheel( { pos = Vector(46.3,32,15), mdl = WheelModel, mdl_ang = Angle(0,0,0), radius = 13 } )
 	local FRWheel = self:AddWheel( { pos = Vector(46.3,-32,15), mdl = WheelModel, mdl_ang = Angle(0,180,0), radius = 13} )
-	local RLWheel = self:AddWheel( { pos = Vector(-53.7,32,15), mdl = WheelModelR, mdl_ang = Angle(0,0,0), radius = 13 } )
-	local RRWheel = self:AddWheel( { pos = Vector(-53.7,-32,15), mdl = WheelModelR, mdl_ang = Angle(0,180,0), radius = 13} )
+	local RLWheel = self:AddWheel( { pos = Vector(-53.7,32,15), mdl = WheelModelR, mdl_ang = Angle(0,0,0), radius = 13, width = 6 } )
+	local RRWheel = self:AddWheel( { pos = Vector(-53.7,-32,15), mdl = WheelModelR, mdl_ang = Angle(0,180,0), radius = 13, width = 6 } )
 
 	self:CreateRigControler( "rl", RLWheel, 8.2, 16.2 )
 	self:CreateRigControler( "rr", RRWheel, 8.2, 16.2 )

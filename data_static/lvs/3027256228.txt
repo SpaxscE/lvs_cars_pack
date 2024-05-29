@@ -1,0 +1,2 @@
+version=246
+url=https://raw.githubusercontent.com/SpaxscE/lvs_cars_pack/main/data_static/lvs/3027256228.txt

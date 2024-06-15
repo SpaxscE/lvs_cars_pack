@@ -52,7 +52,7 @@ ENT.EngineSounds = {
 		Volume = 1,
 		Pitch = 40,
 		PitchMul = 65,
-		SoundLevel = 105,
+		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_UP,
 		UseDoppler = true,
 	},

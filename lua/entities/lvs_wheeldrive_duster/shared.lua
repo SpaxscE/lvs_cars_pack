@@ -20,8 +20,12 @@ ENT.EngineTorque = 110
 ENT.EngineIdleRPM = 750
 ENT.EngineMaxRPM = 6000
 
-ENT.TransGears = 4
+ENT.TransGears = 3
 ENT.TransGearsReverse = 1
+ENT.TransShiftSpeed = 0
+ENT.TransWobbleTime = 0
+ENT.TransWobbleFrequencyMultiplier = 0
+ENT.TransShiftSound = "common/null.wav"
 
 ENT.RandomColor = {
 	Color(0,114,221),

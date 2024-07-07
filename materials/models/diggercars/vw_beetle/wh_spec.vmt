@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/diggercars/vw_beetle/wh"
+	"$bumpmap" "models/DiggerCars/shared/skin_nm"
+                "$color2""[0.5 0.5 0.5]"
+                "$ambientocclusion" 1
+	
+	"$phong" "1"
+	"$phongexponent"				"10"
+	"$phongboost"					"10"
+
+	"$phongalbedotint" 1
+
+	"$phongfresnelranges"			"[1 1.05 1.25]"
+	"$colorfix" "{205 205 205}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

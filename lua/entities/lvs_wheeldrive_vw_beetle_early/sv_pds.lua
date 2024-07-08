@@ -135,7 +135,7 @@ function ENT:CreatePDS()
 			{ bodygroup = { [11] = 1 } },
 			{ bodygroup = { [11] = 1 } },
 			{
-				bodygroup = { [9] = 2 },
+				bodygroup = { [11] = 4 },
 				gib = {
 					mdl = "models/diggercars/vw_beetle/rr.mdl",
 					pos = Vector(0,0,0),
@@ -156,7 +156,7 @@ function ENT:CreatePDS()
 			{ bodygroup = { [10] = 1 } },
 			{ bodygroup = { [10] = 1 } },
 			{
-				bodygroup = { [8] = 2 },
+				bodygroup = { [10] = 4 },
 				gib = {
 					mdl = "models/diggercars/vw_beetle/rl.mdl",
 					pos = Vector(0,0,0),
@@ -230,8 +230,8 @@ function ENT:CreatePDS()
 		}
 	} )
 
-	-- glass rear
-	local pos, ang, mins, maxs = self:GetBoneInfo( "g" )
+	-- glass rear left
+	local pos, ang, mins, maxs = self:GetBoneInfo( "gl" )
 	self:AddPDS( {
 		pos = pos,
 		ang = ang,
@@ -252,8 +252,8 @@ function ENT:CreatePDS()
 		}
 	} )
 
-	-- glass rear left
-	local pos, ang, mins, maxs = self:GetBoneInfo( "gl" )
+	-- glass rear right
+	local pos, ang, mins, maxs = self:GetBoneInfo( "gr" )
 	self:AddPDS( {
 		pos = pos,
 		ang = ang,
@@ -268,28 +268,6 @@ function ENT:CreatePDS()
 			},
 			{
 				bodygroup = { [13] = 2 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_largesheet_break1.wav",
-			},
-		}
-	} )
-
-	-- glass rear right
-	local pos, ang, mins, maxs = self:GetBoneInfo( "gr" )
-	self:AddPDS( {
-		pos = pos,
-		ang = ang,
-		mins = mins,
-		maxs = maxs,
-		allow_damage = true,
-		stages = {
-			{
-				bodygroup = { [14] = 1 },
-				effect = "GlassImpact",
-				sound = "physics/glass/glass_impact_bullet4.wav",
-			},
-			{
-				bodygroup = { [14] = 2 },
 				effect = "GlassImpact",
 				sound = "physics/glass/glass_largesheet_break1.wav",
 			},

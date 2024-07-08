@@ -135,7 +135,7 @@ function ENT:CreatePDS()
 			{ bodygroup = { [11] = 1 } },
 			{ bodygroup = { [11] = 1 } },
 			{
-				bodygroup = { [9] = 2 },
+				bodygroup = { [11] = 2 },
 				gib = {
 					mdl = "models/diggercars/vw_beetle/rr.mdl",
 					pos = Vector(0,0,0),
@@ -156,7 +156,7 @@ function ENT:CreatePDS()
 			{ bodygroup = { [10] = 1 } },
 			{ bodygroup = { [10] = 1 } },
 			{
-				bodygroup = { [8] = 2 },
+				bodygroup = { [10] = 2 },
 				gib = {
 					mdl = "models/diggercars/vw_beetle/rl.mdl",
 					pos = Vector(0,0,0),

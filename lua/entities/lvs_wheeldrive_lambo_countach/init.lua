@@ -27,7 +27,7 @@ function ENT:OnSpawn( PObj )
 		LightsHandler:SetDoorHandler( DoorHandler )
 	end
 
-	self:AddFuelTank( Vector(50,0,14), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	self:AddFuelTank( Vector(50,0,14), Angle(0,0,0), 1600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/lambo_countach/fw.mdl"
 

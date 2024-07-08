@@ -28,7 +28,7 @@ function ENT:OnSpawn( PObj )
 		LightsHandler:SetDoorHandler( DoorHandler )
 	end
 
-	self:AddFuelTank( Vector(-60,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	self:AddFuelTank( Vector(-60,0,10), Angle(0,0,0), 2600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/pontiac_transam3/wheel.mdl"
 

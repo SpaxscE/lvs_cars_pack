@@ -12,7 +12,7 @@ function ENT:OnSpawn( PObj )
 
 	self:AddEngine( Vector(55,0,22) )
 
-	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 600, LVS.FUELTYPE_PETROL )
+	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 3600, LVS.FUELTYPE_PETROL )
 
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-12,29,22), Angle(0,0,0), Vector(-8,-6,-16), Vector(46,6,8), Vector(0,-20,-16), Vector(46,52,8) )

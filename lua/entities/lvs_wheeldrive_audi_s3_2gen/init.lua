@@ -24,7 +24,7 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:LinkToSeat( PassengerSeat1 )
 
 
-	local FuelTank = self:AddFuelTank( Vector(-50,0,10), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	local FuelTank = self:AddFuelTank( Vector(-50,0,10), Angle(0,0,0), 3600, LVS.FUELTYPE_PETROL )
 
 	local WheelModel = "models/diggercars/audi_s3/wheel.mdl"
 

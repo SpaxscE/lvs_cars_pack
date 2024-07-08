@@ -36,7 +36,7 @@ function ENT:OnSpawn( PObj )
 	FuelCap:SetRate( 3 )
 	FuelCap:SetRateExponent( 1 )
 
-	local FuelTank = self:AddFuelTank( Vector(-40,0,15), Angle(0,0,0), 600, LVS.FUELTYPE_PETROL )
+	local FuelTank = self:AddFuelTank( Vector(-40,0,15), Angle(0,0,0), 3600, LVS.FUELTYPE_PETROL )
 	FuelTank:SetDoorHandler( FuelCap )
 
 	local WheelModel = "models/diggercars/vw_golf_mk1/golfwheel.mdl"

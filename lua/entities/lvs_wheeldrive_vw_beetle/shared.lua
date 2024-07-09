@@ -33,7 +33,7 @@ ENT.HornPos = Vector(40,0,35)
 
 ENT.EngineSounds = {
 	{
-		sound = "lvs/vehicles/boxer4/1_idle.wav",
+		sound = "lvs/vehicles/boxer4/2_idle.wav",
 		Volume = 1,
 		Pitch = 50,
 		PitchMul = 50,
@@ -41,19 +41,19 @@ ENT.EngineSounds = {
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/boxer4/1_revdown.wav",
+		sound = "lvs/vehicles/boxer4/2_loop.wav",
 		Volume = 1,
 		Pitch = 50,
-		PitchMul = 60,
+		PitchMul = 70,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_UP,
 		UseDoppler = true,
 	},
 	{
-		sound = "lvs/vehicles/boxer4/1_loop.wav",
+		sound = "lvs/vehicles/boxer4/2_revdown.wav",
 		Volume = 1,
 		Pitch = 50,
-		PitchMul = 60,
+		PitchMul = 70,
 		SoundLevel = 75,
 		SoundType = LVS.SOUNDTYPE_REV_DOWN,
 		UseDoppler = true,

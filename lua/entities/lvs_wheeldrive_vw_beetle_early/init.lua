@@ -37,10 +37,8 @@ function ENT:OnSpawn( PObj )
 	local RLWheel = self:AddWheel( { pos = Vector(-46,27,16), mdl = WheelModel, mdl_ang = Angle(0,180,0), width = 2 } )
 	local RRWheel = self:AddWheel( { pos = Vector(-46,-27,16), mdl = WheelModel, mdl_ang = Angle(0,0,0), width = 2} )
 
-	FLWheel:GetPhysicsObject():SetMaterial("glass")
-	FRWheel:GetPhysicsObject():SetMaterial("glass")
-	RRWheel:GetPhysicsObject():SetMaterial("dirt")
-	RLWheel:GetPhysicsObject():SetMaterial("dirt")
+	-- FL/FR glass 0.5
+	-- RL/RR rubber ( prev. dirt ) 0.8
 
 	self:CreateRigControler( "fl", FLWheel, 6.5, 16.5 )
 	self:CreateRigControler( "fr", FRWheel, 6.5, 16.5 )

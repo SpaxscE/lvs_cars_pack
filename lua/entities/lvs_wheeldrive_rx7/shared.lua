@@ -49,7 +49,16 @@ ENT.EngineSounds = {
 		Pitch = 80,
 		PitchMul = 110,
 		SoundLevel = 75,
-		SoundType = LVS.SOUNDTYPE_NONE,
+		SoundType = LVS.SOUNDTYPE_REV_UP,
+		UseDoppler = true,
+	},
+	{
+		sound = "lvs/vehicles/mercedes_w123/eng_revdown_loop.wav",
+		Volume = 0.9,
+		Pitch = 80,
+		PitchMul = 105,
+		SoundLevel = 75,
+		SoundType = LVS.SOUNDTYPE_REV_DOWN,
 		UseDoppler = true,
 	},
 }

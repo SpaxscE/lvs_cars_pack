@@ -44,7 +44,7 @@ ENT.HornPos = Vector(40,0,35)
 
 ENT.EngineSounds = {
 	{
-		sound = "lvs/vehicles/dodge_charger/eng_idle_loop.wav",
+		sound = "lvs/vehicles/duster/eng_idle_loop.wav",
 		Volume = 1,
 		Pitch = 85,
 		PitchMul = 25,
@@ -52,7 +52,7 @@ ENT.EngineSounds = {
 		SoundType = LVS.SOUNDTYPE_IDLE_ONLY,
 	},
 	{
-		sound = "lvs/vehicles/dodge_charger/eng_loop.wav",
+		sound = "lvs/vehicles/duster/eng_loop.wav",
 		Volume = 1,
 		Pitch = 60,
 		PitchMul = 110,

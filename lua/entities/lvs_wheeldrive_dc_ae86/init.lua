@@ -26,12 +26,7 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
-	local FuelCap = self:AddDoorHandler( "fuel_cap", Vector(-69.64,-30.42,19.04), Angle(0,0,0), Vector(-3,0,-3), Vector(3,3,3), Vector(-3,-3,-3), Vector(3,3,3) )
-	FuelCap:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
-	FuelCap:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
-
 	local FuelTank = self:AddFuelTank( Vector(-50,0,20), Angle(0,0,0), 3600, LVS.FUELTYPE_PETROL )
-	FuelTank:SetDoorHandler( FuelCap )
 
 	local LightsHandler = self:GetLightsHandler()
 	if IsValid( LightsHandler ) then

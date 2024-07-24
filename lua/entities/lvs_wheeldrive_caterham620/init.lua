@@ -16,7 +16,7 @@ function ENT:OnSpawn( PObj )
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(28,0,23), Angle(5,0,0), Vector(-27,-18,-3), Vector(24,18,3), Vector(-27,-18,-3), Vector(10,18,40) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
-
+	DoorHandler:DisableOnBodyGroup( 1, 2 )
 
 	local WheelModel = "models/diggercars/caterham_620r/fw.mdl"
 

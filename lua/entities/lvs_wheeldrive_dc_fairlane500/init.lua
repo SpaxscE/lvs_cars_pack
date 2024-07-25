@@ -5,8 +5,6 @@ include("sv_pds.lua")
 
 function ENT:OnSpawn( PObj )
 
-	self:AddEngine( Vector(0,60,25), Angle(0,90,0) )
-
 	local DriverSeat = self:AddDriverSeat( Vector(-16.3,-13,0), Angle(0,0,0) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(16,3,8), Angle(0,0,20) )
 	self:AddPassengerSeat( Vector(16,-28,8), Angle(0,0,20) )
@@ -30,6 +28,8 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 	DoorHandler:DisableOnBodyGroup( 5, 3 )
+	local Engine = self:AddEngine( Vector(0,60,25), Angle(0,90,0) )
+	Engine:SetDoorHandler( DoorHandler )
 
 	local DoorHandler = self:AddDoorHandler( "trunk", Vector(0,-78,20), Angle(0,0,2), Vector(-29,-27,-3), Vector(29,10,13), Vector(-29,-17,-3), Vector(29,10,40) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )

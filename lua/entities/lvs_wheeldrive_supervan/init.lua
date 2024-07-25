@@ -23,6 +23,8 @@ function ENT:OnSpawn( PObj )
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(44.37,0,21.19), Angle(3,0,0), Vector(-7,-17,-2), Vector(9,17,2), Vector(5,-17,-2), Vector(9,17,17) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
+	local Engine = self:AddEngine( Vector(47.12,0,15) )
+	Engine:SetDoorHandler( DoorHandler )
 
 	local FuelCap = self:AddDoorHandler( "fuel_cap", Vector(-41.55,-27.28,6.99), Angle(0,0,0), Vector(-3,-3,-3), Vector(3,3,3), Vector(-3,-3,-3), Vector(3,3,3) )
 	FuelCap:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
@@ -32,9 +34,6 @@ function ENT:OnSpawn( PObj )
 	FuelTank:SetDoorHandler( FuelCap )
 
 	self:SetBodygroup( 1, 1 )
-
-
-	self:AddEngine( Vector(47.12,0,15) )
 
 	local WheelModel = "models/diggercars/reliant_regal/regal_wheel.mdl"
 

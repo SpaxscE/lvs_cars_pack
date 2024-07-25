@@ -9,7 +9,6 @@ function ENT:OnSpawn( PObj )
 	self:AddPassengerSeat( Vector(-33,15.2,9), Angle(0,-90,0) )
 	self:AddPassengerSeat( Vector(-33,-15.2,9), Angle(0,-90,0) )
 
-	self:AddEngine( Vector(53,0,27) )
 	self:AddFuelTank( Vector(-60,0,15), Angle(0,0,0), 3600, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(0,31,26), Angle(0,0,0), Vector(-25,-6,-16), Vector(32,6,8), Vector(-25,-20,-16), Vector(32,42,8) )
@@ -29,6 +28,8 @@ function ENT:OnSpawn( PObj )
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(65,0,30), Angle(10,0,0), Vector(-30,-30,-3), Vector(20,30,3), Vector(-30,-30,-3), Vector(0,30,40) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
+	local Engine = self:AddEngine( Vector(53,0,27) )
+	Engine:SetDoorHandler( DoorHandler )
 
 	local WheelModel = "models/DiggerCars/honda_integra_dc2/dc2_wheel.mdl"
 

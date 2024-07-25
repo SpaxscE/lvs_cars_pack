@@ -6,9 +6,6 @@ function ENT:OnSpawn( PObj )
 	local DriverSeat = self:AddDriverSeat( Vector(-8,12,-7), Angle(0,-90,10) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(2,-12,1), Angle(0,-90,20) )
 
-	self:AddEngine( Vector(60,0,20) )
-	self:AddTurboCharger()
-
 	self:AddFuelTank( Vector(-70,0,10), Angle(0,0,0), 2600, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(0,30,19), Angle(0,0,0), Vector(-15,-6,-16), Vector(32,6,8), Vector(-15,-20,-16), Vector(32,42,8) )
@@ -29,6 +26,10 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
+	local Engine = self:AddEngine( Vector(60,0,20) )
+	Engine:SetDoorHandler( DoorHandler )
+
+	self:AddTurboCharger()
 
 
 	local WheelModel = "models/diggercars/a_sportquattro/wheel.mdl"

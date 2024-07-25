@@ -9,10 +9,6 @@ function ENT:OnSpawn( PObj )
 	self:AddPassengerSeat( Vector(-26,12.7,18), Angle(0,-90,20) )
 	self:AddPassengerSeat( Vector(-26,-12.7,18), Angle(0,-90,20) )
 
-	self:AddEngine( Vector(50,-5,30), Angle(0,90,0) )
-	self:AddFuelTank(Vector(-43,0,15), Angle(0,0,0), 3600, LVS.FUELTYPE_PETROL )
-	self:AddTurboCharger()
-
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(0,29,29), Angle(0,0,0), Vector(-20,-6,-16), Vector(28,6,8), Vector(-20,-20,-16), Vector(28,42,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_door_close.wav" )
@@ -30,6 +26,11 @@ function ENT:OnSpawn( PObj )
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(65,0,33), Angle(14,0,0), Vector(-30,-25,-3), Vector(0,25,3), Vector(-30,-25,-3), Vector(-15,25,25) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
+
+	local Engine = self:AddEngine( Vector(50,-5,30), Angle(0,90,0) )
+	Engine:SetDoorHandler( DoorHandler )
+	self:AddFuelTank(Vector(-43,0,15), Angle(0,0,0), 3600, LVS.FUELTYPE_PETROL )
+	self:AddTurboCharger()
 
 	local WheelModel = "models/diggercars/honda_city_turbo/city_wheel.mdl"
 

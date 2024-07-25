@@ -8,12 +8,14 @@ function ENT:OnSpawn( PObj )
 	local PassengerSeat1 = self:AddPassengerSeat( Vector(-35,16,13), Angle(0,-90,20) )
 	local PassengerSeat2 = self:AddPassengerSeat( Vector(-35,-16,13), Angle(0,-90,20) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(-35,0,13), Angle(0,-90,20) )
-	self:AddEngine( Vector(58,0,0) )
-	self:AddTurboCharger()
 
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(58,0,33), Angle(10,0,0), Vector(-27,-28,-3), Vector(24,28,3), Vector(-27,-28,-3), Vector(10,28,40) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
+
+	local Engine = self:AddEngine( Vector(58,0,0) )
+	Engine:SetDoorHandler( DoorHandler )
+	self:AddTurboCharger()
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(10,32,17), Angle(2,0,0), Vector(-20,-6,-12), Vector(20,6,22), Vector(-20,-25,-12), Vector(20,40,22) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )

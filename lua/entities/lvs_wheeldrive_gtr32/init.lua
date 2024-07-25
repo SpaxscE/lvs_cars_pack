@@ -8,12 +8,6 @@ function ENT:OnSpawn( PObj )
 	local PassengerSeat = self:AddPassengerSeat( Vector(-27,14,5), Angle(0,-90,28) )
 	local PassengerSeat = self:AddPassengerSeat( Vector(-27,-14,5), Angle(0,-90,28) )
 
-	self:AddEngine( Vector(55,0,30) )
-	self:AddTurboCharger()
-
-	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 2400, LVS.FUELTYPE_PETROL )
-
-
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-15,29,20), Angle(0,0,0), Vector(-8,-6,-16), Vector(46,6,8), Vector(0,-20,-16), Vector(46,52,8) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/skyline/door_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/skyline/door_close.wav" )
@@ -28,6 +22,10 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
+	local Engine = self:AddEngine( Vector(55,0,30) )
+	Engine:SetDoorHandler( DoorHandler )
+	self:AddTurboCharger()
+	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 2400, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "trunk", Vector(-70,0,30), Angle(0,0,0), Vector(-20,-28,-10), Vector(10,28,3), Vector(-20,-28,-3), Vector(10,28,20) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_trunk_open.wav" )

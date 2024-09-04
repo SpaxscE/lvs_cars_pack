@@ -17,6 +17,8 @@ ENT.MDL = "models/diggercars/vw_beetle/beetle.mdl"
 ENT.MaxVelocity = 1500
 
 ENT.EngineCurve = 0.3
+ENT.EngineCurveBoostLow = 2
+
 ENT.EngineTorque = 55
 
 ENT.TransGears = 4

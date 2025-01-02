@@ -96,13 +96,16 @@ ENT.Lights = {
 		Trigger = "main",
 		SubMaterialID = 11,
 		SubMaterialBrightness = 10,
-		Sprites = {
-			{ pos = Vector(83.78,-22.35,19.63), colorR = 200, colorG = 200, colorB = 250, colorA = 150 },
-			{ pos = Vector(83.78,22.35,19.63), colorR = 200, colorG = 200, colorB = 250, colorA = 150 },
-		},
 		ProjectedTextures = {
 			{ pos = Vector(83.78,22.35,19.63), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
 			{ pos = Vector(83.78,-22.35,19.63), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+		},
+	},
+	{
+		Trigger = "high",
+		ProjectedTextures = {
+			{ pos = Vector(79.63,27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+			{ pos = Vector(79.63,-27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
 		},
 	},
 	{
@@ -123,6 +126,10 @@ ENT.Lights = {
 		SubMaterialID = 2,
 	},
 	{
+		Trigger = "main",
+		SubMaterialID = 12,
+	},
+	{
 		Trigger = "brake",
 		SubMaterialID = 26,
 		SubMaterialBrightness = 20,
@@ -130,19 +137,21 @@ ENT.Lights = {
 			{ width = 65, height = 15, pos = Vector(-45.96,0,44.43), colorG = 0, colorB = 0, colorA = 150 },
 		},
 	},
-	{
-		Trigger = "high",
-		SubMaterialID = 12,
+	Trigger = "main+high",
+		SubMaterialID = 20,
 		SubMaterialBrightness = 20,
 		Sprites = {
 			{ pos = Vector(79.63,27.51,19.7), colorR = 200, colorG = 200, colorB = 250, colorA = 150 },
 			{ pos = Vector(79.63,-27.51,19.7), colorR = 200, colorG = 200, colorB = 250, colorA = 150 },
 		},
-		ProjectedTextures = {
-			{ pos = Vector(79.63,27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
-			{ pos = Vector(79.63,-27.51,19.7), ang = Angle(0,0,0), colorR = 200, colorG = 200, colorB = 250, colorA = 150, shadows = true },
+		Sprites = {
+			{ pos = Vector(83.78,-22.35,19.63), colorR = 200, colorG = 200, colorB = 250, colorA = 150 },
+			{ pos = Vector(83.78,22.35,19.63), colorR = 200, colorG = 200, colorB = 250, colorA = 150 },
 		},
 	},
+
+
+
 	{
 		Trigger = "fog",
 		SubMaterialID = 28,

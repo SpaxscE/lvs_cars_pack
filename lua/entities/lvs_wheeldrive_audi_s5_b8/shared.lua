@@ -137,6 +137,7 @@ ENT.Lights = {
 			{ width = 65, height = 15, pos = Vector(-45.96,0,44.43), colorG = 0, colorB = 0, colorA = 150 },
 		},
 	},
+	{
 	Trigger = "main+high",
 		SubMaterialID = 20,
 		SubMaterialBrightness = 20,

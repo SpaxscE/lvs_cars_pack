@@ -49,7 +49,7 @@ function ENT:OnSpawn( PObj )
 	local FuelTank = self:AddFuelTank( Vector(-80,0,10), Angle(0,0,0), 3900, LVS.FUELTYPE_PETROL )
 	FuelTank:SetDoorHandler( FuelCap )
 
-	local WheelModel = "models/diggercars/bmw_m5e34/e34_shit_wheel.mdl"
+	local WheelModel = "models/diggercars/bmw_m5e34/e34_alpina_wheel.mdl"
 
 	local FrontAxle = self:DefineAxle( {
 		Axle = {

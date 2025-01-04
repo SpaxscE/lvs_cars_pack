@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/toyota_supra/supra.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2650
 
 ENT.EngineCurve = 0.15

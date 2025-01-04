@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/bmw_m5e34/e34_2.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2500
 
 ENT.EngineTorque = 92

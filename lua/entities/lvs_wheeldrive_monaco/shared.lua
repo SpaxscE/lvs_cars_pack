@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/dodge_monaco/monaco_police.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2200
 
 ENT.EngineTorque = 120

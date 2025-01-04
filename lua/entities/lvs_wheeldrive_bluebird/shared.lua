@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/nissan_bluebird910/bluebird.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2000
 
 ENT.EngineTorque = 70

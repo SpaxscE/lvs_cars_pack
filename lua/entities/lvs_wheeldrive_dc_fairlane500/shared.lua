@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL =  "models/diggercars/ford_fairlane/ford_fairlane.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.HornSound = "lvs/horn4.wav"
 ENT.HornPos = Vector(0,40,35)
 

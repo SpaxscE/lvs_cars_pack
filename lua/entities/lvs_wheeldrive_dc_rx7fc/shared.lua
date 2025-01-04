@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/mazda_rx7fc/rx7.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2400
 
 ENT.EngineTorque = 80

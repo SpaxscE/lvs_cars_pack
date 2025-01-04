@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/DiggerCars/VAZ 2108 Sport/lada.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 1800
 
 ENT.EngineTorque = 65

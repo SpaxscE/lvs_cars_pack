@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/vw_touareg/touareg.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2500
 
 ENT.EngineTorque = 95

@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/pontiac_transam3/transam.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2200
 
 ENT.EngineTorque = 130

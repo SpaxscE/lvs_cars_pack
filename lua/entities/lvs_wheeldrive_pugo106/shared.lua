@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/peugeot_106/106.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2000
 
 ENT.EngineTorque = 78

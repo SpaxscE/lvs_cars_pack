@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/audi_quattro/quattro.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2250
 
 ENT.EngineCurve = 0.15

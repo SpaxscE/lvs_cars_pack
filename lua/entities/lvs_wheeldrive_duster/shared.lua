@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/plymouth_duster/duster.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2200
 
 ENT.EngineTorque = 110

@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/toyota_ae86/ae86_rhd.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2400
 
 ENT.EngineTorque = 65

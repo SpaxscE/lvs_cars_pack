@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/honda_city_turbo/city.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2200
 
 ENT.EngineCurve = 0.15

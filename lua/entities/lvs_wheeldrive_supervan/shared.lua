@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/reliant_regal/supervan.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.AITEAM = 0
 
 ENT.MaxVelocity = 1200

@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/vw_golf_mk1/golf_mk1.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2000
 
 ENT.EngineTorque = 90

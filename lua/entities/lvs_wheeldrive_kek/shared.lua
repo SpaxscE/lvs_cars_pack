@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/shared/1.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 450
 ENT.MaxVelocityReverse = 200
 

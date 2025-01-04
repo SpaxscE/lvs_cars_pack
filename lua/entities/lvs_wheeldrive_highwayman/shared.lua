@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/highwayman/highwayman.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 1200
 
 ENT.EngineCurve = 0

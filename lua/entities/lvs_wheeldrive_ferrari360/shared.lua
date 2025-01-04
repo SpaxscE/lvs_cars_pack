@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/ferrari_360/ferrari_360.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2900
 
 ENT.EngineTorque = 120

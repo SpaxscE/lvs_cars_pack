@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/alfa_montreal/montreal.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2400
 
 ENT.EngineTorque = 98

@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/lambo_countach/countach.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2800
 
 ENT.EngineTorque = 150

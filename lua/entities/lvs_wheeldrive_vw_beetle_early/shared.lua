@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/vw_beetle/beetle_early.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 1400
 
 ENT.EngineCurve = 0.3

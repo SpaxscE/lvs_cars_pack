@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/porsche_901/coupe.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2400
 
 ENT.EngineCurve = 0.8

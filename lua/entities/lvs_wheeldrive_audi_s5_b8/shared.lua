@@ -14,6 +14,8 @@ ENT.AdminSpawnable		= false
 
 ENT.MDL = "models/diggercars/audi_s5/s5.mdl"
 
+ENT.EnableDSPEffects = true
+
 ENT.MaxVelocity = 2700
 
 ENT.EngineTorque = 140

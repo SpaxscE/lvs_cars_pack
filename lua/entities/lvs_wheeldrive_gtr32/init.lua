@@ -25,13 +25,11 @@ function ENT:OnSpawn( PObj )
 	local Engine = self:AddEngine( Vector(55,0,30) )
 	Engine:SetDoorHandler( DoorHandler )
 	self:AddTurboCharger()
-	self:AddTuningExhaust()
 	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 2400, LVS.FUELTYPE_PETROL )
 
 	local DoorHandler = self:AddDoorHandler( "trunk", Vector(-70,0,30), Angle(0,0,0), Vector(-20,-28,-10), Vector(10,28,3), Vector(-20,-28,-3), Vector(10,28,20) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_trunk_open.wav" )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/classiccar_door_close.wav" )
-
 
 	local WheelModel = "models/diggercars/nissan_skyline_gtr32/wheel_vspec.mdl"
 

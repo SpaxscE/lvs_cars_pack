@@ -7,6 +7,7 @@ function ENT:OnSpawn( PObj )
 	local PassengerSeat = self:AddPassengerSeat( Vector(8,-14,5), Angle(0,-90,28) )
 
 	self:AddEngine( Vector(-40,0,28.24) )
+	self:AddTuningExhaust()
 
 	local DoorHandler = self:AddDoorHandler( "left_door", Vector(-5,33,23), Angle(0,0,0), Vector(-15,-6,-16), Vector(38,6,8), Vector(-15,-20,-16), Vector(38,6,48) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/skyline/door_open.wav" )

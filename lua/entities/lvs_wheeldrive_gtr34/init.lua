@@ -23,7 +23,6 @@ function ENT:OnSpawn( PObj )
 	local Engine = self:AddEngine( Vector(55,0,30) )
 	Engine:SetDoorHandler( DoorHandler )
 	self:AddTurboCharger()
-	self:AddTuningExhaust()
 	self:AddFuelTank( Vector(-70,0,15), Angle(5,0,0), 2600, LVS.FUELTYPE_PETROL )
 
 	local FuelCap = self:AddDoorHandler( "fuel_cap", Vector(-66,-36.5,33), Angle(0,0,0), Vector(-5,0,-3), Vector(5,5,3), Vector(-5,-5,-3), Vector(5,5,3) )

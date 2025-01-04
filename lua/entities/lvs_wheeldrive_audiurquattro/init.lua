@@ -30,7 +30,7 @@ function ENT:OnSpawn( PObj )
 	Engine:SetDoorHandler( DoorHandler )
 
 	self:AddTurboCharger()
-
+	self:AddTuningExhaust()
 
 	local WheelModel = "models/diggercars/a_sportquattro/wheel.mdl"
 

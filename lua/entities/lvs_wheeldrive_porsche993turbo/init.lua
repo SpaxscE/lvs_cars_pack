@@ -24,6 +24,7 @@ function ENT:OnSpawn( PObj )
 	Engine:SetDoorHandler( DoorHandler )
 	self:AddFuelTank( Vector(-50,0,15), Angle(0,0,0), 2600, LVS.FUELTYPE_PETROL )
 	self:AddTurboCharger()
+	self:AddTuningExhaust()
 
 	local DoorHandler = self:AddDoorHandler( "hood", Vector(50,0,25), Angle(7,0,0), Vector(-25,-30,-6), Vector(25,30,6), Vector(-25,-30,-3), Vector(25,30,40) )
 	DoorHandler:SetSoundOpen( "lvs/vehicles/generic/car_hood_open.wav" )

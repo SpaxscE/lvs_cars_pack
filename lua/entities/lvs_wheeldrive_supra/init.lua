@@ -23,7 +23,9 @@ function ENT:OnSpawn( PObj )
 	local Engine = self:AddEngine( Vector(50,0,28) )
 	Engine:SetDoorHandler( DoorHandler )
 	self:AddFuelTank( Vector(-70,0,16), Angle(0,0,0), 3000, LVS.FUELTYPE_PETROL )
+
 	self:AddTurboCharger()
+	self:AddTuningExhaust()
 
 	local FuelCap = self:AddDoorHandler( "fuel_cap", Vector(-68,-35.5,29), Angle(0,0,0), Vector(-5,0,-3), Vector(5,5,3), Vector(-5,-5,-3), Vector(5,5,3) )
 	FuelCap:SetSoundOpen( "lvs/vehicles/generic/car_door_open.wav" )

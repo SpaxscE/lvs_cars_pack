@@ -19,6 +19,7 @@ function ENT:OnSpawn( PObj )
 	Engine:SetDoorHandler( DoorHandler )
 
 	self:AddSuperCharger()
+	self:AddRacingTires()
 
 	local WheelModel = "models/diggercars/caterham_620r/fw.mdl"
 

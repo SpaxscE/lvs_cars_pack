@@ -29,6 +29,7 @@ function ENT:OnSpawn( PObj )
 	end
 
 	self:AddFuelTank( Vector(50,0,14), Angle(0,0,0), 1600, LVS.FUELTYPE_PETROL )
+	self:AddRacingTires()
 
 	local WheelModel = "models/diggercars/lambo_countach/fw.mdl"
 

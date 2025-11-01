@@ -30,6 +30,16 @@ function ENT:OnSpawn( PObj )
 
 	local WheelModel = "models/diggercars/highwayman/wheel.mdl"
 
+	local FRWheel = self:AddWheel( {pos = Vector(59.1,32,7), mdl = WheelModel, mdl_ang = Angle(-90,180,90) } )
+	local FLWheel = self:AddWheel( {pos = Vector(59.1,-32,7), mdl = WheelModel, mdl_ang = Angle(-90,0,90) } )
+	local RRWheel = self:AddWheel( {pos = Vector(-59.5,32,8), mdl = WheelModel, mdl_ang = Angle(-90,180,90) } )
+	local RLWheel = self:AddWheel( {pos = Vector(-59.5,-32,8), mdl = WheelModel, mdl_ang = Angle(-90,0,90) } )
+
+	self:CreateHydraulicControler( "fl", FLWheel )
+	self:CreateHydraulicControler( "fr", FRWheel )
+	self:CreateHydraulicControler( "rl", RLWheel )
+	self:CreateHydraulicControler( "rr", RRWheel )
+
 	local FrontAxle = self:DefineAxle( {
 		Axle = {
 			ForwardAngle = Angle(0,0,0),
@@ -38,23 +48,11 @@ function ENT:OnSpawn( PObj )
 			TorqueFactor = 0,
 			BrakeFactor = 1,
 		},
-		Wheels = {
-			self:AddWheel( {
-				pos = Vector(59.1,32,7),
-				mdl = WheelModel,
-				mdl_ang = Angle(-90,180,90),
-			} ),
-
-			self:AddWheel( {
-				pos = Vector(59.1,-32,7),
-				mdl = WheelModel,
-				mdl_ang = Angle(-90,0,90),
-			} ),
-		},
+		Wheels = { FLWheel, FRWheel },
 		Suspension = {
 			Height = 10,
 			MaxTravel = 7,
-			ControlArmLength = 25,
+			ControlArmLength = 50,
 			SpringConstant = 20000,
 			SpringDamping = 2000,
 			SpringRelativeDamping = 2000,
@@ -69,23 +67,11 @@ function ENT:OnSpawn( PObj )
 			BrakeFactor = 1,
 			UseHandbrake = true,
 		},
-		Wheels = {
-			self:AddWheel( {
-				pos = Vector(-59.5,32,8),
-				mdl = WheelModel,
-				mdl_ang = Angle(-90,180,90),
-			} ),
-
-			self:AddWheel( {
-				pos = Vector(-59.5,-32,8),
-				mdl = WheelModel,
-				mdl_ang = Angle(-90,0,90),
-			} ),
-		},
+		Wheels = { RLWheel, RRWheel },
 		Suspension = {
 			Height = 10,
 			MaxTravel = 7,
-			ControlArmLength = 25,
+			ControlArmLength = 50,
 			SpringConstant = 20000,
 			SpringDamping = 2000,
 			SpringRelativeDamping = 2000,

@@ -28,7 +28,6 @@ function ENT:OnSpawn( PObj )
 	DoorHandler:SetSoundClose( "lvs/vehicles/generic/car_hood_close.wav" )
 
 	self:AddFuelTank( Vector(50,0,14), Angle(0,0,0), 2000, LVS.FUELTYPE_PETROL )
-	self:AddRacingTires()
 
 	local WheelModel = "models/diggercars/ferrari_360/360_wheel.mdl"
 

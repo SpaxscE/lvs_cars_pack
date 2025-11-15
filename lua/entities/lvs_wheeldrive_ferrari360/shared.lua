@@ -16,7 +16,7 @@ ENT.MDL = "models/diggercars/ferrari_360/ferrari_360.mdl"
 
 ENT.MaxVelocity = 2900
 
-ENT.EngineTorque = 120
+ENT.EngineTorque = 175
 ENT.EngineIdleRPM = 750
 ENT.EngineMaxRPM = 10000
 
@@ -24,6 +24,7 @@ ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 ENT.TransMinGearHoldTime = 1
 ENT.TransShiftSpeed = 0.2
+
 ENT.TransWobble = 50
 ENT.TransWobbleTime = 2.5
 ENT.TransWobbleFrequencyMultiplier = 1.5

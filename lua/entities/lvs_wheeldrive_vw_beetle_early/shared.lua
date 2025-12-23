@@ -23,6 +23,8 @@ ENT.EngineTorque = 50
 
 ENT.TransGears = 4
 ENT.TransGearsReverse = 1
+ENT.TransWobble = 0
+ENT.TransWobbleTime = 0
 
 ENT.PhysicsMass = 700
 ENT.PhysicsInertia = Vector(1050,1050,525)

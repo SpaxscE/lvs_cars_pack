@@ -9,7 +9,7 @@ function ENT:CreatePDS()
 		maxs = maxs,
 		stages = {
 			{ bodygroup = { [5] = 2 } },
-			{ bodygroup = { [5] = 1 } },
+			{ bodygroup = { [5] = 1 }, maxvelocity = 500 },
 			{
 				bodygroup = { [5] = 3 },
 				gib = {

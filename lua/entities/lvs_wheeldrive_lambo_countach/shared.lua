@@ -16,21 +16,28 @@ ENT.MDL = "models/diggercars/lambo_countach/countach.mdl"
 
 ENT.MaxVelocity = 2800
 
-ENT.EngineTorque = 150
+ENT.MassCenterOverride = Vector(-10,0,22)
+
+ENT.EngineTorque = 300
+ENT.EngineCurve = 0.25
+ENT.EngineCurveBoostLow = 0.5
+
 ENT.EngineIdleRPM = 750
 ENT.EngineMaxRPM = 9000
 
-ENT.TransGears = 5
+ENT.TransGears = 6
 ENT.TransGearsReverse = 1
 ENT.TransMinGearHoldTime = 1
-ENT.TransShiftSpeed = 0.2
-ENT.TransWobble = 50
-ENT.TransWobbleTime = 2.5
-ENT.TransWobbleFrequencyMultiplier = 1.5
+ENT.TransShiftSpeed = 0.1
+ENT.TransWobble = 0
+ENT.TransWobbleTime = 0
+ENT.TransWobbleFrequencyMultiplier = 0
 
-ENT.PhysicsMass = 1000
+ENT.ForceLinearMultiplier = 2.3
+ENT.ForceAngleMultiplier = 1
 
-ENT.WheelPhysicsMass = 100
+ENT.WheelSideForce = 1200
+ENT.WheelDownForce = 1000
 
 ENT.RandomColor = {
 	Color(255,191,0),

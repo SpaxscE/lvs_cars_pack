@@ -84,7 +84,7 @@ function ENT:OnSpawn( PObj )
 			} ),
 		},
 		Suspension = {
-			Height = 10,
+			Height = 10.8,
 			MaxTravel = 7,
 			ControlArmLength = 25,
 			SpringConstant = 20000,

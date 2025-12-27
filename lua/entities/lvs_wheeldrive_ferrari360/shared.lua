@@ -29,12 +29,11 @@ ENT.TransWobble = 50
 ENT.TransWobbleTime = 2.5
 ENT.TransWobbleFrequencyMultiplier = 1.5
 
-ENT.PhysicsMass = 1000
+ENT.ForceLinearMultiplier = 1.75
+ENT.ForceAngleMultiplier = 0.75
 
-ENT.WheelPhysicsMass = 100
-
-ENT.ForceLinearMultiplier = 1.5 -- multiply all linear forces (such as downforce, wheel side force, ect)
-ENT.ForceAngleMultiplier = 0.75 -- multiply all angular forces such turn stability / inertia. Exception: Wheel/Engine torque. Those remain unchanged.
+ENT.WheelSideForce = 1200
+ENT.WheelDownForce = 1000
 
 ENT.RandomColor = {
 	Color(10,12,19),
